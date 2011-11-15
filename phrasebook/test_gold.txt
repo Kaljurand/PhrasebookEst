@@ -1,206 +1,218 @@
 tere !
 
 
-nähdään reeteenä !
+kohtumiseni reeteenä !
 
-nähdään esmaspäevina !
+kohtumiseni esmaspäevina !
 
-nähdään laupäevina !
+kohtumiseni laupäevina !
 
-nähdään pühapäevina !
+kohtumiseni pühapäevina !
 
-nähdään neljapäevina !
+kohtumiseni neljapäevina !
 
-nähdään teisipäevinä !
+kohtumiseni teisipäevinä !
 
-nähdään kolmapäevina !
-
-
-nähdään parhaimmassa hollantilaisessa ravintolassa !
-
-nähdään lähimmässä hollantilaisessa ravintolassa !
-
-nähdään halvimmassa hollantilaisessa ravintolassa !
-
-nähdään kalleimmassa hollantilaisessa ravintolassa !
-
-nähdään suosituimmassa hollantilaisessa ravintolassa !
-
-nähdään huonoimmassa hollantilaisessa ravintolassa !
+kohtumiseni kolmapäevina !
 
 
-belgialainen ravintola
+kohtumiseni parhaimmassa hollandlaneessa restoranissa !
 
-bulgarialainen ravintola
+kohtumiseni lähimmässä hollandlaneessa restoranissa !
 
-katalonialainen ravintola
+kohtumiseni odavaimmassa hollandlaneessa restoranissa !
 
-tanskalainen ravintola
+kohtumiseni kalleimmassa hollandlaneessa restoranissa !
 
-hollantilainen ravintola
+kohtumiseni populaarneimmassa hollandlaneessa restoranissa !
 
-englantilainen ravintola
-
-suomalainen ravintola
-
-ranskalainen ravintola
-
-saksalainen ravintola
-
-italialainen ravintola
-
-norjalainen ravintola
-
-puolalainen ravintola
-
-romanialainen ravintola
-
-venäläinen ravintola
-
-espanjalainen ravintola
-
-ruotsalainen ravintola
+kohtumiseni halbeimmassa hollandlaneessa restoranissa !
 
 
-kuinka kaukana sairaala on jalkaisin
+belgia restoran
 
-kuinka kaukana sairaala on polkupyörällä
+bulgaarlane restoran
 
-kuinka kaukana sairaala on bussilla
+kataloonlane restoran
 
-kuinka kaukana sairaala on autolla
+taanlane restoran
 
-kuinka kaukana sairaala on lautalla
+hollandlane restoran
 
-kuinka kaukana sairaala on lentokoneella
+inglane restoran
 
-kuinka kaukana sairaala on metrolla
+soomlane restoran
 
-kuinka kaukana sairaala on taksilla
+prantslane restoran
 
-kuinka kaukana sairaala on junalla
+sakslane restoran
 
-kuinka kaukana sairaala on raitiovaunulla
+itaallane restoran
 
+norralane restoran
 
-olen belgialainen
+poolakas restoran
 
-olen bulgarialainen
+rumeenlane restoran
 
-olen katalonialainen
+venelane restoran
 
-olen tanskalainen
+hispaanlane restoran
 
-olen hollantilainen
-
-olen englantilainen
-
-olen suomalainen
-
-olen ranskalainen
-
-olen saksalainen
-
-olen italialainen
-
-olen norjalainen
-
-olen puolalainen
-
-olen romanialainen
-
-olen venäläinen
-
-olen espanjalainen
-
-olen ruotsalainen
+rootslane restoran
 
 
-olen lentokentällä
+kuinka kaukana haigla on jalgsi
 
-olen huvipuistossa
+kuinka kaukana haigla on polkupyörällä
+
+kuinka kaukana haigla on busksella
+
+kuinka kaukana haigla on autolla
+
+kuinka kaukana haigla on praamilla
+
+kuinka kaukana haigla on lentokoneella
+
+kuinka kaukana haigla on metroolla
+
+kuinka kaukana haigla on taksolla
+
+kuinka kaukana haigla on junalla
+
+kuinka kaukana haigla on trammilla
+
+
+olen belgia
+
+olen bulgaarlane
+
+olen kataloonlane
+
+olen taanlane
+
+olen hollandlane
+
+olen inglane
+
+olen soomlane
+
+olen prantslane
+
+olen sakslane
+
+olen itaallane
+
+olen norralane
+
+olen poolakas
+
+olen rumeenlane
+
+olen venelane
+
+olen hispaanlane
+
+olen rootslane
+
+
+olen lennuvälillä
+
+olen lõbustusparkissa
 
 olen pankissa
 
-olen baarissa
+olen bakaressa
 
-olen kahvilassa
+olen kohvikissa
 
-olen keskustassa
+olen keskuksessa
 
-olen elokuvateatterissa
+olen kinossa
 
-olen kirkossa
+olen kirikissä
 
 olen diskossa
 
-olen sairaalassa
+olen haiglassa
 
 olen hotellissa
 
-olen museossa
+olen muuseumissa
 
-olen puistossa
+olen parkissa
 
-olen pysäköintialueella
+olen parklalla
 
 olen apteekissa
 
-olen postissa
+olen postkontorissa
 
 olen pubissa
 
-olen ravintolassa
+olen restoranissa
 
-olen koululla
+olen koolilla
 
-olen kaupassa
+olen poodissa
 
-olen asemalla
+olen jaamilla
 
 olen supermarketissa
 
-olen teatterissa
+olen teaterissa
 
-olen vessassa
+olen tualettissa
 
-olen yliopistolla
+olen ülikoolilla
 
-olen eläintarhassa
+olen loomaaedissa
 
-olen belgialaisessa ravintolassa
+olen belgiassa restoranissa
 
-olen bulgarialaisessa ravintolassa
+olen bulgaarlaneessa restoranissa
 
-olen katalonialaisessa ravintolassa
+olen kataloonlaneessa restoranissa
 
-olen tanskalaisessa ravintolassa
+olen taanlaneessa restoranissa
 
-olen hollantilaisessa ravintolassa
+olen hollandlaneessa restoranissa
 
-olen englantilaisessa ravintolassa
+olen inglaneessa restoranissa
 
-olen suomalaisessa ravintolassa
+olen soomlaneessa restoranissa
 
-olen ranskalaisessa ravintolassa
+olen prantslaneessa restoranissa
 
-olen saksalaisessa ravintolassa
+olen sakslaneessa restoranissa
 
-olen italialaisessa ravintolassa
+olen itaallaneessa restoranissa
 
-olen norjalaisessa ravintolassa
+olen norralaneessa restoranissa
 
-olen puolalaisessa ravintolassa
+olen poolakkaassa restoranissa
 
-olen romanialaisessa ravintolassa
+olen rumeenlaneessa restoranissa
 
-olen venäläisessä ravintolassa
+olen venelaneessa restoranissa
 
-olen espanjalaisessa ravintolassa
+olen hispaanlaneessa restoranissa
 
-olen ruotsalaisessa ravintolassa
+olen rootslaneessa restoranissa
 
 
-suosituin koulu on suletud reedeti .
+populaarnein kool on suletud reedeti .
+
+
+kahdeksan odavia omenaa kiitos !
+
+
+yhdeksän &+ kymmentä Taani kroonia .
+
+
+nainee &+ ni puhuu taania .
+
+
+kuinka paljon tuo soomlane kana maksaa ?
 
 
