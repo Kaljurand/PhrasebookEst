@@ -1,8 +1,9 @@
 -- (c) 2010 Aarne Ranta under LGPL
+-- Estonian port by Kaarel Kaljurand
 
-concrete WordsEst of Words = SentencesEst ** 
-  open 
-    SyntaxFin, ParadigmsFin, (L = LexiconFin), 
+concrete WordsEst of Words = SentencesEst **
+  open
+    SyntaxFin, ParadigmsFin, (L = LexiconFin),
     Prelude, (E = ExtraFin) in {
 
   flags optimize = noexpand ;
@@ -69,8 +70,8 @@ concrete WordsEst of Words = SentencesEst **
     Cafeteria = mkPlace (mkN "kahvila") ssa ;
     Disco = mkPlace (mkN "disko") ssa ;
     Pub = mkPlace (mkN "pub") ssa ;
-    AmusementPark = mkPlace (mkN "huvi" (mkN "puisto")) ssa ;   
-    Zoo = mkPlace (mkN "eläin" (mkN "tarha")) ssa ;   
+    AmusementPark = mkPlace (mkN "huvi" (mkN "puisto")) ssa ;
+    Zoo = mkPlace (mkN "eläin" (mkN "tarha")) ssa ;
 
 -- currencies
 
@@ -94,11 +95,11 @@ concrete WordsEst of Words = SentencesEst **
     Danish = mkNat (mkPN "tanska") (mkPN "Tanska") (mkA "tanskalainen") ;
     Dutch = mkNat (mkPN "hollanti") (mkPN "Hollanti") (mkA "hollantilainen") ;
     English = mkNat (mkPN "englanti") (mkPN "Englanti") (mkA "englantilainen") ;
-    Finnish = 
-      mkNat (mkPN (mkN "suomi" "suomia")) (mkPN (mkN "Suomi" "Suomia")) 
+    Finnish =
+      mkNat (mkPN (mkN "suomi" "suomia")) (mkPN (mkN "Suomi" "Suomia"))
             (mkA "suomalainen") ;
     Flemish = mkNP (mkPN "flaami") ;
-    French = mkNat (mkPN "ranska") (mkPN "Ranska") (mkA "ranskalainen") ; 
+    French = mkNat (mkPN "ranska") (mkPN "Ranska") (mkA "ranskalainen") ;
     German = mkNat (mkPN "saksa") (mkPN "Saksa") (mkA "saksalainen") ;
     Italian = mkNat (mkPN "italia") (mkPN "Italia") (mkA "italialainen") ;
     Norwegian = mkNat (mkPN "norja") (mkPN "Norja") (mkA "norjalainen") ;
@@ -110,9 +111,9 @@ concrete WordsEst of Words = SentencesEst **
 
     ---- it would be nice to have a capitalization Predef function
 
--- means of transportation 
+-- means of transportation
 
-    Bike = mkTransport L.bike_N ; 
+    Bike = mkTransport L.bike_N ;
     Bus = mkTransport (mkN "bussi") ;
     Car = mkTransport L.car_N ;
     Ferry = mkTransport (mkN "lautta") ;
@@ -152,15 +153,15 @@ concrete WordsEst of Words = SentencesEst **
 
     QWhatName p = mkQS (mkQCl whatSg_IP (mkVP (nameOf p))) ;
     QWhatAge p = mkQS (mkQCl (E.ICompAP (mkAP L.old_A)) p.name) ;
-    HowMuchCost item = mkQS (mkQCl how8much_IAdv (mkCl item (mkV "maksaa"))) ; 
+    HowMuchCost item = mkQS (mkQCl how8much_IAdv (mkCl item (mkV "maksaa"))) ;
     ItCost item price = mkCl item (mkV2 (mkV "maksaa")) price ;
 
     PropOpen p = mkCl p.name open_Adv ;
     PropClosed p = mkCl p.name closed_Adv ;
-    PropOpenDate p d = mkCl p.name (mkVP (mkVP open_Adv) d) ; 
-    PropClosedDate p d = mkCl p.name (mkVP (mkVP closed_Adv) d) ; 
-    PropOpenDay p d = mkCl p.name (mkVP (mkVP open_Adv) d.habitual) ; 
-    PropClosedDay p d = mkCl p.name (mkVP (mkVP closed_Adv) d.habitual) ; 
+    PropOpenDate p d = mkCl p.name (mkVP (mkVP open_Adv) d) ;
+    PropClosedDate p d = mkCl p.name (mkVP (mkVP closed_Adv) d) ;
+    PropOpenDay p d = mkCl p.name (mkVP (mkVP open_Adv) d.habitual) ;
+    PropClosedDay p d = mkCl p.name (mkVP (mkVP closed_Adv) d.habitual) ;
 
 
 -- Building phrases from strings is complicated: the solution is to use
@@ -168,8 +169,8 @@ concrete WordsEst of Words = SentencesEst **
 
     PSeeYouDate d = mkText (lin Text (ss ("nähdään"))) (mkPhrase (mkUtt d)) ;
     PSeeYouPlace p = mkText (lin Text (ss ("nähdään"))) (mkPhrase (mkUtt p.at)) ;
-    PSeeYouPlaceDate p d = 
-      mkText (lin Text (ss ("nähdään"))) 
+    PSeeYouPlaceDate p d =
+      mkText (lin Text (ss ("nähdään")))
         (mkText (mkPhrase (mkUtt p.at)) (mkPhrase (mkUtt d))) ;
 
 -- Relations are expressed as "my wife" or "my son's wife", as defined by $xOf$
@@ -184,35 +185,35 @@ concrete WordsEst of Words = SentencesEst **
 
 -- week days
 
-    Monday = let d = "maanantai" in mkDay (mkPN d) (d + "sin") ;
-    Tuesday = let d = "tiistai" in mkDay (mkPN d) (d + "sin") ;
-    Wednesday = let d = "keskiviikko" in mkDay (mkPN d) (d + "isin") ;
-    Thursday = let d = "torstai" in mkDay (mkPN d) (d + "sin") ;
-    Friday = let d = "perjantai" in mkDay (mkPN d) (d + "sin") ;
-    Saturday = let d = "lauantai" in mkDay (mkPN d) (d + "sin") ;
-    Sunday = let d = "sunnuntai" in mkDay (mkPN d) (d + "sin") ;
+    Monday = let d = "esmaspäev" in mkDay (mkPN d) (d + "iti") ;
+    Tuesday = let d = "teisipäev" in mkDay (mkPN d) (d + "iti") ;
+    Wednesday = let d = "kolmapäev" in mkDay (mkPN d) (d + "iti") ;
+    Thursday = let d = "neljapäev" in mkDay (mkPN d) (d + "iti") ;
+    Friday = let d = "reede" in mkDay (mkPN d) (d + "ti") ;
+    Saturday = let d = "laupäev" in mkDay (mkPN d) (d + "iti") ;
+    Sunday = let d = "pühapäev" in mkDay (mkPN d) (d + "iti") ;
 
-    Tomorrow = ParadigmsFin.mkAdv "huomenna" ;
+    Tomorrow = ParadigmsFin.mkAdv "homme" ;
 
 -- transports
 
     HowFar place = mkQS (mkQCl far_IAdv place.name) ;
-    HowFarFrom x y = 
+    HowFarFrom x y =
       mkQS (mkQCl far_IAdv (mkCl y.name x.from)) ;
-    HowFarFromBy x y t = 
-      mkQS (mkQCl far_IAdv (mkCl y.name 
+    HowFarFromBy x y t =
+      mkQS (mkQCl far_IAdv (mkCl y.name
         (mkVP (mkVP x.from) t))) ;
-    HowFarBy place t = 
+    HowFarBy place t =
       mkQS (mkQCl far_IAdv (mkCl place.name t)) ;
-      -- mkQS (mkQCl (mkIAdv far_IAdv t) y.name) ; 
+      -- mkQS (mkQCl (mkIAdv far_IAdv t) y.name) ;
 
-    WhichTranspPlace trans place = 
+    WhichTranspPlace trans place =
       mkQS (mkQCl (mkIP which_IDet trans.name) (mkVP (mkVP L.go_V) place.to)) ;
 
     IsTranspPlace trans place =
       mkQS (mkQCl (mkCl (mkVP (mkVP (mkVP (mkV "päästä")) trans.by) place.to))) ;
       -- pääseekö keskustaan bussilla
-      -- mkQS (mkQCl (E.AdvPredNP place.to L.go_V (E.PartCN (trans.name)))) ; 
+      -- mkQS (mkQCl (E.AdvPredNP place.to L.go_V (E.PartCN (trans.name)))) ;
       -- meneekö keskustaan bussia
 
 -- modifiers of places
@@ -227,9 +228,9 @@ concrete WordsEst of Words = SentencesEst **
     SuperlPlace sup p = placeNP sup p ;
 
   oper
-    mkNat : PN -> PN -> A -> 
+    mkNat : PN -> PN -> A ->
       {lang : NP ; prop : A ; country : NP} = \nat,co,pro ->
-        {lang = mkNP nat ; 
+        {lang = mkNP nat ;
          prop = pro ;
          country = mkNP co
         } ;
@@ -237,8 +238,8 @@ concrete WordsEst of Words = SentencesEst **
     ---- using overloaded paradigms slows down compilation dramatically
     mkDay : PN -> Str -> {name : NP ; point : Adv ; habitual : Adv} = \d,s ->
       let day = mkNP d in
-      {name = day ; 
-       point = SyntaxFin.mkAdv (casePrep essive) day ; 
+      {name = day ;
+       point = SyntaxFin.mkAdv (casePrep essive) day ;
        habitual = ParadigmsFin.mkAdv s
       } ;
 
@@ -247,30 +248,30 @@ concrete WordsEst of Words = SentencesEst **
       at = casePrep (if_then_else Case e adessive inessive) ;  -- True: external
       to = casePrep (if_then_else Case e allative illative) ;
       from = casePrep (if_then_else Case e ablative elative) ;
-      isPl = False   
+      isPl = False
    } ;
     ssa = False ;
     lla = True ;
 
-    xOf : GNumber -> N -> NPPerson -> NPPerson = \n,x,p -> 
+    xOf : GNumber -> N -> NPPerson -> NPPerson = \n,x,p ->
       relativePerson n (mkCN x) (\a,b,c -> mkNP (E.GenNP b) a c) p ;
 
     nameOf : NPPerson -> NP = \p -> (xOf sing L.name_N p).name ;
 
-  oper 
+  oper
     -- do you have a table for five persons
     haveForPerson : NP -> CN -> Card -> Cl = \p,a,n ->
-      mkCl p have_V2 
+      mkCl p have_V2
 ----      (mkNP (E.PartCN a)  ---- partitive works in questions )
         (mkNP (mkNP a_Det a)
            (SyntaxFin.mkAdv for_Prep (mkNP n (mkN "henki" "henkiä")))) ;
 ----       (SyntaxFin.mkAdv for_Prep (mkNP (mkDet n)))) ; -- 60s faster compile 25/10/2010
 
-    open_Adv = ParadigmsFin.mkAdv "avoinna" ;
-    closed_Adv = ParadigmsFin.mkAdv "kiinni" ;
+    open_Adv = ParadigmsFin.mkAdv "avatud" ;
+    closed_Adv = ParadigmsFin.mkAdv "suletud" ;
 
     mkTransport : N -> {name : CN ; by : Adv} = \n -> {
-      name = mkCN n ; 
+      name = mkCN n ;
       by = SyntaxFin.mkAdv (casePrep adessive) (mkNP n)
       } ;
 

@@ -34,6 +34,7 @@ abstract Words = Sentences ** {
     Expensive : Property ; 
     Fresh : Property ; 
     Good : Property ;
+    -- TODO: rename: Suspect -> Suspicious
     Suspect : Property ;
     Warm : Property ; 
 

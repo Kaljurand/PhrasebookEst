@@ -101,3 +101,5 @@ gt (HowFarBy  (ThePlace Hospital) ?) | l
 gt (ACitizen  IMale ?) | l
 gt (ABePlace  IMale (ThePlace ?)) | l
 --gr (ByTransp  ?) | l -treebank
+
+gt PSentence (SProp (PropClosedDay (SuperlPlace TheMostPopular School) Friday)) | l

@@ -1,19 +1,19 @@
 tere !
 
 
-nähdään perjantaina !
+nähdään reeteenä !
 
-nähdään maanantaina !
+nähdään esmaspäevina !
 
-nähdään lauantaina !
+nähdään laupäevina !
 
-nähdään sunnuntaina !
+nähdään pühapäevina !
 
-nähdään torstaina !
+nähdään neljapäevina !
 
-nähdään tiistaina !
+nähdään teisipäevinä !
 
-nähdään keskiviikkona !
+nähdään kolmapäevina !
 
 
 nähdään parhaimmassa hollantilaisessa ravintolassa !
@@ -199,5 +199,8 @@ olen venäläisessä ravintolassa
 olen espanjalaisessa ravintolassa
 
 olen ruotsalaisessa ravintolassa
+
+
+suosituin koulu on suletud reedeti .
 
 
