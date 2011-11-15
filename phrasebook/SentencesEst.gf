@@ -6,7 +6,7 @@ concrete SentencesEst of Sentences = NumeralFin ** SentencesI -
   ] with 
   (Syntax = SyntaxFin),
   (Symbolic = SymbolicFin),
-  (Lexicon = LexiconFin) ** 
+  (Lexicon = LexiconEst) **
     open SyntaxFin, ExtraFin, (P = ParadigmsFin), (V = VerbFin), Prelude in {
 
   flags optimize = noexpand ;

@@ -3,7 +3,7 @@
 
 concrete WordsEst of Words = SentencesEst **
   open
-    SyntaxFin, ParadigmsFin, (L = LexiconFin),
+    SyntaxFin, ParadigmsFin, (L = LexiconEst),
     Prelude, (E = ExtraFin) in {
 
   flags optimize = noexpand ;

@@ -10,7 +10,7 @@ Estonian concrete syntax for the MOLTO Phrasebook.
 Usage
 -----
 
-	gf +RTS -K64M -RTS PhrasebookEst.gf
+	gf +RTS -K64M -RTS --path "present:../lib/src/estonian/" PhrasebookEst.gf
 
 
 Testing
@@ -22,7 +22,7 @@ Files
 -----
 
 Abstract syntax files which were copied over from `GF/examples/phrasebook/` and which
-are __not__ going to be changed in this project.
+are __not__ going to be changed in this project:
 
   * Phrasebook.gf
   * Greetings.gf
@@ -31,12 +31,18 @@ are __not__ going to be changed in this project.
   * SentencesI.gf
 
 Estonian concrete syntax files which were initially cloned from Finnish (`*Fin.gf`)
-and which are going to be ported to Estonian in this project.
+and which are going to be ported to Estonian in this project:
 
   * PhrasebookEst.gf
   * GreetingsEst.gf
   * WordsEst.gf
   * SentencesEst.gf
+
+The emerging Estonian RGL which is developed temporarily in this repository:
+
+  * ../lib/src/estonian/
+
+(The main repository of the Estonian RGL is http://code.google.com/p/gf-estonian/.)
 
 Some other required modules are not included in this repository.
 They are expected to be found in:

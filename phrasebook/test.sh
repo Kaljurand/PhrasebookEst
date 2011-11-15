@@ -6,5 +6,7 @@
 #   * 2 min with compiled data (which only needs linking)
 #   * 3 min if compiling is needed
 #
-cat ../tools/test_gt.gfs | gf +RTS -K64M -RTS --run PhrasebookEst.gf > test_out.txt
+path="present:../lib/src/estonian/"
+
+cat ../tools/test_gt.gfs | gf +RTS -K64M -RTS --run --path $path PhrasebookEst.gf > test_out.txt
 diff test_gold.txt test_out.txt
