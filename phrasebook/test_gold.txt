@@ -1,0 +1,203 @@
+hei !
+
+
+nähdään perjantaina !
+
+nähdään maanantaina !
+
+nähdään lauantaina !
+
+nähdään sunnuntaina !
+
+nähdään torstaina !
+
+nähdään tiistaina !
+
+nähdään keskiviikkona !
+
+
+nähdään parhaimmassa hollantilaisessa ravintolassa !
+
+nähdään lähimmässä hollantilaisessa ravintolassa !
+
+nähdään halvimmassa hollantilaisessa ravintolassa !
+
+nähdään kalleimmassa hollantilaisessa ravintolassa !
+
+nähdään suosituimmassa hollantilaisessa ravintolassa !
+
+nähdään huonoimmassa hollantilaisessa ravintolassa !
+
+
+belgialainen ravintola
+
+bulgarialainen ravintola
+
+katalonialainen ravintola
+
+tanskalainen ravintola
+
+hollantilainen ravintola
+
+englantilainen ravintola
+
+suomalainen ravintola
+
+ranskalainen ravintola
+
+saksalainen ravintola
+
+italialainen ravintola
+
+norjalainen ravintola
+
+puolalainen ravintola
+
+romanialainen ravintola
+
+venäläinen ravintola
+
+espanjalainen ravintola
+
+ruotsalainen ravintola
+
+
+kuinka kaukana sairaala on jalkaisin
+
+kuinka kaukana sairaala on polkupyörällä
+
+kuinka kaukana sairaala on bussilla
+
+kuinka kaukana sairaala on autolla
+
+kuinka kaukana sairaala on lautalla
+
+kuinka kaukana sairaala on lentokoneella
+
+kuinka kaukana sairaala on metrolla
+
+kuinka kaukana sairaala on taksilla
+
+kuinka kaukana sairaala on junalla
+
+kuinka kaukana sairaala on raitiovaunulla
+
+
+olen belgialainen
+
+olen bulgarialainen
+
+olen katalonialainen
+
+olen tanskalainen
+
+olen hollantilainen
+
+olen englantilainen
+
+olen suomalainen
+
+olen ranskalainen
+
+olen saksalainen
+
+olen italialainen
+
+olen norjalainen
+
+olen puolalainen
+
+olen romanialainen
+
+olen venäläinen
+
+olen espanjalainen
+
+olen ruotsalainen
+
+
+olen lentokentällä
+
+olen huvipuistossa
+
+olen pankissa
+
+olen baarissa
+
+olen kahvilassa
+
+olen keskustassa
+
+olen elokuvateatterissa
+
+olen kirkossa
+
+olen diskossa
+
+olen sairaalassa
+
+olen hotellissa
+
+olen museossa
+
+olen puistossa
+
+olen pysäköintialueella
+
+olen apteekissa
+
+olen postissa
+
+olen pubissa
+
+olen ravintolassa
+
+olen koululla
+
+olen kaupassa
+
+olen asemalla
+
+olen supermarketissa
+
+olen teatterissa
+
+olen vessassa
+
+olen yliopistolla
+
+olen eläintarhassa
+
+olen belgialaisessa ravintolassa
+
+olen bulgarialaisessa ravintolassa
+
+olen katalonialaisessa ravintolassa
+
+olen tanskalaisessa ravintolassa
+
+olen hollantilaisessa ravintolassa
+
+olen englantilaisessa ravintolassa
+
+olen suomalaisessa ravintolassa
+
+olen ranskalaisessa ravintolassa
+
+olen saksalaisessa ravintolassa
+
+olen italialaisessa ravintolassa
+
+olen norjalaisessa ravintolassa
+
+olen puolalaisessa ravintolassa
+
+olen romanialaisessa ravintolassa
+
+olen venäläisessä ravintolassa
+
+olen espanjalaisessa ravintolassa
+
+olen ruotsalaisessa ravintolassa
+
+

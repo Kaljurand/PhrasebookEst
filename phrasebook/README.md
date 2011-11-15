@@ -1,7 +1,22 @@
 PhrasebookEst
 =============
 
+Introduction
+------------
+
 Estonian concrete syntax for the MOLTO Phrasebook.
+
+
+Usage
+-----
+
+	gf +RTS -K64M -RTS PhrasebookEst.gf
+
+
+Testing
+-------
+
+	time ./test.sh
 
 Files
 -----
