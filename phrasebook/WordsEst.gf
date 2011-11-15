@@ -69,7 +69,7 @@ concrete WordsEst of Words = SentencesEst **
     Center = mkPlace (mkN "keskus") ssa ;
     Cafeteria = mkPlace (mkN "kohvik") ssa ;
     Disco = mkPlace (mkN "disko") ssa ;
-    Pub = mkPlace (mkN "pubi") ssa ;
+    Pub = mkPlace (mkN "kõrts") ssa ;
     AmusementPark = mkPlace (mkN "lõbustus" (mkN "park")) ssa ;
     Zoo = mkPlace (mkN "looma" (mkN "aed")) ssa ;
 

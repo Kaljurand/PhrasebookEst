@@ -107,3 +107,33 @@ gt PGreeting (GObjectPlease (OneObj (ObjNumber (NNumeral (num (pot2as3 (pot1as2 
 gt PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 (pot1 n9))))) DanishCrown) | l
 gt PSentence (SProp (PropAction (ASpeak (Wife IMale) (LangNat Danish)))) | l
 gt PQuestion (HowMuchCost (ThatMass (SuchMassKind (PropQuality (PropCit (CitiNat Finnish))) Chicken))) | l
+
+-- odavaim keskus on avatud
+gt PSentence (SProp (PropOpen (SuperlPlace TheCheapest Center))) | l
+
+-- see õun on hea
+gt PSentence (SProp (Is (This Apple) (PropQuality Good))) | l
+
+-- kus hotell on / kus on hotell
+gt PQuestion (WherePlace (ThePlace Hotel)) | l
+
+-- ma ei ole soomlane
+gt PSentence (SPropNot (PropAction (ACitizen IMale (CitiNat Finnish)))) | l
+
+-- mul on pizza
+gt PSentence (SHave IMale (OneObj (ObjIndef Pizza))) | l
+
+-- mehel ei ole õunu
+gt PSentence (SHave (Husband YouFamMale) (OneObj (ObjPlural Apple))) | l
+
+-- kui palju need õunad maksavad
+gt PQuestion (HowMuchCost (Those Apple)) | l
+
+-- haigla on avatud reedeti
+gt PSentence (SProp (PropOpenDate (APlace Hospital) (OnDay Friday))) | l
+
+-- kohvik ei ole täna avatud
+gt PSentence (SPropNot (PropOpenDate (APlace Cafeteria) Today)) | l
+
+-- kas trammiga saab kõrtsi
+gt PQuestion (IsTranspPlace Tram (APlace Pub)) | l

@@ -148,7 +148,7 @@ olen apteekissa
 
 olen postkontorissa
 
-olen pubissa
+olen kõrtksessä
 
 olen restoranissa
 
@@ -204,7 +204,7 @@ olen rootslaneessa restoranissa
 populaarnein kool on suletud reedeti .
 
 
-kahdeksan odavia omenaa kiitos !
+kahdeksan odavia õunta kiitos !
 
 
 yhdeksän &+ kymmentä Taani kroonia .
@@ -214,5 +214,35 @@ nainee &+ ni puhuu taania .
 
 
 kuinka paljon tuo soomlane kana maksaa ?
+
+
+odavaim keskus on avatud .
+
+
+tämä õun on hyvää .
+
+
+missä hotell on ?
+
+
+en ole soomlane .
+
+
+minulla on pizza .
+
+
+miehellä &+ si on õumia .
+
+
+kuinka paljon nuo õumet maksavat ?
+
+
+haigla on avatud reeteenä .
+
+
+kohvik ei ole avatud tänään .
+
+
+pääsee &+ kö trammilla kõrtkseen ?
 
 
