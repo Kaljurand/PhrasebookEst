@@ -1,27 +1,26 @@
 concrete GreetingsEst of Greetings = SentencesEst [Greeting,mkGreeting] ** open Prelude in {
 
-lin 
-  GBye = mkGreeting "hei hei" ;
-  GCheers = mkGreeting "terveydeksi" ;
-  GDamn = mkGreeting "hitto" ;
-  GExcuse, GExcusePol = mkGreeting "anteeksi" ;
-  GGoodDay = mkGreeting "hyv‰‰ p‰iv‰‰" ;
-  GGoodEvening = mkGreeting "hyv‰‰ iltaa" ;
-  GGoodMorning = mkGreeting "hyv‰‰ huomenta" ;
-  GGoodNight = mkGreeting "hyv‰‰ yˆt‰" ;
-  GGoodbye = mkGreeting "n‰kemiin" ;
-  GHello = mkGreeting "hei" ;
-  GHelp = mkGreeting "apua" ;
-  GHowAreYou = mkGreeting "mit‰ kuuluu" ;
-  GLookOut = mkGreeting "varo" ;
-  GNiceToMeetYou = mkGreeting "hauska tutustua" ;
-  GPleaseGive = mkGreeting "ole hyv‰" ;
-  GPleaseGivePol = mkGreeting "olkaa hyv‰" ;
-  GSeeYouSoon = mkGreeting "n‰hd‰‰n pian" ;
-  GSorry, GSorryPol = mkGreeting "anteeksi" ;
-  GThanks = mkGreeting "kiitos" ;
-  GTheCheck = mkGreeting "lasku" ;
-  GCongratulations = mkGreeting "onnittelut";
-  GHappyBirthday = mkGreeting "hyv‰‰ syntym‰p‰iv‰‰" ;
-  GGoodLuck = mkGreeting "onnea" ; 
+lin
+  GBye = mkGreeting "head aega" ;
+  GCheers = mkGreeting "terviseks" ;
+  GDamn = mkGreeting "neetud" ;
+  GExcuse, GExcusePol = mkGreeting "vabandust" ;
+  GGoodDay = mkGreeting "tere p‰evast" ;
+  GGoodEvening = mkGreeting "tere ıhtust" ;
+  GGoodMorning = mkGreeting "tere hommikust" ;
+  GGoodNight = mkGreeting "head ˆˆd" ;
+  GGoodbye = mkGreeting "head aega" ;
+  GHello = mkGreeting "tere" ;
+  GHelp = mkGreeting "appi" ;
+  GHowAreYou = mkGreeting "kuidas k‰si k‰ib" ;
+  GLookOut = mkGreeting "ettevaatust" ;
+  GNiceToMeetYou = mkGreeting "meeldiv tutvuda" ;
+  GPleaseGive, GPleaseGivePol = mkGreeting "palun" ;
+  GSeeYouSoon = mkGreeting "kohtumiseni" ;
+  GSorry, GSorryPol = mkGreeting "vabandust" ;
+  GThanks = mkGreeting "suur t‰nu" ;
+  GTheCheck = mkGreeting "arve" ;
+  GCongratulations = mkGreeting "palju ınne";
+  GHappyBirthday = mkGreeting "palju ınne s¸nnip‰evaks" ;
+  GGoodLuck = mkGreeting "palju edu" ;
 }
