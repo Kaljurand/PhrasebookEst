@@ -3,8 +3,8 @@
 
 concrete WordsEst of Words = SentencesEst **
   open
-    SyntaxFin, ParadigmsFin, (L = LexiconEst),
-    Prelude, (E = ExtraFin) in {
+    SyntaxEst, ParadigmsEst, (L = LexiconEst),
+    Prelude, (E = ExtraEst) in {
 
   flags optimize = noexpand ;
 
@@ -122,7 +122,7 @@ concrete WordsEst of Words = SentencesEst **
     Train = mkTransport L.train_N ;
     Tram = mkTransport (mkN "tramm") ;
 
-    ByFoot = ParadigmsFin.mkAdv "jalgsi" ;
+    ByFoot = ParadigmsEst.mkAdv "jalgsi" ;
 
 
 -- actions
@@ -132,17 +132,17 @@ concrete WordsEst of Words = SentencesEst **
     AHasName p name = mkCl (nameOf p) name ;
     AHasRoom p = haveForPerson p.name (mkCN (mkN "tuba")) ;
     AHasTable p = haveForPerson p.name (mkCN (mkN "laud")) ;
-    AHungry p = E.AdvExistNP (SyntaxFin.mkAdv on_Prep p.name) (mkNP (mkN "nälg")) ;
+    AHungry p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "nälg")) ;
     AIll p = mkCl p.name (mkA "haige") ;
     AKnow p = mkCl p.name (mkV "tietää") ;
     ALike p item = mkCl p.name L.like_V2 item ;
-    ALive p co = mkCl p.name (mkVP (mkVP (mkV "asua")) (SyntaxFin.mkAdv in_Prep co)) ;
+    ALive p co = mkCl p.name (mkVP (mkVP (mkV "asua")) (SyntaxEst.mkAdv in_Prep co)) ;
     ALove p q = mkCl p.name (mkV2 (mkV "rakastaa") partitive) q.name ;
-    AMarried p = mkCl p.name (ParadigmsFin.mkAdv "abielus") ;
-    AReady p = mkCl p.name (ParadigmsFin.mkA "valmis") ;
+    AMarried p = mkCl p.name (ParadigmsEst.mkAdv "abielus") ;
+    AReady p = mkCl p.name (ParadigmsEst.mkA "valmis") ;
     AScared p = mkCl p.name (caseV partitive (mkV "pelottaa")) ;
     ASpeak p lang = mkCl p.name  (mkV2 (mkV "puhua") partitive) lang ;
-    AThirsty p = E.AdvExistNP (SyntaxFin.mkAdv on_Prep p.name) (mkNP (mkN "janu")) ;
+    AThirsty p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "janu")) ;
     ATired p = mkCl p.name (caseV partitive (mkV "väsyttää")) ;
     AUnderstand p = mkCl p.name (mkV "ymmärtää") ;
     AWant p obj = mkCl p.name (mkV2 "haluta") obj ;
@@ -195,7 +195,7 @@ concrete WordsEst of Words = SentencesEst **
     Saturday = let d = "laupäev" in mkDay (mkPN d) (d + "iti") ;
     Sunday = let d = "pühapäev" in mkDay (mkPN d) (d + "iti") ;
 
-    Tomorrow = ParadigmsFin.mkAdv "homme" ;
+    Tomorrow = ParadigmsEst.mkAdv "homme" ;
 
 -- transports
 
@@ -241,8 +241,8 @@ concrete WordsEst of Words = SentencesEst **
     mkDay : PN -> Str -> {name : NP ; point : Adv ; habitual : Adv} = \d,s ->
       let day = mkNP d in
       {name = day ;
-       point = SyntaxFin.mkAdv (casePrep essive) day ;
-       habitual = ParadigmsFin.mkAdv s
+       point = SyntaxEst.mkAdv (casePrep essive) day ;
+       habitual = ParadigmsEst.mkAdv s
       } ;
 
     mkPlace : N -> Bool -> {name : CN ; at : Prep ; to : Prep; from : Prep ; isPl : Bool} = \p,e -> {
@@ -266,15 +266,15 @@ concrete WordsEst of Words = SentencesEst **
       mkCl p have_V2
 ----      (mkNP (E.PartCN a)  ---- partitive works in questions )
         (mkNP (mkNP a_Det a)
-           (SyntaxFin.mkAdv for_Prep (mkNP n (mkN "henki" "henkiä")))) ;
-----       (SyntaxFin.mkAdv for_Prep (mkNP (mkDet n)))) ; -- 60s faster compile 25/10/2010
+           (SyntaxEst.mkAdv for_Prep (mkNP n (mkN "henki" "henkiä")))) ;
+----       (SyntaxEst.mkAdv for_Prep (mkNP (mkDet n)))) ; -- 60s faster compile 25/10/2010
 
-    open_Adv = ParadigmsFin.mkAdv "avatud" ;
-    closed_Adv = ParadigmsFin.mkAdv "suletud" ;
+    open_Adv = ParadigmsEst.mkAdv "avatud" ;
+    closed_Adv = ParadigmsEst.mkAdv "suletud" ;
 
     mkTransport : N -> {name : CN ; by : Adv} = \n -> {
       name = mkCN n ;
-      by = SyntaxFin.mkAdv (casePrep adessive) (mkNP n)
+      by = SyntaxEst.mkAdv (casePrep adessive) (mkNP n)
       } ;
 
     mkSuperl : A -> Det = \a -> mkDet the_Quant (mkOrd a) ;

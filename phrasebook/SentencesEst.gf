@@ -1,13 +1,13 @@
-concrete SentencesEst of Sentences = NumeralFin ** SentencesI - 
+concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
   [Is, IsMass, NameNN, ObjMass,
    IFemale, YouFamFemale, YouPolFemale, IMale, YouFamMale, YouPolMale,
    NPPlace, CNPlace, placeNP, mkCNPlace, mkCNPlacePl,
    GObjectPlease
   ] with 
-  (Syntax = SyntaxFin),
-  (Symbolic = SymbolicFin),
+  (Syntax = SyntaxEst),
+  (Symbolic = SymbolicEst),
   (Lexicon = LexiconEst) **
-    open SyntaxFin, ExtraFin, (P = ParadigmsFin), (V = VerbFin), Prelude in {
+    open SyntaxEst, ExtraEst, (P = ParadigmsEst), (V = VerbEst), Prelude in {
 
   flags optimize = noexpand ;
 

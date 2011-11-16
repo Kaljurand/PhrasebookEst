@@ -3,7 +3,7 @@
 concrete PhrasebookEst of Phrasebook = 
   GreetingsEst,
   WordsEst ** open 
-    SyntaxFin,
+    SyntaxEst,
     Prelude in {
 
 }
