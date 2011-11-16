@@ -1,7 +1,33 @@
+renaming module NumeralEst
+   renaming of nBIND in NumeralEst.gf, line 86
+      atomic term Number
+      given MorphoEst, ParadigmsFin, Prelude, CommonX, CatFin, NumeralEst
+         Warning: conflict ParamX.Number, ParadigmsFin.Number
+checking module LexiconEst
+   Warning: no linearization of alas_Interj
+renaming module ExtraEst
+   renaming of CompPartAP in ExtraEst.gf, lines 89-91
+      atomic term Part
+      given R, ParamX, StructuralEst, NounFin, Prelude, Coordination, MorphoEst, ResFin, CommonX, CatFin, ExtraEst
+         Warning: conflict ResFin.Part, ExtraEst.Part
+   renaming of ICompAP in ExtraEst.gf, lines 94-103
+      atomic term Part
+      given R, ParamX, StructuralEst, NounFin, Prelude, Coordination, MorphoEst, ResFin, CommonX, CatFin, ExtraEst
+         Warning: conflict ResFin.Part, ExtraEst.Part
+   renaming of PartCN in ExtraEst.gf, lines 75-85
+      atomic term Part
+      given R, ParamX, StructuralEst, NounFin, Prelude, Coordination, MorphoEst, ResFin, CommonX, CatFin, ExtraEst
+         Warning: conflict ResFin.Part, ExtraEst.Part
+checking module ExtraEst
+   Warning: function x is not in abstract
+   Warning: no linearization of whatPart_IP
+checking module SentencesEst
+   Happened in linearization of PGreeting in SentencesEst.gf, line 51:
+      Warning: ignoring lock fields in resolving mkText (lin Phr g) exclMarkPunct
 tere !
 
 
-kohtumiseni reeteenä !
+kohtumiseni reeteenÃ¤ !
 
 kohtumiseni esmaspäevina !
 
@@ -11,14 +37,14 @@ kohtumiseni pühapäevina !
 
 kohtumiseni neljapäevina !
 
-kohtumiseni teisipäevinä !
+kohtumiseni teisipäevinÃ¤ !
 
 kohtumiseni kolmapäevina !
 
 
 kohtumiseni parhaimmassa hollandlaneessa restoranissa !
 
-kohtumiseni lähimmässä hollandlaneessa restoranissa !
+kohtumiseni lähimmÃ¤ss¤ hollandlaneessa restoranissa !
 
 kohtumiseni odavaimmassa hollandlaneessa restoranissa !
 
@@ -116,7 +142,7 @@ olen hispaanlane
 olen rootslane
 
 
-olen lennuvälillä
+olen lennuvälill¤
 
 olen lõbustusparkissa
 
@@ -130,7 +156,7 @@ olen keskuksessa
 
 olen kinossa
 
-olen kirikissä
+olen kirikiss¤
 
 olen diskossa
 
@@ -148,7 +174,7 @@ olen apteekissa
 
 olen postkontorissa
 
-olen kõrtksessä
+olen kõrtksess¤
 
 olen restoranissa
 
@@ -237,12 +263,15 @@ miehellä &+ si on õumia .
 kuinka paljon nuo õumet maksavat ?
 
 
-haigla on avatud reeteenä .
+haigla on avatud reeteenÃ¤ .
 
 
 kohvik ei ole avatud tänään .
 
 
 pääsee &+ kö trammilla kõrtkseen ?
+
+
+sool ei ole erittäin hyvää .
 
 

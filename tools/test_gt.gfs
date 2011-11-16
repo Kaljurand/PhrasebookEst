@@ -137,3 +137,6 @@ gt PSentence (SPropNot (PropOpenDate (APlace Cafeteria) Today)) | l
 
 -- kas trammiga saab kõrtsi
 gt PQuestion (IsTranspPlace Tram (APlace Pub)) | l
+
+-- sool ei ole eriti/väga hea
+gt PSentence (SPropNot (IsMass Salt (Very Good))) | l

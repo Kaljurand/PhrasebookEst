@@ -11,7 +11,7 @@
 -- Closed categories (determiners, pronouns, conjunctions) are
 -- accessed through the resource syntax API and $Structural.gf$. 
 --
--- The main difference with $MorphoFin.gf$ is that the types
+-- The main difference with $MorphoEst.gf$ is that the types
 -- referred to are compiled resource grammar types. We have moreover
 -- had the design principle of always having existing forms, rather
 -- than stems, as string arguments of the paradigms.
@@ -24,7 +24,7 @@
 resource ParadigmsEst = open 
   (Predef=Predef), 
   Prelude, 
-  MorphoFin,
+  MorphoEst,
   CatFin
   in {
 
@@ -235,8 +235,8 @@ oper
 -- The definitions should not bother the user of the API. So they are
 -- hidden from the document.
 
-  Case = MorphoFin.Case ;
-  Number = MorphoFin.Number ;
+  Case = MorphoEst.Case ;
+  Number = MorphoEst.Number ;
 
   singular = Sg ;
   plural = Pl ;

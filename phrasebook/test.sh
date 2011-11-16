@@ -8,5 +8,6 @@
 #
 path="present:../lib/src/estonian/:../lib/src/api/"
 
-cat ../tools/test_gt.gfs | gf +RTS -K64M -RTS --run --path $path PhrasebookEst.gf > test_out.txt
+cat ../tools/test_gt.gfs |\
+gf +RTS -K64M -RTS --preproc=mkPresent --run --path $path PhrasebookEst.gf > test_out.txt
 diff test_gold.txt test_out.txt

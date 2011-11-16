@@ -1,7 +1,7 @@
 --# -path=.:abstract:common:prelude
 
 concrete ExtraEst of ExtraFinAbs = CatFin ** 
-  open ResFin, MorphoFin, Coordination, Prelude, NounFin, StructuralFin, (R = ParamX) in {
+  open ResFin, MorphoEst, Coordination, Prelude, NounFin, StructuralEst, (R = ParamX) in {
 
   lin
     GenNP np = {

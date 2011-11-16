@@ -1,6 +1,6 @@
 --# -path=.:prelude
 
-concrete LexiconEst of Lexicon = CatFin ** open MorphoFin, ParadigmsFin in {
+concrete LexiconEst of Lexicon = CatFin ** open MorphoEst, ParadigmsFin in {
 
 flags
   optimize=values ; coding=utf8 ;
