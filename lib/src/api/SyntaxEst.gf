@@ -1,4 +1,4 @@
 --# -path=.:alltenses:prelude
 
-instance SyntaxEst of Syntax = ConstructorsFin, CatFin, StructuralFin, CombinatorsFin ;
+instance SyntaxEst of Syntax = ConstructorsEst, CatEst, StructuralEst, CombinatorsEst ;
 

@@ -1,33 +1,10 @@
-renaming module NumeralEst
-   renaming of nBIND in NumeralEst.gf, line 86
-      atomic term Number
-      given MorphoEst, ParadigmsFin, Prelude, CommonX, CatFin, NumeralEst
-         Warning: conflict ParamX.Number, ParadigmsFin.Number
-checking module LexiconEst
-   Warning: no linearization of alas_Interj
-renaming module ExtraEst
-   renaming of CompPartAP in ExtraEst.gf, lines 89-91
-      atomic term Part
-      given R, ParamX, StructuralEst, NounFin, Prelude, Coordination, MorphoEst, ResFin, CommonX, CatFin, ExtraEst
-         Warning: conflict ResFin.Part, ExtraEst.Part
-   renaming of ICompAP in ExtraEst.gf, lines 94-103
-      atomic term Part
-      given R, ParamX, StructuralEst, NounFin, Prelude, Coordination, MorphoEst, ResFin, CommonX, CatFin, ExtraEst
-         Warning: conflict ResFin.Part, ExtraEst.Part
-   renaming of PartCN in ExtraEst.gf, lines 75-85
-      atomic term Part
-      given R, ParamX, StructuralEst, NounFin, Prelude, Coordination, MorphoEst, ResFin, CommonX, CatFin, ExtraEst
-         Warning: conflict ResFin.Part, ExtraEst.Part
-checking module ExtraEst
-   Warning: function x is not in abstract
-   Warning: no linearization of whatPart_IP
 checking module SentencesEst
    Happened in linearization of PGreeting in SentencesEst.gf, line 51:
       Warning: ignoring lock fields in resolving mkText (lin Phr g) exclMarkPunct
 tere !
 
 
-kohtumiseni reeteenÃ¤ !
+kohtumiseni reedeina !
 
 kohtumiseni esmaspäevina !
 
@@ -37,22 +14,22 @@ kohtumiseni pühapäevina !
 
 kohtumiseni neljapäevina !
 
-kohtumiseni teisipäevinÃ¤ !
+kohtumiseni teisipäevina !
 
 kohtumiseni kolmapäevina !
 
 
-kohtumiseni parhaimmassa hollandlaneessa restoranissa !
+kohtumiseni parhaimmans hollandlases restoranis !
 
-kohtumiseni lähimmÃ¤ss¤ hollandlaneessa restoranissa !
+kohtumiseni lähimmäns hollandlases restoranis !
 
-kohtumiseni odavaimmassa hollandlaneessa restoranissa !
+kohtumiseni odavaimmans hollandlases restoranis !
 
-kohtumiseni kalleimmassa hollandlaneessa restoranissa !
+kohtumiseni kalleimmans hollandlases restoranis !
 
-kohtumiseni populaarneimmassa hollandlaneessa restoranissa !
+kohtumiseni populaarsmmans hollandlases restoranis !
 
-kohtumiseni halbeimmassa hollandlaneessa restoranissa !
+kohtumiseni halbmmans hollandlases restoranis !
 
 
 belgia restoran
@@ -90,23 +67,23 @@ rootslane restoran
 
 kuinka kaukana haigla on jalgsi
 
-kuinka kaukana haigla on polkupyörällä
+kuinka kaukana haigla on ratael
 
-kuinka kaukana haigla on busksella
+kuinka kaukana haigla on bussel
 
-kuinka kaukana haigla on autolla
+kuinka kaukana haigla on autel
 
-kuinka kaukana haigla on praamilla
+kuinka kaukana haigla on praamil
 
-kuinka kaukana haigla on lentokoneella
+kuinka kaukana haigla on lennuel
 
-kuinka kaukana haigla on metroolla
+kuinka kaukana haigla on metroonl
 
-kuinka kaukana haigla on taksolla
+kuinka kaukana haigla on taksonl
 
-kuinka kaukana haigla on junalla
+kuinka kaukana haigla on junanl
 
-kuinka kaukana haigla on trammilla
+kuinka kaukana haigla on trammil
 
 
 olen belgia
@@ -142,101 +119,101 @@ olen hispaanlane
 olen rootslane
 
 
-olen lennuvälill¤
+olen lennuvälinl
 
-olen lõbustusparkissa
+olen lõbustusparkis
 
-olen pankissa
+olen pankis
 
-olen bakaressa
+olen baarens
 
-olen kohvikissa
+olen kohvikis
 
-olen keskuksessa
+olen keskuses
 
-olen kinossa
+olen kinons
 
-olen kirikiss¤
+olen kirikis
 
-olen diskossa
+olen diskons
 
-olen haiglassa
+olen haiglans
 
-olen hotellissa
+olen hotellis
 
-olen muuseumissa
+olen muuseumis
 
-olen parkissa
+olen parkis
 
-olen parklalla
+olen parklanl
 
-olen apteekissa
+olen apteekis
 
-olen postkontorissa
+olen postkontoris
 
-olen kõrtksess¤
+olen kõrtses
 
-olen restoranissa
+olen restoranis
 
-olen koolilla
+olen koolil
 
-olen poodissa
+olen poodis
 
-olen jaamilla
+olen jaamil
 
-olen supermarketissa
+olen supermarketis
 
-olen teaterissa
+olen teateris
 
-olen tualettissa
+olen tualettis
 
-olen ülikoolilla
+olen ülikoolil
 
-olen loomaaedissa
+olen loomaaedis
 
-olen belgiassa restoranissa
+olen belgians restoranis
 
-olen bulgaarlaneessa restoranissa
+olen bulgaarlases restoranis
 
-olen kataloonlaneessa restoranissa
+olen kataloonlases restoranis
 
-olen taanlaneessa restoranissa
+olen taanlases restoranis
 
-olen hollandlaneessa restoranissa
+olen hollandlases restoranis
 
-olen inglaneessa restoranissa
+olen inglases restoranis
 
-olen soomlaneessa restoranissa
+olen soomlases restoranis
 
-olen prantslaneessa restoranissa
+olen prantslases restoranis
 
-olen sakslaneessa restoranissa
+olen sakslases restoranis
 
-olen itaallaneessa restoranissa
+olen itaallases restoranis
 
-olen norralaneessa restoranissa
+olen norralases restoranis
 
-olen poolakkaassa restoranissa
+olen poolakases restoranis
 
-olen rumeenlaneessa restoranissa
+olen rumeenlases restoranis
 
-olen venelaneessa restoranissa
+olen venelases restoranis
 
-olen hispaanlaneessa restoranissa
+olen hispaanlases restoranis
 
-olen rootslaneessa restoranissa
-
-
-populaarnein kool on suletud reedeti .
+olen rootslases restoranis
 
 
-kahdeksan odavia õunta kiitos !
+populaarsn kool on suletud reedeti .
 
 
-yhdeksän &+ kymmentä Taani kroonia .
+kahdeksan odavi õuna kiitos !
 
 
-nainee &+ ni puhuu taania .
+yhdeksän &+ kymmentä Taani krooni .
+
+
+naine &+ ni puhuu taania .
 
 
 kuinka paljon tuo soomlane kana maksaa ?
@@ -251,27 +228,27 @@ tämä õun on hyvää .
 missä hotell on ?
 
 
-en ole soomlane .
+ei ole soomlane .
 
 
 minulla on pizza .
 
 
-miehellä &+ si on õumia .
+mieel &+ si on õunu .
 
 
-kuinka paljon nuo õumet maksavat ?
+kuinka paljon nuo õunad maksavat ?
 
 
-haigla on avatud reeteenÃ¤ .
+haigla on avatud reedeina .
 
 
 kohvik ei ole avatud tänään .
 
 
-pääsee &+ kö trammilla kõrtkseen ?
+pääsee &+ kÃ¶ trammil kõrtsesse ?
 
 
-sool ei ole erittäin hyvää .
+suola ei ole erittäin hyvää .
 
 
