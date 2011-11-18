@@ -1,6 +1,3 @@
-checking module SentencesEst
-   Happened in linearization of PGreeting in SentencesEst.gf, line 51:
-      Warning: ignoring lock fields in resolving mkText (lin Phr g) exclMarkPunct
 tere !
 
 
@@ -216,7 +213,7 @@ yhdeksän &+ kymmentä Taani krooni .
 naine &+ ni puhuu taania .
 
 
-kuinka paljon tuo soomlane kana maksaa ?
+kui palju tuo soomlane kana maksaa ?
 
 
 odavaim keskus on avatud .
@@ -225,7 +222,7 @@ odavaim keskus on avatud .
 tämä õun on hyvää .
 
 
-missä hotell on ?
+kus hotell on ?
 
 
 ei ole soomlane .
@@ -237,7 +234,7 @@ minulla on pizza .
 mieel &+ si on õunu .
 
 
-kuinka paljon nuo õunad maksavat ?
+kui palju nuo õunad maksavat ?
 
 
 haigla on avatud reedeina .
@@ -249,6 +246,36 @@ kohvik ei ole avatud tänään .
 pääsee &+ kÃ¶ trammil kõrtsesse ?
 
 
-suola ei ole erittäin hyvää .
+suola ei ole eriti hyvää .
+
+
+NNel on pizzojen .
+
+
+lähim lõbustuspark ei ole suletud .
+
+
+kuinka kaukana disko on jalgsi ?
+
+
+on &+ ko naisel &+ si pizza ?
+
+
+kohtumiseni koolil tänään !
+
+
+tämä õun
+
+
+tuo õun
+
+
+eriti toores lämmin liiga kallis õun
+
+
+tämä eriti kahtlane õun on maitsevi
+
+
+seitsemän &+ kymmentä &+ yksi &+ tuhatta neljä &+ kymmentä &+ yksi
 
 

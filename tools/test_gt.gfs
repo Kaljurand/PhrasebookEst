@@ -140,3 +140,33 @@ gt PQuestion (IsTranspPlace Tram (APlace Pub)) | l
 
 -- sool ei ole eriti/väga hea
 gt PSentence (SPropNot (IsMass Salt (Very Good))) | l
+
+-- NNil on pizzasid
+gt PSentence (SHave (PersonName NameNN) (OneObj (ObjPlural Pizza))) | l
+
+-- lähim lõbustuspark ei ole suletud
+gt PSentence (SPropNot (PropClosed (SuperlPlace TheClosest AmusementPark))) | l
+
+-- kui kaugel on disko jalgsi (minnes)
+gt PQuestion (HowFarBy (APlace Disco) ByFoot) | l
+
+-- kas sinu naisel on pizza
+gt PQuestion (QDoHave (Wife YouFamMale) (OneObj (ObjIndef Pizza))) | l
+
+-- kohtumiseni täna koolis
+gt PGreeting (PSeeYouPlaceDate (ThePlace School) Today) | l
+
+-- see õun
+gt (This Apple) | l
+
+-- too õun
+gt (That Apple) | l
+
+-- eriti värske soe liiga kallis õun
+gt The (SuchKind (Very Fresh) (SuchKind (PropQuality Warm) (SuchKind (Too Expensive) Apple))) | l
+
+-- see eriti kahtlane õun on maitsev
+gt Is (This (SuchKind (Very Suspect) Apple)) (PropQuality Delicious) | l
+
+-- seitsekümmend üks tuhat nelikümmend üks
+gt NNumeral (num (pot3plus (pot1as2 (pot1plus n7 pot01)) (pot1as2 (pot1plus n4 pot01)))) | l
