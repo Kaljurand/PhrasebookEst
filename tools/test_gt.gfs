@@ -170,3 +170,15 @@ gt Is (This (SuchKind (Very Suspect) Apple)) (PropQuality Delicious) | l
 
 -- seitsekümmend üks tuhat nelikümmend üks
 gt NNumeral (num (pot3plus (pot1as2 (pot1plus n7 pot01)) (pot1as2 (pot1plus n4 pot01)))) | l
+
+-- seitsesada kaheksateist
+gt NNumeral (num (pot2as3 (pot2plus (pot0 n7) (pot1to19 n8)))) | l
+
+-- sada tuhat kakssada viisteist
+gt NNumeral (num (pot3plus (pot2 pot01) (pot2plus (pot0 n2) (pot1to19 n5)))) | l
+
+-- mis on minu tütre nimi
+gt PQuestion (QWhatName (Daughter IMale)) | l
+
+-- kas vein on liiga kahtlane
+gt PQuestion (QProp (IsMass Wine (Too Suspect))) | l

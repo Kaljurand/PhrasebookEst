@@ -62,25 +62,25 @@ hispaanlane restoran
 rootslane restoran
 
 
-kuinka kaukana haigla on jalgsi
+kuinka kaugel haigla on jalgsi
 
-kuinka kaukana haigla on ratael
+kuinka kaugel haigla on ratael
 
-kuinka kaukana haigla on bussel
+kuinka kaugel haigla on bussel
 
-kuinka kaukana haigla on autel
+kuinka kaugel haigla on autel
 
-kuinka kaukana haigla on praamil
+kuinka kaugel haigla on praamil
 
-kuinka kaukana haigla on lennuel
+kuinka kaugel haigla on lennuel
 
-kuinka kaukana haigla on metroonl
+kuinka kaugel haigla on metroonl
 
-kuinka kaukana haigla on taksonl
+kuinka kaugel haigla on taksonl
 
-kuinka kaukana haigla on junanl
+kuinka kaugel haigla on junanl
 
-kuinka kaukana haigla on trammil
+kuinka kaugel haigla on trammil
 
 
 olen belgia
@@ -204,22 +204,22 @@ olen rootslases restoranis
 populaarsn kool on suletud reedeti .
 
 
-kahdeksan odavi õuna kiitos !
+kaheksa odavi õuna palun !
 
 
-yhdeksän &+ kymmentä Taani krooni .
+üheksa &+ kümmend Taani krooni .
 
 
 naine &+ ni puhuu taania .
 
 
-kui palju tuo soomlane kana maksaa ?
+kui palju too soomlane kana maksaa ?
 
 
 odavaim keskus on avatud .
 
 
-tämä õun on hyvää .
+see õun on hyvää .
 
 
 kus hotell on ?
@@ -228,19 +228,19 @@ kus hotell on ?
 ei ole soomlane .
 
 
-minulla on pizza .
+minul on pizza .
 
 
 mieel &+ si on õunu .
 
 
-kui palju nuo õunad maksavat ?
+kui palju nood õunad maksavat ?
 
 
 haigla on avatud reedeina .
 
 
-kohvik ei ole avatud tänään .
+kohvik ei ole avatud täna .
 
 
 pääsee &+ kÃ¶ trammil kõrtsesse ?
@@ -255,27 +255,39 @@ NNel on pizzojen .
 lähim lõbustuspark ei ole suletud .
 
 
-kuinka kaukana disko on jalgsi ?
+kuinka kaugel disko on jalgsi ?
 
 
 on &+ ko naisel &+ si pizza ?
 
 
-kohtumiseni koolil tänään !
+kohtumiseni koolil täna !
 
 
-tämä õun
+see õun
 
 
-tuo õun
+too õun
 
 
 eriti toores lämmin liiga kallis õun
 
 
-tämä eriti kahtlane õun on maitsevi
+see eriti kahtlane õun on maitsevi
 
 
-seitsemän &+ kymmentä &+ yksi &+ tuhatta neljä &+ kymmentä &+ yksi
+seitse &+ kümmend &+ üks &+ tuhat neli &+ kümmend &+ üks
+
+
+seitse &+ sada &+ kaheksa &+ teist
+
+
+sada &+ tuhat kaks &+ sada &+ viis &+ teist
+
+
+mikä on tüttaren &+ ni nimi ?
+
+
+on &+ ko viini liiga kahtlast ?
 
 

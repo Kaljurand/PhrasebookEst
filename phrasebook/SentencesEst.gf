@@ -37,7 +37,6 @@ concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
 
     ObjMass = PartCN ;
 
-    GObjectPlease o = lin Text (mkPhr noPConj (mkUtt o) (lin Voc (ss "kiitos"))) ;
-
+    GObjectPlease o = lin Text (mkPhr noPConj (mkUtt o) (lin Voc (ss "palun"))) ;
 
   }
