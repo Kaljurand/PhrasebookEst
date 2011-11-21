@@ -1,65 +1,68 @@
+checking module SentencesEst
+   Happened in linearization of PGreeting in SentencesEst.gf, line 51:
+      Warning: ignoring lock fields in resolving mkText (lin Phr g) exclMarkPunct
 tere !
 
 
-kohtumiseni reedeina !
+kohtumiseni reedeil !
 
-kohtumiseni esmaspäevina !
+kohtumiseni esmaspäevil !
 
-kohtumiseni laupäevina !
+kohtumiseni laupäevil !
 
-kohtumiseni pühapäevina !
+kohtumiseni pühapäevil !
 
-kohtumiseni neljapäevina !
+kohtumiseni neljapäevil !
 
-kohtumiseni teisipäevina !
+kohtumiseni teisipäevil !
 
-kohtumiseni kolmapäevina !
+kohtumiseni kolmapäevil !
 
 
-kohtumiseni parhaimmans hollandlases restoranis !
+kohtumiseni parhaimmans hollandins restoranis !
 
-kohtumiseni lähimmäns hollandlases restoranis !
+kohtumiseni lähimmäns hollandins restoranis !
 
-kohtumiseni odavaimmans hollandlases restoranis !
+kohtumiseni odavaimmans hollandins restoranis !
 
-kohtumiseni kalleimmans hollandlases restoranis !
+kohtumiseni kalleimmans hollandins restoranis !
 
-kohtumiseni populaarsmmans hollandlases restoranis !
+kohtumiseni populaarsmmans hollandins restoranis !
 
-kohtumiseni halbmmans hollandlases restoranis !
+kohtumiseni halbmmans hollandins restoranis !
 
 
 belgia restoran
 
-bulgaarlane restoran
+bulgaaria restoran
 
-kataloonlane restoran
+katalaani restoran
 
-taanlane restoran
+taani restoran
 
-hollandlane restoran
+hollandi restoran
 
-inglane restoran
+inglise restoran
 
-soomlane restoran
+soome restoran
 
-prantslane restoran
+prantsuse restoran
 
-sakslane restoran
+saksa restoran
 
-itaallane restoran
+itaalia restoran
 
-norralane restoran
+norra restoran
 
-poolakas restoran
+poola restoran
 
-rumeenlane restoran
+rumeenia restoran
 
-venelane restoran
+vene restoran
 
-hispaanlane restoran
+hispaania restoran
 
-rootslane restoran
+rootsi restoran
 
 
 kuinka kaugel haigla on jalgsi
@@ -78,45 +81,45 @@ kuinka kaugel haigla on metroonl
 
 kuinka kaugel haigla on taksonl
 
-kuinka kaugel haigla on junanl
+kuinka kaugel haigla on rongil
 
 kuinka kaugel haigla on trammil
 
 
 mina olen belgia
 
-mina olen bulgaarlane
+mina olen bulgaaria
 
-mina olen kataloonlane
+mina olen katalaani
 
-mina olen taanlane
+mina olen taani
 
-mina olen hollandlane
+mina olen hollandi
 
-mina olen inglane
+mina olen inglise
 
-mina olen soomlane
+mina olen soome
 
-mina olen prantslane
+mina olen prantsuse
 
-mina olen sakslane
+mina olen saksa
 
-mina olen itaallane
+mina olen itaalia
 
-mina olen norralane
+mina olen norra
 
-mina olen poolakas
+mina olen poola
 
-mina olen rumeenlane
+mina olen rumeenia
 
-mina olen venelane
+mina olen vene
 
-mina olen hispaanlane
+mina olen hispaania
 
-mina olen rootslane
+mina olen rootsi
 
 
-mina olen lennuvälinl
+mina olen lennujaamis
 
 mina olen lõbustusparkis
 
@@ -142,7 +145,7 @@ mina olen muuseumis
 
 mina olen parkis
 
-mina olen parklanl
+mina olen parklans
 
 mina olen apteekis
 
@@ -152,11 +155,11 @@ mina olen kõrtses
 
 mina olen restoranis
 
-mina olen koolil
+mina olen koolis
 
 mina olen poodis
 
-mina olen jaamil
+mina olen jaamis
 
 mina olen supermarketis
 
@@ -164,41 +167,41 @@ mina olen teateris
 
 mina olen tualettis
 
-mina olen ülikoolil
+mina olen ülikoolis
 
 mina olen loomaaedis
 
 mina olen belgians restoranis
 
-mina olen bulgaarlases restoranis
+mina olen bulgaarians restoranis
 
-mina olen kataloonlases restoranis
+mina olen katalaanins restoranis
 
-mina olen taanlases restoranis
+mina olen taanins restoranis
 
-mina olen hollandlases restoranis
+mina olen hollandins restoranis
 
-mina olen inglases restoranis
+mina olen ingliseis restoranis
 
-mina olen soomlases restoranis
+mina olen soomeis restoranis
 
-mina olen prantslases restoranis
+mina olen prantsuseis restoranis
 
-mina olen sakslases restoranis
+mina olen saksans restoranis
 
-mina olen itaallases restoranis
+mina olen itaalians restoranis
 
-mina olen norralases restoranis
+mina olen norrans restoranis
 
-mina olen poolakases restoranis
+mina olen poolans restoranis
 
-mina olen rumeenlases restoranis
+mina olen rumeenians restoranis
 
-mina olen venelases restoranis
+mina olen veses restoranis
 
-mina olen hispaanlases restoranis
+mina olen hispaanians restoranis
 
-mina olen rootslases restoranis
+mina olen rootsins restoranis
 
 
 populaarsn kool on suletud reedeti .
@@ -210,10 +213,10 @@ kaheksa odavi õuna palun !
 üheksa &+ kümmend Taani krooni .
 
 
-minu naine &+ 0 puhuu taania .
+minu naine &+ 0 puhuu taania keeltä .
 
 
-kui palju too soomlane kana maksaa ?
+kui palju too soome kana maksaa ?
 
 
 odavaim keskus on avatud .
@@ -225,7 +228,7 @@ see õun on hyvää .
 kus hotell on ?
 
 
-mina ei ole soomlane .
+mina ei ole soome .
 
 
 minul on pizza .
@@ -237,7 +240,7 @@ sinu mieel &+ 0 on õunu .
 kui palju nood õunad maksavat ?
 
 
-haigla on avatud reedeina .
+haigla on avatud reedeil .
 
 
 kohvik ei ole avatud täna .
@@ -261,7 +264,7 @@ kuinka kaugel disko on jalgsi ?
 kas sinu naisel &+ 0 on pizza ?
 
 
-kohtumiseni koolil täna !
+kohtumiseni koolis täna !
 
 
 see õun
@@ -301,5 +304,17 @@ mis on teie naise &+ 0 nimi ?
 
 
 mina ei tahdo mennä .
+
+
+kas nood pizzand on eriti belgioiden ?
+
+
+kuinka kaugel odavaim haigla on baarenst jalgsi ?
+
+
+kuinka kaugel halbn keskus on praamil ?
+
+
+kuinka kaugel kalleim kohvik on ?
 
 

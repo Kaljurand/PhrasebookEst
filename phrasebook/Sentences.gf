@@ -134,10 +134,10 @@ abstract Sentences = Numeral ** {
     YouFamMale, YouFamFemale,           -- familiar you, said to man/woman (affects agreement)
     YouPolMale, YouPolFemale : Person ; -- polite you, said to man/woman (affects agreement)
 
-    LangNat    : Nationality -> Language ;    -- Swedish
-    CitiNat    : Nationality -> Citizenship ; -- Swedish
-    CountryNat : Nationality -> Country ;     -- Sweden
-    PropCit    : Citizenship -> Property ;    -- Swedish
+    LangNat    : Nationality -> Language ;    -- Swedish, eesti keel
+    CitiNat    : Nationality -> Citizenship ; -- Swedish, eesti (mets)
+    CountryNat : Nationality -> Country ;     -- Sweden, Eesti
+    PropCit    : Citizenship -> Property ;    -- Swedish, eestlane (?)
 
     OnDay      : Day -> Date ;  -- on Friday
     Today      : Date ;         -- today

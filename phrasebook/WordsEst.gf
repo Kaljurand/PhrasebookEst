@@ -48,8 +48,8 @@ concrete WordsEst of Words = SentencesEst **
     Bar = mkPlace (mkN "baar") ssa ;
     Toilet = mkPlace (mkN "tualett") ssa ;
     Museum = mkPlace (mkN "muuseum") ssa ;
-    Airport = mkPlace (mkN "lennu" (mkN "väli")) lla ;
-    Station = mkPlace (mkN "jaam") lla ;
+    Airport = mkPlace (mkN "lennujaam") ssa ; -- different in Fin
+    Station = mkPlace (mkN "jaam") ssa ; -- different in Fin
     Hospital = mkPlace (mkN "haigla") ssa ;
     Church = mkPlace (mkN "kirik") ssa ;
     Cinema = mkPlace (mkN "kino") ssa ;
@@ -57,20 +57,25 @@ concrete WordsEst of Words = SentencesEst **
     Shop = mkPlace (mkN "pood") ssa ;
     Park = mkPlace (mkN "park") ssa ;
     Hotel = mkPlace (mkN "hotell") ssa ;
-    University = mkPlace (mkN "ülikool") lla ;
-    School = mkPlace (mkN "kool") lla ;
+    University = mkPlace (mkN "ülikool") ssa ; -- different in Fin
+    School = mkPlace (mkN "kool") ssa ; -- different in Fin
 
     CitRestaurant cit = {
-      name = mkCN cit (mkN "restoran") ; at = casePrep inessive ; to = casePrep illative; from = casePrep elative ; isPl = False
+      name = mkCN cit (mkN "restoran") ;
+      at = casePrep inessive ;
+      to = casePrep illative;
+      from = casePrep elative ;
+      isPl = False
       } ;
-    Parking = mkPlace (mkN "parkla") lla ;
+
+    Parking = mkPlace (mkN "parkla") ssa ; -- different in Fin
     Supermarket = mkPlace (mkN "supermarket") ssa ;
     Pharmacy = mkPlace (mkN "apteek") ssa ;
     Center = mkPlace (mkN "keskus") ssa ;
     Cafeteria = mkPlace (mkN "kohvik") ssa ;
     Disco = mkPlace (mkN "disko") ssa ;
     Pub = mkPlace (mkN "kõrts") ssa ;
-    AmusementPark = mkPlace (mkN "lõbustus" (mkN "park")) ssa ;
+    AmusementPark = mkPlace (mkN "lõbustuspark") ssa ;
     Zoo = mkPlace (mkN "looma" (mkN "aed")) ssa ;
 
 -- currencies
@@ -86,27 +91,29 @@ concrete WordsEst of Words = SentencesEst **
     SwedishCrown = mkCN (mkN "Rootsi kroon") | mkCN (mkN "kroon") ;
     Zloty = mkCN (mkN "zlott" "zlotyja") ; --TODO
 
-
--- nationalities
-
+-- Citizenship
     Belgian = mkA "belgia" ;
+
+-- Country
     Belgium = mkNP (mkPN "Belgia") ;
-    Bulgarian = mkNat (mkPN "bulgaaria") (mkPN "Bulgaaria") (mkA "bulgaarlane") ;
-    Catalan = mkNat (mkPN "katalaani") (mkPN "Kataloonia") (mkA "kataloonlane") ;
-    Danish = mkNat (mkPN "taani") (mkPN "Taani") (mkA "taanlane") ;
-    Dutch = mkNat (mkPN "hollandi") (mkPN "Holland") (mkA "hollandlane") ;
-    English = mkNat (mkPN "inglise") (mkPN "Inglismaa") (mkA "inglane") ;
-    Finnish = mkNat (mkPN "soome") (mkPN "Soome") (mkA "soomlane") ;
-    Flemish = mkNP (mkPN "flaami") ;
-    French = mkNat (mkPN "prantsuse") (mkPN "Prantsusmaa") (mkA "prantslane") ;
-    German = mkNat (mkPN "saksa") (mkPN "Saksamaa") (mkA "sakslane") ;
-    Italian = mkNat (mkPN "itaalia") (mkPN "Itaalia") (mkA "itaallane") ;
-    Norwegian = mkNat (mkPN "norra") (mkPN "Norra") (mkA "norralane") ;
-    Polish = mkNat (mkPN "poola") (mkPN "Poola") (mkA "poolakas") ;
-    Romanian = mkNat (mkPN "rumeenia") (mkPN "Rumeenia") (mkA "rumeenlane") ;
-    Russian = mkNat (mkPN "vene") (mkPN "Venemaa") (mkA "venelane") ;
-    Spanish = mkNat (mkPN "hispaania") (mkPN "Hispaania") (mkA "hispaanlane") ;
-    Swedish = mkNat (mkPN "rootsi") (mkPN "Rootsi") (mkA "rootslane") ;
+
+-- Nationality
+    Bulgarian = mkNat ("bulgaaria") (mkPN "Bulgaaria") ;
+    Catalan = mkNat ("katalaani") (mkPN "Kataloonia") ;
+    Danish = mkNat ("taani") (mkPN "Taani") ;
+    Dutch = mkNat ("hollandi") (mkPN "Holland") ;
+    English = mkNat ("inglise") (mkPN "Inglismaa") ;
+    Finnish = mkNat ("soome") (mkPN "Soome") ;
+    Flemish = mkNP (mkPN "flaami keel") ; -- Language
+    French = mkNat ("prantsuse") (mkPN "Prantsusmaa") ;
+    German = mkNat ("saksa") (mkPN "Saksamaa") ;
+    Italian = mkNat ("itaalia") (mkPN "Itaalia") ;
+    Norwegian = mkNat ("norra") (mkPN "Norra") ;
+    Polish = mkNat ("poola") (mkPN "Poola") ;
+    Romanian = mkNat ("rumeenia") (mkPN "Rumeenia") ;
+    Russian = mkNat ("vene") (mkPN "Venemaa") ;
+    Spanish = mkNat ("hispaania") (mkPN "Hispaania") ;
+    Swedish = mkNat ("rootsi") (mkPN "Rootsi") ;
 
     ---- it would be nice to have a capitalization Predef function
 
@@ -230,18 +237,22 @@ concrete WordsEst of Words = SentencesEst **
     SuperlPlace sup p = placeNP sup p ;
 
   oper
-    mkNat : PN -> PN -> A ->
-      {lang : NP ; prop : A ; country : NP} = \nat,co,pro ->
-        {lang = mkNP nat ;
-         prop = pro ;
+    mkNat : Str -> PN ->
+      {lang : NP ; prop : A ; country : NP} = \pro,co ->
+        {lang = mkNP (mkCN (mkA pro) (mkN "keel"));
+         prop = mkA pro ;
          country = mkNP co
         } ;
 
     ---- using overloaded paradigms slows down compilation dramatically
+    -- Eng: See you on Monday!
+    -- Est: Kohtumiseni esmaspäeval! (adessive)
+    -- Fin: Nähdään maanantaina! (essive)
+    -- TODO: use StructuralEst.gf: on_Prep = casePrep adessive
     mkDay : PN -> Str -> {name : NP ; point : Adv ; habitual : Adv} = \d,s ->
       let day = mkNP d in
       {name = day ;
-       point = SyntaxEst.mkAdv (casePrep essive) day ;
+       point = SyntaxEst.mkAdv (casePrep adessive) day ;
        habitual = ParadigmsEst.mkAdv s
       } ;
 
@@ -252,6 +263,7 @@ concrete WordsEst of Words = SentencesEst **
       from = casePrep (if_then_else Case e ablative elative) ;
       isPl = False
    } ;
+
     ssa = False ;
     lla = True ;
 

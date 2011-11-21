@@ -194,3 +194,15 @@ gt PQuestion (QWhatName (Wife YouPolMale)) | l
 
 -- ma ei taha minna halvimasse hotelli
 gt PSentence (SPropNot (PropAction (AWantGo IFemale (SuperlPlace TheWorst Hotel)))) | l
+
+-- kas nood pitsad on eriti belgiapärased
+gt PQuestion (QProp (Is (Those Pizza) (Very (PropCit Belgian)))) | l
+
+-- kui kaugel on odavaim haigla baarist jalgsi (minnes)
+gt PQuestion (HowFarFromBy (ThePlace Bar) (SuperlPlace TheCheapest Hospital) ByFoot) | l
+
+-- kui kaugel on halvim keskus praamiga
+gt PQuestion (HowFarBy (SuperlPlace TheWorst Center) (ByTransp Ferry)) | l
+
+-- kui kaugel on kalleim kohvik
+gt PQuestion (HowFar (SuperlPlace TheMostExpensive Cafeteria)) | l
