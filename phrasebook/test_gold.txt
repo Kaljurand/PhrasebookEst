@@ -210,7 +210,7 @@ kaheksa odavi õuna palun !
 üheksa &+ kümmend Taani krooni .
 
 
-minu naine &+ ni puhuu taania .
+minu naine &+ 0 puhuu taania .
 
 
 kui palju too soomlane kana maksaa ?
@@ -231,7 +231,7 @@ mina ei ole soomlane .
 minul on pizza .
 
 
-sinu mieel &+ si on õunu .
+sinu mieel &+ 0 on õunu .
 
 
 kui palju nood õunad maksavat ?
@@ -243,7 +243,7 @@ haigla on avatud reedeina .
 kohvik ei ole avatud täna .
 
 
-pääsee &+ kÃ¶ trammil kõrtsesse ?
+kas pääsee trammil kõrtsesse ?
 
 
 suola ei ole eriti hyvää .
@@ -258,7 +258,7 @@ lähim lõbustuspark ei ole suletud .
 kuinka kaugel disko on jalgsi ?
 
 
-on &+ ko sinu naisel &+ si pizza ?
+kas sinu naisel &+ 0 on pizza ?
 
 
 kohtumiseni koolil täna !
@@ -285,10 +285,10 @@ seitse &+ sada &+ kaheksa &+ teist
 sada &+ tuhat kaks &+ sada &+ viis &+ teist
 
 
-mis on minu tüttaren &+ ni nimi ?
+mis on minu tüttaren &+ 0 nimi ?
 
 
-on &+ ko viini liiga kahtlast ?
+kas viini on liiga kahtlast ?
 
 
 sada &+ tuhat sada &+ kümmend .
@@ -297,6 +297,9 @@ sada &+ tuhat sada &+ kümmend .
 kümmend .
 
 
-mis on teie naise &+ nne nimi ?
+mis on teie naise &+ 0 nimi ?
+
+
+mina ei tahdo mennä .
 
 

@@ -10,5 +10,5 @@
 path="present:/home/kaarel/mywork/gf-estonian/estonian/:../lib/src/api/"
 
 cat ../tools/test_gt.gfs |\
-gf +RTS -K64M -RTS --preproc=mkPresent --run --path $path PhrasebookEst.gf > test_out.txt
+gf +RTS -K512M -RTS --preproc=mkPresent --run --path $path PhrasebookEst.gf > test_out.txt
 diff test_gold.txt test_out.txt

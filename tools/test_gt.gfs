@@ -191,3 +191,6 @@ gt PNumber (NNumeral (num (pot2as3 (pot1as2 pot110)))) | l
 
 -- mis on teie naise nimi
 gt PQuestion (QWhatName (Wife YouPolMale)) | l
+
+-- ma ei taha minna halvimasse hotelli
+gt PSentence (SPropNot (PropAction (AWantGo IFemale (SuperlPlace TheWorst Hotel)))) | l

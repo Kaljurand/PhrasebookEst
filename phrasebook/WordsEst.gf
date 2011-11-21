@@ -6,7 +6,7 @@ concrete WordsEst of Words = SentencesEst **
     SyntaxEst, ParadigmsEst, (L = LexiconEst),
     Prelude, (E = ExtraEst) in {
 
-  flags optimize = noexpand ;
+  flags optimize = noexpand ; coding=utf8 ;
 
   lin
 
@@ -48,7 +48,7 @@ concrete WordsEst of Words = SentencesEst **
     Bar = mkPlace (mkN "baar") ssa ;
     Toilet = mkPlace (mkN "tualett") ssa ;
     Museum = mkPlace (mkN "muuseum") ssa ;
-    Airport = mkPlace (mkN "lennu" (mkN "v‰li")) lla ;
+    Airport = mkPlace (mkN "lennu" (mkN "v√§li")) lla ;
     Station = mkPlace (mkN "jaam") lla ;
     Hospital = mkPlace (mkN "haigla") ssa ;
     Church = mkPlace (mkN "kirik") ssa ;
@@ -57,7 +57,7 @@ concrete WordsEst of Words = SentencesEst **
     Shop = mkPlace (mkN "pood") ssa ;
     Park = mkPlace (mkN "park") ssa ;
     Hotel = mkPlace (mkN "hotell") ssa ;
-    University = mkPlace (mkN "¸likool") lla ;
+    University = mkPlace (mkN "√ºlikool") lla ;
     School = mkPlace (mkN "kool") lla ;
 
     CitRestaurant cit = {
@@ -69,8 +69,8 @@ concrete WordsEst of Words = SentencesEst **
     Center = mkPlace (mkN "keskus") ssa ;
     Cafeteria = mkPlace (mkN "kohvik") ssa ;
     Disco = mkPlace (mkN "disko") ssa ;
-    Pub = mkPlace (mkN "kırts") ssa ;
-    AmusementPark = mkPlace (mkN "lıbustus" (mkN "park")) ssa ;
+    Pub = mkPlace (mkN "k√µrts") ssa ;
+    AmusementPark = mkPlace (mkN "l√µbustus" (mkN "park")) ssa ;
     Zoo = mkPlace (mkN "looma" (mkN "aed")) ssa ;
 
 -- currencies
@@ -132,9 +132,9 @@ concrete WordsEst of Words = SentencesEst **
     AHasName p name = mkCl (nameOf p) name ;
     AHasRoom p = haveForPerson p.name (mkCN (mkN "tuba")) ;
     AHasTable p = haveForPerson p.name (mkCN (mkN "laud")) ;
-    AHungry p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "n‰lg")) ;
+    AHungry p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "n√§lg")) ;
     AIll p = mkCl p.name (mkA "haige") ;
-    AKnow p = mkCl p.name (mkV "tiet‰‰") ;
+    AKnow p = mkCl p.name (mkV "tiet√§√§") ;
     ALike p item = mkCl p.name L.like_V2 item ;
     ALive p co = mkCl p.name (mkVP (mkVP (mkV "asua")) (SyntaxEst.mkAdv in_Prep co)) ;
     ALove p q = mkCl p.name (mkV2 (mkV "rakastaa") partitive) q.name ;
@@ -143,8 +143,8 @@ concrete WordsEst of Words = SentencesEst **
     AScared p = mkCl p.name (caseV partitive (mkV "pelottaa")) ;
     ASpeak p lang = mkCl p.name  (mkV2 (mkV "puhua") partitive) lang ;
     AThirsty p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "janu")) ;
-    ATired p = mkCl p.name (caseV partitive (mkV "v‰sytt‰‰")) ;
-    AUnderstand p = mkCl p.name (mkV "ymm‰rt‰‰") ;
+    ATired p = mkCl p.name (caseV partitive (mkV "v√§sytt√§√§")) ;
+    AUnderstand p = mkCl p.name (mkV "ymm√§rt√§√§") ;
     AWant p obj = mkCl p.name (mkV2 "haluta") obj ;
     AWantGo p place = mkCl p.name want_VV (mkVP (mkVP L.go_V) place.to) ;
 
@@ -182,18 +182,18 @@ concrete WordsEst of Words = SentencesEst **
     Wife = xOf sing (mkN "naine") ;
     Husband = xOf sing L.man_N ;
     Son = xOf sing L.boy_N ;
-    Daughter = xOf sing (mkN "t¸tar") ;
+    Daughter = xOf sing (mkN "t√ºtar") ;
     Children = xOf plur L.child_N ;
 
 -- week days
 
-    Monday = let d = "esmasp‰ev" in mkDay (mkPN d) (d + "iti") ;
-    Tuesday = let d = "teisip‰ev" in mkDay (mkPN d) (d + "iti") ;
-    Wednesday = let d = "kolmap‰ev" in mkDay (mkPN d) (d + "iti") ;
-    Thursday = let d = "neljap‰ev" in mkDay (mkPN d) (d + "iti") ;
+    Monday = let d = "esmasp√§ev" in mkDay (mkPN d) (d + "iti") ;
+    Tuesday = let d = "teisip√§ev" in mkDay (mkPN d) (d + "iti") ;
+    Wednesday = let d = "kolmap√§ev" in mkDay (mkPN d) (d + "iti") ;
+    Thursday = let d = "neljap√§ev" in mkDay (mkPN d) (d + "iti") ;
     Friday = let d = "reede" in mkDay (mkPN d) (d + "ti") ;
-    Saturday = let d = "laup‰ev" in mkDay (mkPN d) (d + "iti") ;
-    Sunday = let d = "p¸hap‰ev" in mkDay (mkPN d) (d + "iti") ;
+    Saturday = let d = "laup√§ev" in mkDay (mkPN d) (d + "iti") ;
+    Sunday = let d = "p√ºhap√§ev" in mkDay (mkPN d) (d + "iti") ;
 
     Tomorrow = ParadigmsEst.mkAdv "homme" ;
 
@@ -213,15 +213,15 @@ concrete WordsEst of Words = SentencesEst **
       mkQS (mkQCl (mkIP which_IDet trans.name) (mkVP (mkVP L.go_V) place.to)) ;
 
     IsTranspPlace trans place =
-      mkQS (mkQCl (mkCl (mkVP (mkVP (mkVP (mkV "p‰‰st‰")) trans.by) place.to))) ;
-      -- p‰‰seekˆ keskustaan bussilla
+      mkQS (mkQCl (mkCl (mkVP (mkVP (mkVP (mkV "p√§√§st√§")) trans.by) place.to))) ;
+      -- p√§√§seek√∂ keskustaan bussilla
       -- mkQS (mkQCl (E.AdvPredNP place.to L.go_V (E.PartCN (trans.name)))) ;
-      -- meneekˆ keskustaan bussia
+      -- meneek√∂ keskustaan bussia
 
 -- modifiers of places
 
     TheBest = mkSuperl L.good_A ;
-    TheClosest = mkSuperl (mkA (mkN "l‰hedal") "l‰hem" "l‰him") ;
+    TheClosest = mkSuperl (mkA (mkN "l√§hedal") "l√§hem" "l√§him") ;
     TheCheapest = mkSuperl (mkA (mkN "odav") "odavam" "odavaim") ;
     TheMostExpensive = mkSuperl (mkA (mkN "kallis") "kallim" "kalleim") ;
     TheMostPopular = mkSuperl (mkA "populaarne") ;
@@ -255,6 +255,10 @@ concrete WordsEst of Words = SentencesEst **
     ssa = False ;
     lla = True ;
 
+    -- Ger-grammar also uses this xOf (mis on nimi minu naise)
+    -- xOf : GNumber -> N -> NPPerson -> NPPerson = \n,x,p -> mkRelative n (mkCN x) p ;
+
+    -- (mis on minu naise nimi)
     xOf : GNumber -> N -> NPPerson -> NPPerson = \n,x,p ->
       relativePerson n (mkCN x) (\a,b,c -> mkNP (E.GenNP b) a c) p ;
 
@@ -266,7 +270,7 @@ concrete WordsEst of Words = SentencesEst **
       mkCl p have_V2
 ----      (mkNP (E.PartCN a)  ---- partitive works in questions )
         (mkNP (mkNP a_Det a)
-           (SyntaxEst.mkAdv for_Prep (mkNP n (mkN "henki" "henki‰")))) ;
+           (SyntaxEst.mkAdv for_Prep (mkNP n (mkN "henki" "henki√§")))) ;
 ----       (SyntaxEst.mkAdv for_Prep (mkNP (mkDet n)))) ; -- 60s faster compile 25/10/2010
 
     open_Adv = ParadigmsEst.mkAdv "avatud" ;
