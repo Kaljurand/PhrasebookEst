@@ -1,6 +1,5 @@
 concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
   [Is, IsMass, NameNN, ObjMass,
-   IFemale, YouFamFemale, YouPolFemale, IMale, YouFamMale, YouPolMale,
    NPPlace, CNPlace, placeNP, mkCNPlace, mkCNPlacePl,
    GObjectPlease
   ] with 
@@ -9,7 +8,7 @@ concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
   (Lexicon = LexiconEst) **
     open SyntaxEst, ExtraEst, (P = ParadigmsEst), (V = VerbEst), Prelude in {
 
-  flags optimize = noexpand ;
+  flags optimize = noexpand ; coding=utf8;
 
   oper
     NPPlace = {name : NP ; at : Adv ; to : Adv ; from : Adv} ;
@@ -24,16 +23,20 @@ concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
     } ;
 
   lin 
-    Is item prop = mkCl item (V.UseComp (CompPartAP prop)) ; -- t‰m‰ pizza on herkullista
+    Is item prop = mkCl item (V.UseComp (CompPartAP prop)) ; -- t√§m√§ pizza on herkullista
     IsMass mass prop = mkCl (mkNP a_Det mass) (V.UseComp (CompPartAP prop)) ; -- pizza on herkullista
-    NameNN = mkNP (P.mkPN (P.mkN "NN" "NN:i‰")) ;
+    NameNN = mkNP (P.mkPN (P.mkN "NN" "NN:i√§")) ;
 
+  -- Estonian does not have possessive endings and does not make use of ProDrop
+  -- that much, so we do not override SentencesI, like Finnish does.
+{--
     IMale, IFemale = 
         {name = mkNP (ProDrop i_Pron) ; isPron = True ; poss = ProDropPoss i_Pron} ; 
     YouFamMale, YouFamFemale = 
         {name = mkNP (ProDrop youSg_Pron) ; isPron = True ; poss = ProDropPoss youSg_Pron} ; 
     YouPolMale, YouPolFemale = 
         {name = mkNP (ProDrop youPol_Pron) ; isPron = True ; poss = ProDropPoss youPol_Pron} ;
+--}
 
     ObjMass = PartCN ;
 

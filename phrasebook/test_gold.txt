@@ -83,122 +83,122 @@ kuinka kaugel haigla on junanl
 kuinka kaugel haigla on trammil
 
 
-olen belgia
+mina olen belgia
 
-olen bulgaarlane
+mina olen bulgaarlane
 
-olen kataloonlane
+mina olen kataloonlane
 
-olen taanlane
+mina olen taanlane
 
-olen hollandlane
+mina olen hollandlane
 
-olen inglane
+mina olen inglane
 
-olen soomlane
+mina olen soomlane
 
-olen prantslane
+mina olen prantslane
 
-olen sakslane
+mina olen sakslane
 
-olen itaallane
+mina olen itaallane
 
-olen norralane
+mina olen norralane
 
-olen poolakas
+mina olen poolakas
 
-olen rumeenlane
+mina olen rumeenlane
 
-olen venelane
+mina olen venelane
 
-olen hispaanlane
+mina olen hispaanlane
 
-olen rootslane
+mina olen rootslane
 
 
-olen lennuvälinl
+mina olen lennuvälinl
 
-olen lõbustusparkis
+mina olen lõbustusparkis
 
-olen pankis
+mina olen pankis
 
-olen baarens
+mina olen baarens
 
-olen kohvikis
+mina olen kohvikis
 
-olen keskuses
+mina olen keskuses
 
-olen kinons
+mina olen kinons
 
-olen kirikis
+mina olen kirikis
 
-olen diskons
+mina olen diskons
 
-olen haiglans
+mina olen haiglans
 
-olen hotellis
+mina olen hotellis
 
-olen muuseumis
+mina olen muuseumis
 
-olen parkis
+mina olen parkis
 
-olen parklanl
+mina olen parklanl
 
-olen apteekis
+mina olen apteekis
 
-olen postkontoris
+mina olen postkontoris
 
-olen kõrtses
+mina olen kõrtses
 
-olen restoranis
+mina olen restoranis
 
-olen koolil
+mina olen koolil
 
-olen poodis
+mina olen poodis
 
-olen jaamil
+mina olen jaamil
 
-olen supermarketis
+mina olen supermarketis
 
-olen teateris
+mina olen teateris
 
-olen tualettis
+mina olen tualettis
 
-olen ülikoolil
+mina olen ülikoolil
 
-olen loomaaedis
+mina olen loomaaedis
 
-olen belgians restoranis
+mina olen belgians restoranis
 
-olen bulgaarlases restoranis
+mina olen bulgaarlases restoranis
 
-olen kataloonlases restoranis
+mina olen kataloonlases restoranis
 
-olen taanlases restoranis
+mina olen taanlases restoranis
 
-olen hollandlases restoranis
+mina olen hollandlases restoranis
 
-olen inglases restoranis
+mina olen inglases restoranis
 
-olen soomlases restoranis
+mina olen soomlases restoranis
 
-olen prantslases restoranis
+mina olen prantslases restoranis
 
-olen sakslases restoranis
+mina olen sakslases restoranis
 
-olen itaallases restoranis
+mina olen itaallases restoranis
 
-olen norralases restoranis
+mina olen norralases restoranis
 
-olen poolakases restoranis
+mina olen poolakases restoranis
 
-olen rumeenlases restoranis
+mina olen rumeenlases restoranis
 
-olen venelases restoranis
+mina olen venelases restoranis
 
-olen hispaanlases restoranis
+mina olen hispaanlases restoranis
 
-olen rootslases restoranis
+mina olen rootslases restoranis
 
 
 populaarsn kool on suletud reedeti .
@@ -210,7 +210,7 @@ kaheksa odavi õuna palun !
 üheksa &+ kümmend Taani krooni .
 
 
-naine &+ ni puhuu taania .
+minu naine &+ ni puhuu taania .
 
 
 kui palju too soomlane kana maksaa ?
@@ -225,13 +225,13 @@ see õun on hyvää .
 kus hotell on ?
 
 
-ei ole soomlane .
+mina ei ole soomlane .
 
 
 minul on pizza .
 
 
-mieel &+ si on õunu .
+sinu mieel &+ si on õunu .
 
 
 kui palju nood õunad maksavat ?
@@ -258,7 +258,7 @@ lähim lõbustuspark ei ole suletud .
 kuinka kaugel disko on jalgsi ?
 
 
-on &+ ko naisel &+ si pizza ?
+on &+ ko sinu naisel &+ si pizza ?
 
 
 kohtumiseni koolil täna !
@@ -285,9 +285,18 @@ seitse &+ sada &+ kaheksa &+ teist
 sada &+ tuhat kaks &+ sada &+ viis &+ teist
 
 
-mikä on tüttaren &+ ni nimi ?
+mis on minu tüttaren &+ ni nimi ?
 
 
 on &+ ko viini liiga kahtlast ?
+
+
+sada &+ tuhat sada &+ kümmend .
+
+
+kümmend .
+
+
+mis on teie naise &+ nne nimi ?
 
 

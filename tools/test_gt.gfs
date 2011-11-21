@@ -182,3 +182,12 @@ gt PQuestion (QWhatName (Daughter IMale)) | l
 
 -- kas vein on liiga kahtlane
 gt PQuestion (QProp (IsMass Wine (Too Suspect))) | l
+
+-- ???
+gt PNumber (NNumeral (num (pot3plus (pot2 pot01) (pot2plus pot01 pot110)))) | l
+
+-- ???
+gt PNumber (NNumeral (num (pot2as3 (pot1as2 pot110)))) | l
+
+-- mis on teie naise nimi
+gt PQuestion (QWhatName (Wife YouPolMale)) | l
