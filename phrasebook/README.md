@@ -6,15 +6,23 @@ Introduction
 
 Estonian concrete syntax for the MOLTO Phrasebook.
 
+Depends on the (emerging) Estonian resource grammar (http://code.google.com/p/gf-estonian/).
+
 
 Usage
 -----
 
-	gf +RTS -K64M -RTS --path "present:../lib/src/estonian/" PhrasebookEst.gf
+For usage examples see the scripts:
 
+  * `run.sh`
+  * `test.sh`
+  * `make-pgf.sh`
 
 Testing
 -------
+
+One test run can take up to 8 minutes on an Intel i3. The runtime does not
+depend on the number of tests but rather on which files need to be recompiled.
 
 	time ./test.sh
 
@@ -38,11 +46,8 @@ and which are going to be ported to Estonian in this project:
   * WordsEst.gf
   * SentencesEst.gf
 
-The emerging Estonian RGL which is developed temporarily in this repository:
-
-  * ../lib/src/estonian/
-
-(The main repository of the Estonian RGL is http://code.google.com/p/gf-estonian/.)
+The Estonian resource grammar must be downloaded from http://code.google.com/p/gf-estonian/
+and set up in a directory that is on the GF path (see e.g. `test.sh`).
 
 Some other required modules are not included in this repository.
 They are expected to be found in:
