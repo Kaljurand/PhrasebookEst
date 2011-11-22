@@ -206,3 +206,6 @@ gt PQuestion (HowFarBy (SuperlPlace TheWorst Center) (ByTransp Ferry)) | l
 
 -- kui kaugel on kalleim kohvik
 gt PQuestion (HowFar (SuperlPlace TheMostExpensive Cafeteria)) | l
+
+-- sada üksteist tuhat
+gt PNumber (NNumeral (num (pot3 (pot2plus pot01 pot111)))) | l

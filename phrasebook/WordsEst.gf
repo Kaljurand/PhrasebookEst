@@ -288,9 +288,11 @@ concrete WordsEst of Words = SentencesEst **
     open_Adv = ParadigmsEst.mkAdv "avatud" ;
     closed_Adv = ParadigmsEst.mkAdv "suletud" ;
 
+    -- Fin: casePrep adessive
+    -- Est: casePrep comitative
     mkTransport : N -> {name : CN ; by : Adv} = \n -> {
       name = mkCN n ;
-      by = SyntaxEst.mkAdv (casePrep adessive) (mkNP n)
+      by = SyntaxEst.mkAdv (casePrep comitative) (mkNP n)
       } ;
 
     mkSuperl : A -> Det = \a -> mkDet the_Quant (mkOrd a) ;

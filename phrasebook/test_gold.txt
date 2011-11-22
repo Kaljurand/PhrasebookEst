@@ -1,6 +1,3 @@
-checking module SentencesEst
-   Happened in linearization of PGreeting in SentencesEst.gf, line 51:
-      Warning: ignoring lock fields in resolving mkText (lin Phr g) exclMarkPunct
 tere !
 
 
@@ -19,17 +16,17 @@ kohtumiseni teisipäevil !
 kohtumiseni kolmapäevil !
 
 
-kohtumiseni parhaimmans hollandins restoranis !
+kohtumiseni parimmans hollandins restoranis !
 
-kohtumiseni lähimmäns hollandins restoranis !
+kohtumiseni lähimmins hollandins restoranis !
 
 kohtumiseni odavaimmans hollandins restoranis !
 
 kohtumiseni kalleimmans hollandins restoranis !
 
-kohtumiseni populaarsmmans hollandins restoranis !
+kohtumiseni populaarsimmans hollandins restoranis !
 
-kohtumiseni halbmmans hollandins restoranis !
+kohtumiseni halbimmans hollandins restoranis !
 
 
 belgia restoran
@@ -65,25 +62,25 @@ hispaania restoran
 rootsi restoran
 
 
-kuinka kaugel haigla on jalgsi
+kui kaugel haigla on jalgsi
 
-kuinka kaugel haigla on ratael
+kui kaugel haigla on rataega
 
-kuinka kaugel haigla on bussel
+kui kaugel haigla on bussega
 
-kuinka kaugel haigla on autel
+kui kaugel haigla on autega
 
-kuinka kaugel haigla on praamil
+kui kaugel haigla on praamiga
 
-kuinka kaugel haigla on lennuel
+kui kaugel haigla on lennuega
 
-kuinka kaugel haigla on metroonl
+kui kaugel haigla on metroonga
 
-kuinka kaugel haigla on taksonl
+kui kaugel haigla on taksonga
 
-kuinka kaugel haigla on rongil
+kui kaugel haigla on rongiga
 
-kuinka kaugel haigla on trammil
+kui kaugel haigla on trammiga
 
 
 mina olen belgia
@@ -204,7 +201,7 @@ mina olen hispaanians restoranis
 mina olen rootsins restoranis
 
 
-populaarsn kool on suletud reedeti .
+populaarsim kool on suletud reedeti .
 
 
 kaheksa odavi õuna palun !
@@ -213,7 +210,7 @@ kaheksa odavi õuna palun !
 üheksa &+ kümmend Taani krooni .
 
 
-minu naine &+ 0 puhuu taania keeltä .
+minu naine &+ 0 puhuu taania keelti .
 
 
 kui palju too soome kana maksaa ?
@@ -222,7 +219,7 @@ kui palju too soome kana maksaa ?
 odavaim keskus on avatud .
 
 
-see õun on hyvää .
+see õun on heaa .
 
 
 kus hotell on ?
@@ -234,7 +231,7 @@ mina ei ole soome .
 minul on pizza .
 
 
-sinu mieel &+ 0 on õunu .
+sinu meesel &+ 0 on õunu .
 
 
 kui palju nood õunad maksavat ?
@@ -246,10 +243,10 @@ haigla on avatud reedeil .
 kohvik ei ole avatud täna .
 
 
-kas pääsee trammil kõrtsesse ?
+kas pääsee trammiga kõrtsesse ?
 
 
-suola ei ole eriti hyvää .
+sool ei ole eriti heaa .
 
 
 NNel on pizzojen .
@@ -258,7 +255,7 @@ NNel on pizzojen .
 lähim lõbustuspark ei ole suletud .
 
 
-kuinka kaugel disko on jalgsi ?
+kui kaugel disko on jalgsi ?
 
 
 kas sinu naisel &+ 0 on pizza ?
@@ -273,28 +270,28 @@ see õun
 too õun
 
 
-eriti toores lämmin liiga kallis õun
+eriti toores soe liiga kallis õun
 
 
 see eriti kahtlane õun on maitsevi
 
 
-seitse &+ kümmend &+ üks &+ tuhat neli &+ kümmend &+ üks
+seitse &+ kümmend üks tuhat neli &+ kümmend üks
 
 
-seitse &+ sada &+ kaheksa &+ teist
+seitse &+ sada kaheksa &+ teist
 
 
-sada &+ tuhat kaks &+ sada &+ viis &+ teist
+sada tuhat kaks &+ sada viis &+ teist
 
 
 mis on minu tüttaren &+ 0 nimi ?
 
 
-kas viini on liiga kahtlast ?
+kas vein on liiga kahtlast ?
 
 
-sada &+ tuhat sada &+ kümmend .
+sada tuhat sada kümmend .
 
 
 kümmend .
@@ -309,12 +306,15 @@ mina ei tahdo mennä .
 kas nood pizzand on eriti belgioiden ?
 
 
-kuinka kaugel odavaim haigla on baarenst jalgsi ?
+kui kaugel odavaim haigla on baarenst jalgsi ?
 
 
-kuinka kaugel halbn keskus on praamil ?
+kui kaugel halbim keskus on praamiga ?
 
 
-kuinka kaugel kalleim kohvik on ?
+kui kaugel kalleim kohvik on ?
+
+
+sada üks &+ teist tuhat .
 
 
