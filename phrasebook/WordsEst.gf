@@ -141,17 +141,28 @@ concrete WordsEst of Words = SentencesEst **
     AHasTable p = haveForPerson p.name (mkCN (mkN "laud")) ;
     AHungry p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "nälg")) ;
     AIll p = mkCl p.name (mkA "haige") ;
-    AKnow p = mkCl p.name (mkV "tietää") ;
+    AKnow p = mkCl p.name (mkV "teada") ;
     ALike p item = mkCl p.name L.like_V2 item ;
     ALive p co = mkCl p.name (mkVP (mkVP (mkV "asua")) (SyntaxEst.mkAdv in_Prep co)) ;
-    ALove p q = mkCl p.name (mkV2 (mkV "rakastaa") partitive) q.name ;
+    ALove p q = mkCl p.name (mkV2 (mkV "armastada") partitive) q.name ;
     AMarried p = mkCl p.name (ParadigmsEst.mkAdv "abielus") ;
     AReady p = mkCl p.name (ParadigmsEst.mkA "valmis") ;
-    AScared p = mkCl p.name (caseV partitive (mkV "pelottaa")) ;
-    ASpeak p lang = mkCl p.name  (mkV2 (mkV "puhua") partitive) lang ;
+    -- Eng: I am scared
+    -- Fin: Minua pelottaa (partitive)
+    -- Est: Mina kardan (nominative)
+    -- karta causes: gf: evalTerm (tk)
+    AScared p = mkCl p.name (caseV nominative (mkV "pelottaa")) ;
+    -- Fin: puhua: Puhun hollantia (partitive)
+    -- Est: Mina räägin hollandi keelt (partitive)
+    ASpeak p lang = mkCl p.name (mkV2 (mkV "rääkida") partitive) lang ;
     AThirsty p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "janu")) ;
+    -- Eng: I am tired
+    -- Fin: Minua väsyttää. (partitive)
+    -- Ger: Ich bin müde.
+    -- Est: Mina olen väsinud.
     ATired p = mkCl p.name (caseV partitive (mkV "väsyttää")) ;
-    AUnderstand p = mkCl p.name (mkV "ymmärtää") ;
+    AUnderstand p = mkCl p.name (mkV "mõista") ;
+    -- TODO: haluta -> tahta
     AWant p obj = mkCl p.name (mkV2 "haluta") obj ;
     AWantGo p place = mkCl p.name want_VV (mkVP (mkVP L.go_V) place.to) ;
 
@@ -267,7 +278,7 @@ concrete WordsEst of Words = SentencesEst **
     ssa = False ;
     lla = True ;
 
-    -- Ger-grammar also uses this xOf (mis on nimi minu naise)
+    -- Ger-grammar uses this xOf (mis on nimi minu naise)
     -- xOf : GNumber -> N -> NPPerson -> NPPerson = \n,x,p -> mkRelative n (mkCN x) p ;
 
     -- (mis on minu naise nimi)
@@ -282,7 +293,7 @@ concrete WordsEst of Words = SentencesEst **
       mkCl p have_V2
 ----      (mkNP (E.PartCN a)  ---- partitive works in questions )
         (mkNP (mkNP a_Det a)
-           (SyntaxEst.mkAdv for_Prep (mkNP n (mkN "henki" "henkiä")))) ;
+           (SyntaxEst.mkAdv for_Prep (mkNP n L.person_N))) ;
 ----       (SyntaxEst.mkAdv for_Prep (mkNP (mkDet n)))) ; -- 60s faster compile 25/10/2010
 
     open_Adv = ParadigmsEst.mkAdv "avatud" ;

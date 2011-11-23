@@ -209,3 +209,6 @@ gt PQuestion (HowFar (SuperlPlace TheMostExpensive Cafeteria)) | l
 
 -- sada üksteist tuhat
 gt PNumber (NNumeral (num (pot3 (pot2plus pot01 pot111)))) | l
+
+-- kas teil on laud viiele inimesele
+l PQuestion (QProp (PropAction (AHasTable YouPolMale (NNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5)))))))))

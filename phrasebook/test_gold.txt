@@ -210,7 +210,7 @@ kaheksa odavi õuna palun !
 üheksa &+ kümmend Taani krooni .
 
 
-minu naine &+ 0 puhuu taania keelti .
+minu naine &+ 0 rääki taania keelti .
 
 
 kui palju too soome kana maksaa ?
@@ -316,5 +316,8 @@ kui kaugel kalleim kohvik on ?
 
 
 sada üks &+ teist tuhat .
+
+
+kas teiel on laud viisele inimesele ?
 
 
