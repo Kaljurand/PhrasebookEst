@@ -213,7 +213,7 @@ kaheksa odavi õuna palun !
 minu naine &+ 0 rääki taania keelti .
 
 
-kui palju too soome kana maksaa ?
+kui palju too soome kana maksee ?
 
 
 odavaim keskus on avatud .
@@ -234,7 +234,7 @@ minul on pizza .
 sinu meesel &+ 0 on õunu .
 
 
-kui palju nood õunad maksavat ?
+kui palju nood õunad maksevat ?
 
 
 haigla on avatud reedeil .
@@ -243,7 +243,7 @@ haigla on avatud reedeil .
 kohvik ei ole avatud täna .
 
 
-kas pääsee trammiga kõrtsesse ?
+kas saa trammiga kõrtsesse ?
 
 
 sool ei ole eriti heaa .

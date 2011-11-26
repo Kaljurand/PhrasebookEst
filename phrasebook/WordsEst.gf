@@ -173,8 +173,8 @@ concrete WordsEst of Words = SentencesEst **
 
     QWhatName p = mkQS (mkQCl whatSg_IP (mkVP (nameOf p))) ;
     QWhatAge p = mkQS (mkQCl (E.ICompAP (mkAP L.old_A)) p.name) ;
-    HowMuchCost item = mkQS (mkQCl how8much_IAdv (mkCl item (mkV "maksaa"))) ;
-    ItCost item price = mkCl item (mkV2 (mkV "maksaa")) price ;
+    HowMuchCost item = mkQS (mkQCl how8much_IAdv (mkCl item (mkV "maksta"))) ;
+    ItCost item price = mkCl item (mkV2 (mkV "maksta")) price ;
 
     PropOpen p = mkCl p.name open_Adv ;
     PropClosed p = mkCl p.name closed_Adv ;
@@ -231,7 +231,7 @@ concrete WordsEst of Words = SentencesEst **
       mkQS (mkQCl (mkIP which_IDet trans.name) (mkVP (mkVP L.go_V) place.to)) ;
 
     IsTranspPlace trans place =
-      mkQS (mkQCl (mkCl (mkVP (mkVP (mkVP (mkV "päästä")) trans.by) place.to))) ;
+      mkQS (mkQCl (mkCl (mkVP (mkVP (mkVP (mkV "saada")) trans.by) place.to))) ;
       -- pääseekö keskustaan bussilla
       -- mkQS (mkQCl (E.AdvPredNP place.to L.go_V (E.PartCN (trans.name)))) ;
       -- meneekö keskustaan bussia
