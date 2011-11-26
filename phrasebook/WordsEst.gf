@@ -160,7 +160,7 @@ concrete WordsEst of Words = SentencesEst **
     -- Fin: Minua väsyttää. (partitive)
     -- Ger: Ich bin müde.
     -- Est: Mina olen väsinud.
-    ATired p = mkCl p.name (caseV partitive (mkV "väsyttää")) ;
+    ATired p = mkCl p.name (caseV partitive (mkV "väsitada")) ;
     AUnderstand p = mkCl p.name (mkV "mõista") ;
     -- TODO: haluta -> tahta
     AWant p obj = mkCl p.name (mkV2 "haluta") obj ;
