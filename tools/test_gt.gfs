@@ -215,3 +215,7 @@ l PQuestion (QProp (PropAction (AHasTable YouPolMale (NNumeral (num (pot2as3 (po
 
 -- mis auto läheb keskusesse
 l PQuestion (WhichTranspPlace Car (ThePlace Center))
+
+-- sina pead tollest eriti kallist kanast (~Fin)
+-- sulle meeldib too eriti kallis kana (Est)
+l PSentence (SProp (PropAction (ALike YouFamFemale (ThatMass (SuchMassKind (Very Expensive) Chicken)))))

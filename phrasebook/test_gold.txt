@@ -219,7 +219,7 @@ kui palju too soome kana maksee ?
 odavaim keskus on avatud .
 
 
-see õun on heaa .
+see õun on hea .
 
 
 kus hotell on ?
@@ -246,7 +246,7 @@ kohvik ei ole avatud täna .
 kas saab trammiga kõrtsesse ?
 
 
-sool ei ole eriti heaa .
+sool ei ole eriti hea .
 
 
 NNel on pizzojen .
@@ -273,7 +273,7 @@ too õun
 eriti toores soe liiga kallis õun
 
 
-see eriti kahtlane õun on maitsevi
+see eriti kahtlane õun on maitsev
 
 
 seitse &+ kümmend üks tuhat neli &+ kümmend üks
@@ -288,7 +288,7 @@ sada tuhat kaks &+ sada viis &+ teist
 mis on minu tüttaren &+ 0 nimi ?
 
 
-kas vein on liiga kahtlast ?
+kas vein on liiga kahtlane ?
 
 
 sada tuhat sada kümmend .
@@ -322,5 +322,8 @@ kas teiel on laud viisele inimesele ?
 
 
 mis auto läheb keskusesse ?
+
+
+sina pidäd tollest eriti kallisest kananst .
 
 

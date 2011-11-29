@@ -1,5 +1,5 @@
 concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
-  [Is, IsMass, NameNN, ObjMass,
+  [NameNN, ObjMass,
    NPPlace, CNPlace, placeNP, mkCNPlace, mkCNPlacePl,
    GObjectPlease
   ] with 
@@ -23,8 +23,15 @@ concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
     } ;
 
   lin 
-    Is item prop = mkCl item (V.UseComp (CompPartAP prop)) ; -- tämä pizza on herkullista
-    IsMass mass prop = mkCl (mkNP a_Det mass) (V.UseComp (CompPartAP prop)) ; -- pizza on herkullista
+    -- The Fin-grammar overloaded the Is and IsMass functions to be
+    -- able to use the complement in partitive.
+    -- This would be wrong in Est, where the complement is in nominative.
+    -- Fin: tämä pizza on herkullista
+    -- Is item prop = mkCl item (V.UseComp (CompPartAP prop)) ;
+    --
+    -- Fin: pizza on herkullista
+    -- IsMass mass prop = mkCl (mkNP a_Det mass) (V.UseComp (CompPartAP prop)) ;
+
     NameNN = mkNP (P.mkPN (P.mkN "NN" "NN:iä")) ;
 
   -- Estonian does not have possessive endings and does not make use of ProDrop
