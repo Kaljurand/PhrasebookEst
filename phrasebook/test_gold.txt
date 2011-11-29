@@ -291,10 +291,10 @@ mis on minu tüttaren &+ 0 nimi ?
 kas vein on liiga kahtlane ?
 
 
-sada tuhat sada kümmend .
+sada tuhat sada kümme .
 
 
-kümmend .
+kümme .
 
 
 mis on teie naise &+ 0 nimi ?
@@ -325,5 +325,38 @@ mis auto läheb keskusesse ?
 
 
 sina pidäd tollest eriti kallisest kananst .
+
+
+mina armastan teie poegi &+ 0 tütarta .
+
+
+minu tüttaren &+ 0 mees teab .
+
+
+sinu poeg &+ 0 elab Hollandis .
+
+
+minu meese &+ 0 naise meese laped on abielus .
+
+
+minul on hirm .
+
+
+NNe tüttaren naise meesel on janu .
+
+
+minu poeg &+ 0 mõisee .
+
+
+teie laped &+ 0 tahvad pizzan .
+
+
+minu nimi &+ 0 on NN
+
+
+teie tüttaren &+ 0 laped on väsinudisid
+
+
+sada kümme tuhat sada heaa eriti maitsevi külmi õuna
 
 

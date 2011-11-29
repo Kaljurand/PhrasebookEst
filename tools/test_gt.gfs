@@ -5,34 +5,20 @@ gt (PGreeting (PSeeYouPlace (SuperlPlace ? (CitRestaurant (CitiNat Dutch))))) | 
 gt (PPlace (ThePlace (CitRestaurant  ?))) | l
 --gr (AHasAge  IMale ?) | l -treebank
 --gr (AHasChildren IMale ?) | l -treebank
---gr (AHasName  IMale ?) | l -treebank
 --gr (AHasRoom  IMale ?) | l -treebank
---gr (AHasTable  IMale ?) | l -treebank
 --gr (AHungry  ?) | l -treebank
---gr (AIll  ?) | l -treebank
---gr (AKnow  ?) | l -treebank
---gr (ALike  ? ?) | l -treebank
---gr (ALive  ? ?) | l -treebank
---gr (ALove  ? ?) | l -treebank
---gr (AMarried  ?) | l -treebank
---gr (AReady  ?) | l -treebank
---gr (AScared  ?) | l -treebank
---gr (ASpeak  ? ?) | l -treebank
---gr (AThirsty  ?) | l -treebank
---gr (ATired  ?) | l -treebank
---gr (AUnderstand  ?) | l -treebank
---gr (AWant  IMale ?) | l -treebank
---gr (AWantGo  IMale ?) | l -treebank
 --gr (QWhatAge  ?) | l -treebank
---gr (QWhatName  ?) | l -treebank
 --gr (HowMuchCost  ?) | l -treebank
---gr (ItCost  ? ?) | l -treebank
---gr (PropOpen  ?) | l -treebank
---gr (PropClosed  ?) | l -treebank
---gr (PropOpenDate  ? ?) | l -treebank
+
+-- TODO: no trees found (also not in the official Phrasebook)
+--gr (ItCost ? ?) | l -treebank
+
+-- TODO:
+-- l PropClosedDate (APlace (CitRestaurant Belgian))
+-- Prelude.(!!): index too large
 --gr (PropClosedDate  ? ?) | l -treebank
+
 --gr (PropOpenDay  ? ?) | l -treebank
---gr (PropClosedDay  ? ?) | l -treebank
 --gr (PSeeYouPlaceDate  ? ?) | l -treebank
 --gr (PSeeYouPlace  ?) | l -treebank
 --gr (PSeeYouDate  ?) | l -treebank
@@ -70,9 +56,7 @@ gt (HowFarBy  (ThePlace Hospital) ?) | l
 --gr (QProp  ?) | l -treebank
 --gr (WherePlace  ?) | l -treebank
 --gr (WherePerson  ?) | l -treebank
---gr (PropAction  ?) | l -treebank
 --gr (ObjItem  ?) | l -treebank
---gr (ObjNumber  ? ?) | l -treebank
 --gr (ObjIndef  ?) | l -treebank
 --gr (ObjAndObj  ? ?) | l -treebank
 --gr (OneObj  ?) | l -treebank
@@ -219,3 +203,41 @@ l PQuestion (WhichTranspPlace Car (ThePlace Center))
 -- sina pead tollest eriti kallist kanast (~Fin)
 -- sulle meeldib too eriti kallis kana (Est)
 l PSentence (SProp (PropAction (ALike YouFamFemale (ThatMass (SuchMassKind (Very Expensive) Chicken)))))
+
+-- mina armastan teie poja tütart
+-- I love your son's daughter
+l PSentence (SProp (PropAction (ALove IMale (Daughter (Son YouPolMale)))))
+
+-- minu tütre mees teab
+-- my daughter's husband knows
+l PSentence (SProp (PropAction (AKnow (Husband (Daughter IMale)))))
+
+-- sinu poeg elab Hollandis
+l PSentence (SProp (PropAction (ALive (Son YouFamMale) (CountryNat Dutch))))
+
+-- minu mehe naise mehe lapsed on abielus
+-- my husband's wife's husband's children are married .
+l PSentence (SProp (PropAction (AMarried (Children (Husband (Wife (Husband IMale)))))))
+
+-- mina kardan
+-- I am scared
+l PSentence (SProp (PropAction (AScared IMale)))
+
+-- NN 's daughter's wife's husband is thirsty
+l PSentence (SProp (PropAction (AThirsty (Husband (Wife (Daughter (PersonName NameNN)))))))
+
+-- minu poeg mõistab (saab aru)
+-- my son understand
+l PSentence (SProp (PropAction (AUnderstand (Son IMale))))
+
+-- teie lapsed tahavad pitsat
+l PSentence (SProp (PropAction (AWant (Children YouPolMale) (OneObj (ObjIndef Pizza)))))
+
+-- minu nimi on NN
+l AHasName IMale NameNN
+
+-- your daughter's children are tired
+l ATired (Children (Daughter YouPolMale))
+
+-- one hundred and ten thousand one hundred good very delicious cold apples
+l ObjNumber (NNumeral (num (pot3plus (pot2plus pot01 pot110) (pot2 pot01)))) (SuchKind (PropQuality Good) (SuchKind (Very Delicious) (SuchKind (PropQuality Cold) Apple)))

@@ -143,15 +143,16 @@ concrete WordsEst of Words = SentencesEst **
     AIll p = mkCl p.name (mkA "haige") ;
     AKnow p = mkCl p.name (mkV "teada") ;
     ALike p item = mkCl p.name L.like_V2 item ;
-    ALive p co = mkCl p.name (mkVP (mkVP (mkV "asua")) (SyntaxEst.mkAdv in_Prep co)) ;
+    ALive p co = mkCl p.name (mkVP (mkVP (mkV "elada")) (SyntaxEst.mkAdv in_Prep co)) ;
     ALove p q = mkCl p.name (mkV2 (mkV "armastada") partitive) q.name ;
     AMarried p = mkCl p.name (ParadigmsEst.mkAdv "abielus") ;
     AReady p = mkCl p.name (ParadigmsEst.mkA "valmis") ;
     -- Eng: I am scared
     -- Fin: Minua pelottaa (partitive)
     -- Est: Mina kardan (nominative)
-    -- karta causes: gf: evalTerm (tk)
-    AScared p = mkCl p.name (caseV nominative (mkV "pelottaa")) ;
+    -- Est: Mul on hirm (nominative)
+    -- AScared p = mkCl p.name (caseV nominative (mkV "karta")) ;
+    AScared p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "hirm")) ;
     -- Fin: puhua: Puhun hollantia (partitive)
     -- Est: Mina räägin hollandi keelt (partitive)
     ASpeak p lang = mkCl p.name (mkV2 (mkV "rääkida") partitive) lang ;
@@ -160,16 +161,14 @@ concrete WordsEst of Words = SentencesEst **
     -- Fin: Minua väsyttää. (partitive)
     -- Ger: Ich bin müde.
     -- Est: Mina olen väsinud.
-    ATired p = mkCl p.name (caseV partitive (mkV "väsitada")) ;
+    -- ATired p = mkCl p.name (caseV partitive (mkV "väsitada")) ;
+    ATired p = mkCl p.name (ParadigmsEst.mkA "väsinud") ;
+    -- TODO: better: aru saama / saan aru
     AUnderstand p = mkCl p.name (mkV "mõista") ;
-    -- TODO: haluta -> tahta
-    AWant p obj = mkCl p.name (mkV2 "haluta") obj ;
+    AWant p obj = mkCl p.name (mkV2 "tahta") obj ;
     AWantGo p place = mkCl p.name want_VV (mkVP (mkVP L.go_V) place.to) ;
 
 -- miscellaneous
-
--- Kaarel: if I change "maksaa" to "maksma" then I get this error:
--- gf: evalTerm (tk 1 (error ("expected" ++ "infinitive," ++ "found" ++ "maksma") ! 1) + "n")
 
     QWhatName p = mkQS (mkQCl whatSg_IP (mkVP (nameOf p))) ;
     QWhatAge p = mkQS (mkQCl (E.ICompAP (mkAP L.old_A)) p.name) ;
@@ -199,7 +198,7 @@ concrete WordsEst of Words = SentencesEst **
 
     Wife = xOf sing (mkN "naine") ;
     Husband = xOf sing L.man_N ;
-    Son = xOf sing L.boy_N ;
+    Son = xOf sing (mkN "poeg") ;
     Daughter = xOf sing (mkN "tütar") ;
     Children = xOf plur L.child_N ;
 
