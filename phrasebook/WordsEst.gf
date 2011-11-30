@@ -89,7 +89,7 @@ concrete WordsEst of Words = SentencesEst **
     Pound = mkCN (mkN "nael") ;
     Rouble = mkCN (mkN "rubla") ;
     SwedishCrown = mkCN (mkN "Rootsi kroon") | mkCN (mkN "kroon") ;
-    Zloty = mkCN (mkN "zlott" "zlotyja") ; --TODO
+    Zloty = mkCN (mkN "zlott") ;
 
 -- Citizenship
     Belgian = mkA "belgia" ;
@@ -238,11 +238,11 @@ concrete WordsEst of Words = SentencesEst **
 -- modifiers of places
 
     TheBest = mkSuperl L.good_A ;
-    TheClosest = mkSuperl (mkA (mkN "lähedal") "lähem" "lähim") ;
+    TheClosest = mkSuperl (mkA (mkN "lähedal asuv") "lähem" "lähim") ;
     TheCheapest = mkSuperl (mkA (mkN "odav") "odavam" "odavaim") ;
     TheMostExpensive = mkSuperl (mkA (mkN "kallis") "kallim" "kalleim") ;
-    TheMostPopular = mkSuperl (mkA "populaarne") ;
-    TheWorst = mkSuperl (mkA "halb") ;
+    TheMostPopular = mkSuperl (mkA (mkN "populaarne") "populaarsem" "populaarseim") ;
+    TheWorst = mkSuperl (L.bad_A) ;
 
     SuperlPlace sup p = placeNP sup p ;
 

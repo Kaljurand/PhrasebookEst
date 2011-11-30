@@ -16,17 +16,17 @@ kohtumiseni teisipäevil !
 kohtumiseni kolmapäevil !
 
 
-kohtumiseni parimmans hollandiis restoranis !
+kohtumiseni kõige paremas hollandiis restoranis !
 
-kohtumiseni lähimmins hollandiis restoranis !
+kohtumiseni kõige lähemas hollandiis restoranis !
 
-kohtumiseni odavaimmans hollandiis restoranis !
+kohtumiseni kõige odavamas hollandiis restoranis !
 
-kohtumiseni kalleimmans hollandiis restoranis !
+kohtumiseni kõige kallimas hollandiis restoranis !
 
-kohtumiseni populaarsimmans hollandiis restoranis !
+kohtumiseni kõige populaarsemas hollandiis restoranis !
 
-kohtumiseni halbimmans hollandiis restoranis !
+kohtumiseni kõige halvemas hollandiis restoranis !
 
 
 belgia restoran
@@ -201,7 +201,7 @@ mina olen hispaaniais restoranis
 mina olen rootsiis restoranis
 
 
-populaarsim kool on suletud reedeti .
+kõige populaarsem kool on suletud reedeti .
 
 
 kaheksa odavi õuna palun !
@@ -216,7 +216,7 @@ minu naine rääkib taanii keeli .
 kui palju too soome kana maksee ?
 
 
-odavaim keskus on avatud .
+kõige odavam keskus on avatud .
 
 
 see õun on hea .
@@ -252,7 +252,7 @@ sool ei ole eriti hea .
 NNil on pizzaisid .
 
 
-lähim lõbustuspark ei ole suletud .
+kõige lähem lõbustuspark ei ole suletud .
 
 
 kui kaugel disko on jalgsi ?
@@ -306,13 +306,13 @@ mina ei tahdo minna .
 kas nood pizzaid on eriti belgiaisid ?
 
 
-kui kaugel odavaim haigla on baarist jalgsi ?
+kui kaugel kõige odavam haigla on baarist jalgsi ?
 
 
-kui kaugel halbim keskus on praamiga ?
+kui kaugel kõige halvem keskus on praamiga ?
 
 
-kui kaugel kalleim kohvik on ?
+kui kaugel kõige kallim kohvik on ?
 
 
 sada üks &+ teist tuhat .
@@ -324,7 +324,7 @@ kas teiel on laud viisele inimesele ?
 mis auto läheb keskusesse ?
 
 
-sina pidäd tollest eriti kallisest kanaist .
+sina lugupidad tollest eriti kallisest kanaist .
 
 
 mina armastan teie poegi tütari .
@@ -358,5 +358,11 @@ teie tütari laped on väsinudisid
 
 
 sada kümme tuhat sada heai eriti maitsevi külmi õuna
+
+
+üks zlott .
+
+
+kümme zlotti .
 
 

@@ -241,3 +241,9 @@ l ATired (Children (Daughter YouPolMale))
 
 -- one hundred and ten thousand one hundred good very delicious cold apples
 l ObjNumber (NNumeral (num (pot3plus (pot2plus pot01 pot110) (pot2 pot01)))) (SuchKind (PropQuality Good) (SuchKind (Very Delicious) (SuchKind (PropQuality Cold) Apple)))
+
+-- üks zlott
+l PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 (pot0as1 pot01))))) Zloty)
+
+-- kümme zlotti
+l PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 pot110)))) Zloty)
