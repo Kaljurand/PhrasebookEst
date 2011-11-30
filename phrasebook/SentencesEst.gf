@@ -32,7 +32,7 @@ concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
     -- Fin: pizza on herkullista
     -- IsMass mass prop = mkCl (mkNP a_Det mass) (V.UseComp (CompPartAP prop)) ;
 
-    NameNN = mkNP (P.mkPN (P.mkN "NN" "NN:iä")) ;
+    NameNN = mkNP (P.mkPN (P.mkN "NN")) ;
 
   -- Estonian does not have possessive endings and does not make use of ProDrop
   -- that much, so we do not override SentencesI, like Finnish does.

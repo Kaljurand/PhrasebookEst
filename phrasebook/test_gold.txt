@@ -16,17 +16,17 @@ kohtumiseni teisipäevil !
 kohtumiseni kolmapäevil !
 
 
-kohtumiseni parimmans hollandins restoranis !
+kohtumiseni parimmans hollandiis restoranis !
 
-kohtumiseni lähimmins hollandins restoranis !
+kohtumiseni lähimmins hollandiis restoranis !
 
-kohtumiseni odavaimmans hollandins restoranis !
+kohtumiseni odavaimmans hollandiis restoranis !
 
-kohtumiseni kalleimmans hollandins restoranis !
+kohtumiseni kalleimmans hollandiis restoranis !
 
-kohtumiseni populaarsimmans hollandins restoranis !
+kohtumiseni populaarsimmans hollandiis restoranis !
 
-kohtumiseni halbimmans hollandins restoranis !
+kohtumiseni halbimmans hollandiis restoranis !
 
 
 belgia restoran
@@ -74,9 +74,9 @@ kui kaugel haigla on praamiga
 
 kui kaugel haigla on lennuega
 
-kui kaugel haigla on metroonga
+kui kaugel haigla on metrooiga
 
-kui kaugel haigla on taksonga
+kui kaugel haigla on taksoiga
 
 kui kaugel haigla on rongiga
 
@@ -122,19 +122,19 @@ mina olen lõbustusparkis
 
 mina olen pankis
 
-mina olen baarens
+mina olen baaris
 
 mina olen kohvikis
 
 mina olen keskuses
 
-mina olen kinons
+mina olen kinois
 
 mina olen kirikis
 
-mina olen diskons
+mina olen diskois
 
-mina olen haiglans
+mina olen haiglais
 
 mina olen hotellis
 
@@ -142,7 +142,7 @@ mina olen muuseumis
 
 mina olen parkis
 
-mina olen parklans
+mina olen parklais
 
 mina olen apteekis
 
@@ -168,15 +168,15 @@ mina olen ülikoolis
 
 mina olen loomaaedis
 
-mina olen belgians restoranis
+mina olen belgiais restoranis
 
-mina olen bulgaarians restoranis
+mina olen bulgaariais restoranis
 
-mina olen katalaanins restoranis
+mina olen katalaaniis restoranis
 
-mina olen taanins restoranis
+mina olen taaniis restoranis
 
-mina olen hollandins restoranis
+mina olen hollandiis restoranis
 
 mina olen ingliseis restoranis
 
@@ -184,21 +184,21 @@ mina olen soomeis restoranis
 
 mina olen prantsuseis restoranis
 
-mina olen saksans restoranis
+mina olen saksais restoranis
 
-mina olen itaalians restoranis
+mina olen itaaliais restoranis
 
-mina olen norrans restoranis
+mina olen norrais restoranis
 
-mina olen poolans restoranis
+mina olen poolais restoranis
 
-mina olen rumeenians restoranis
+mina olen rumeeniais restoranis
 
 mina olen veses restoranis
 
-mina olen hispaanians restoranis
+mina olen hispaaniais restoranis
 
-mina olen rootsins restoranis
+mina olen rootsiis restoranis
 
 
 populaarsim kool on suletud reedeti .
@@ -210,7 +210,7 @@ kaheksa odavi õuna palun !
 üheksa &+ kümmend Taani krooni .
 
 
-minu naine &+ 0 rääkib taania keelti .
+minu naine rääkib taanii keeli .
 
 
 kui palju too soome kana maksee ?
@@ -231,7 +231,7 @@ mina ei ole soome .
 minul on pizza .
 
 
-sinu meesel &+ 0 on õunu .
+sinu meesel on õunu .
 
 
 kui palju nood õunad maksevat ?
@@ -249,7 +249,7 @@ kas saab trammiga kõrtsesse ?
 sool ei ole eriti hea .
 
 
-NNel on pizzojen .
+NNil on pizzaisid .
 
 
 lähim lõbustuspark ei ole suletud .
@@ -258,7 +258,7 @@ lähim lõbustuspark ei ole suletud .
 kui kaugel disko on jalgsi ?
 
 
-kas sinu naisel &+ 0 on pizza ?
+kas sinu naisel on pizza ?
 
 
 kohtumiseni koolis täna !
@@ -285,7 +285,7 @@ seitse &+ sada kaheksa &+ teist
 sada tuhat kaks &+ sada viis &+ teist
 
 
-mis on minu tüttaren &+ 0 nimi ?
+mis on minu tütari nimi ?
 
 
 kas vein on liiga kahtlane ?
@@ -297,16 +297,16 @@ sada tuhat sada kümme .
 kümme .
 
 
-mis on teie naise &+ 0 nimi ?
+mis on teie naise nimi ?
 
 
 mina ei tahdo minna .
 
 
-kas nood pizzand on eriti belgioiden ?
+kas nood pizzaid on eriti belgiaisid ?
 
 
-kui kaugel odavaim haigla on baarenst jalgsi ?
+kui kaugel odavaim haigla on baarist jalgsi ?
 
 
 kui kaugel halbim keskus on praamiga ?
@@ -324,39 +324,39 @@ kas teiel on laud viisele inimesele ?
 mis auto läheb keskusesse ?
 
 
-sina pidäd tollest eriti kallisest kananst .
+sina pidäd tollest eriti kallisest kanaist .
 
 
-mina armastan teie poegi &+ 0 tütarta .
+mina armastan teie poegi tütari .
 
 
-minu tüttaren &+ 0 mees teab .
+minu tütari mees teab .
 
 
-sinu poeg &+ 0 elab Hollandis .
+sinu poeg elab Hollandis .
 
 
-minu meese &+ 0 naise meese laped on abielus .
+minu meese naise meese laped on abielus .
 
 
 minul on hirm .
 
 
-NNe tüttaren naise meesel on janu .
+NNi tütari naise meesel on janu .
 
 
-minu poeg &+ 0 mõisee .
+minu poeg mõisee .
 
 
-teie laped &+ 0 tahvad pizzan .
+teie laped tahvad pizzai .
 
 
-minu nimi &+ 0 on NN
+minu nimi on NN
 
 
-teie tüttaren &+ 0 laped on väsinudisid
+teie tütari laped on väsinudisid
 
 
-sada kümme tuhat sada heaa eriti maitsevi külmi õuna
+sada kümme tuhat sada heai eriti maitsevi külmi õuna
 
 
