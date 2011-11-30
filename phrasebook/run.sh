@@ -1,5 +1,4 @@
-#path="present:../lib/src/estonian/:../lib/src/api/"
-path="present:/home/kaarel/mywork/gf-estonian/estonian/:../lib/src/api/"
+path="present:${GF_EST_SRC}/estonian/:${GF_EST_SRC}/api/"
 #
 # --preproc=mkPresent is needed to make the files compile.
 # It filters the files through a simple grep (grep -v "\-\-\# notpresent" $1)

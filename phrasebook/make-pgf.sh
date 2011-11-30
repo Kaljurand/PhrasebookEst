@@ -1,4 +1,4 @@
-path="present:/home/kaarel/mywork/gf-estonian/estonian/:../lib/src/api/"
+path="present:${GF_EST_SRC}/estonian/:${GF_EST_SRC}/api/"
 
 build=build
 dir_gr=${build}/gr/

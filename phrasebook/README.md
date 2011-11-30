@@ -4,9 +4,19 @@ PhrasebookEst
 Introduction
 ------------
 
-Estonian concrete syntax for the MOLTO Phrasebook.
+Estonian concrete syntax for the MOLTO Phrasebook
+(http://www.molto-project.eu/demo/phrasebook).
 
-Depends on the (emerging) Estonian resource grammar (http://code.google.com/p/gf-estonian/).
+Depends on the (emerging) Estonian resource grammar which
+is developed separately at http://gf-estonian.googlecode.com.
+
+
+Status
+------
+
+  * Most of the supported sentences are syntactically correct.
+  * Most of them are morphologically flawed (nouns and verbs have wrong endings).
+  * Almost all the remaining problems can be fixed by updating the Estonian resource grammar.
 
 
 Usage
@@ -21,7 +31,7 @@ For usage examples see the scripts:
 Testing
 -------
 
-One test run can take up to 8 minutes on an Intel i3. The runtime does not
+One testrun can take up to 8 minutes on an Intel i3. The runtime does not
 depend on the number of tests but rather on which files need to be recompiled.
 
 	time ./test.sh
@@ -46,8 +56,8 @@ and which are going to be ported to Estonian in this project:
   * WordsEst.gf
   * SentencesEst.gf
 
-The Estonian resource grammar must be downloaded from http://code.google.com/p/gf-estonian/
-and set up in a directory that is on the GF path (see e.g. `test.sh`).
+The Estonian resource grammar must be downloaded from http://gf-estonian.googlecode.com
+and set up in a directory that is pointed to by the environment variable `GF_EST_SRC`.
 
 Some other required modules are not included in this repository.
 They are expected to be found in:
