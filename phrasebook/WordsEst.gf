@@ -44,11 +44,11 @@ concrete WordsEst of Words = SentencesEst **
 
     Restaurant = mkPlace (mkN "restoran") ssa ;
     Bank = mkPlace (mkN "pank") ssa ;
-    PostOffice = mkPlace (mkN "postkontor") ssa ;
+    PostOffice = mkPlace (mkN "post" (mkN "kontor")) ssa ;
     Bar = mkPlace (mkN "baar") ssa ;
     Toilet = mkPlace (mkN "tualett") ssa ;
     Museum = mkPlace (mkN "muuseum") ssa ;
-    Airport = mkPlace (mkN "lennujaam") ssa ; -- different in Fin
+    Airport = mkPlace (mkN "lennu" (mkN "jaam")) ssa ; -- different in Fin
     Station = mkPlace (mkN "jaam") ssa ; -- different in Fin
     Hospital = mkPlace (mkN "haigla") ssa ;
     Church = mkPlace (mkN "kirik") ssa ;
@@ -57,7 +57,7 @@ concrete WordsEst of Words = SentencesEst **
     Shop = mkPlace (mkN "pood") ssa ;
     Park = mkPlace (mkN "park") ssa ;
     Hotel = mkPlace (mkN "hotell") ssa ;
-    University = mkPlace (mkN "ülikool") ssa ; -- different in Fin
+    University = mkPlace (mkN "üli" (mkN "kool")) ssa ; -- different in Fin
     School = mkPlace (mkN "kool") ssa ; -- different in Fin
 
     CitRestaurant cit = {
@@ -69,13 +69,13 @@ concrete WordsEst of Words = SentencesEst **
       } ;
 
     Parking = mkPlace (mkN "parkla") ssa ; -- different in Fin
-    Supermarket = mkPlace (mkN "supermarket") ssa ;
+    Supermarket = mkPlace (mkN "super" (mkN "market")) ssa ;
     Pharmacy = mkPlace (mkN "apteek") ssa ;
     Center = mkPlace (mkN "keskus") ssa ;
     Cafeteria = mkPlace (mkN "kohvik") ssa ;
     Disco = mkPlace (mkN "disko") ssa ;
     Pub = mkPlace (mkN "kõrts") ssa ;
-    AmusementPark = mkPlace (mkN "lõbustuspark") ssa ;
+    AmusementPark = mkPlace (mkN "lõbustus" (mkN "park")) ssa ;
     Zoo = mkPlace (mkN "looma" (mkN "aed")) ssa ;
 
 -- currencies

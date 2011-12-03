@@ -24,6 +24,10 @@ Pro-drop
 Fin uses more pro-drop.
 
 
+Vowel harmony
+-------------
+
+
 Yes/no-questions
 ----------------
 
