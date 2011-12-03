@@ -1,7 +1,7 @@
 --2 Words and idiomatic phrases of the Phrasebook
 
 
--- (c) 2009 Aarne Ranta under LGPL --%
+-- (c) 2010 Aarne Ranta under LGPL --%
 
 abstract Words = Sentences ** {
 
@@ -10,19 +10,19 @@ abstract Words = Sentences ** {
 -- kinds of items (so far mostly food stuff)
 
     Apple : Kind ;
-    Beer : MassKind ;
+    Beer : DrinkKind ;
     Bread : MassKind ; 
     Cheese : MassKind ;
     Chicken : MassKind ; 
-    Coffee : MassKind ; 
+    Coffee : DrinkKind ; 
     Fish : MassKind ; 
     Meat : MassKind ;
     Milk : MassKind ; 
     Pizza : Kind ; 
     Salt : MassKind ;
-    Tea : MassKind ; 
-    Water : MassKind ; 
-    Wine : MassKind ;
+    Tea : DrinkKind ; 
+    Water : DrinkKind ; 
+    Wine : DrinkKind ;
 
 -- properties of kinds (so far mostly of food)
 
@@ -34,7 +34,6 @@ abstract Words = Sentences ** {
     Expensive : Property ; 
     Fresh : Property ; 
     Good : Property ;
-    -- TODO: rename: Suspect -> Suspicious
     Suspect : Property ;
     Warm : Property ; 
 
@@ -195,5 +194,53 @@ abstract Words = Sentences ** {
     TheWorst : Superlative ;
 
     SuperlPlace : Superlative -> PlaceKind -> Place ; -- the best bar
+
+
+--------------------------------------------------
+-- New 30/11/2011 AR
+--------------------------------------------------
+
+  fun
+    Thai : Nationality ;
+    Baht : Currency ; -- Thailand
+
+    Rice : MassKind ;
+    Pork : MassKind ;
+    Beef : MassKind ;
+    Noodles : PlurKind ;
+    Shrimps : PlurKind ;
+    
+    Chili : MassKind ;
+    Garlic : MassKind ;
+
+    Durian : Kind ;
+    Mango : Kind ;
+    Pineapple : Kind ;
+    Egg : Kind ;
+
+    Coke : DrinkKind ;
+    IceCream : DrinkKind ; --- both mass and plural
+    OrangeJuice : DrinkKind ;
+    Lemonade : DrinkKind ;
+    Salad : DrinkKind ;
+
+    Beach : PlaceKind ;
+
+    ItsRaining : Proposition ;
+    ItsWindy : Proposition ;
+    ItsWarm : Proposition ;
+    ItsCold : Proposition ;
+    SunShine : Proposition ;
+
+    Smoke : VerbPhrase ;
+
+    ADoctor : Person -> Action ;
+    AProfessor : Person -> Action ;
+    ALawyer : Person -> Action ;
+    AEngineer : Person -> Action ;
+    ATeacher : Person -> Action ;
+    ACook : Person -> Action ;
+    AStudent : Person -> Action ;
+    ABusinessman : Person -> Action ;
 
 }

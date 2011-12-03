@@ -165,7 +165,7 @@ gt NNumeral (num (pot3plus (pot2 pot01) (pot2plus (pot0 n2) (pot1to19 n5)))) | l
 gt PQuestion (QWhatName (Daughter IMale)) | l
 
 -- kas vein on liiga kahtlane
-gt PQuestion (QProp (IsMass Wine (Too Suspect))) | l
+l PQuestion (QProp (Is (TheMass (MassDrink Wine)) (Too Suspect)))
 
 -- ???
 gt PNumber (NNumeral (num (pot3plus (pot2 pot01) (pot2plus pot01 pot110)))) | l

@@ -20,6 +20,9 @@ incomplete concrete SentencesI of Sentences = Numeral **
     Item = NP ;
     Kind = CN ;
     MassKind = CN ;
+    MassKind = CN ;
+    PlurKind = CN ;
+    DrinkKind = CN ;
     Quality = AP ;
     Property = A ;
     Object = NP ;
@@ -73,7 +76,7 @@ incomplete concrete SentencesI of Sentences = Numeral **
     PNo = mkPhrase no_Utt ;
     PYesToNo = mkPhrase yes_Utt ;
 
-    GObjectPlease o = lin Text (mkPhr noPConj (mkUtt o) please_Voc) ;
+    GObjectPlease o = lin Text (mkPhr noPConj (mkUtt o) please_Voc) | lin Text (mkUtt o) ;
 
     Is = mkCl ;
     IsMass m q = mkCl (mkNP m) q ;
@@ -93,9 +96,13 @@ incomplete concrete SentencesI of Sentences = Numeral **
     ObjNumber n k = mkNP n k ;
     ObjIndef k = mkNP a_Quant k ;
     ObjPlural k = mkNP aPl_Det k ;
+    ObjPlur k = mkNP aPl_Det k ;
     ObjMass k = mkNP k ;
     ObjAndObj = mkNP and_Conj ;
     OneObj o = o ; 
+
+    MassDrink d = d ;
+    DrinkNumber n k = mkNP n k ;
 
     This kind = mkNP this_Quant kind ;
     That kind = mkNP that_Quant kind ;
@@ -106,6 +113,9 @@ incomplete concrete SentencesI of Sentences = Numeral **
     ThisMass kind = mkNP this_Quant kind ;
     ThatMass kind = mkNP that_Quant kind ;
     TheMass kind = mkNP the_Quant kind ;
+    ThesePlur kind = mkNP this_Quant plNum kind ;
+    ThosePlur kind = mkNP that_Quant plNum kind ;
+    ThesPlur kind = mkNP the_Quant plNum kind ;
 
     SuchKind quality kind = mkCN quality kind ;
     SuchMassKind quality kind = mkCN quality kind ;
@@ -227,5 +237,64 @@ oper
 
 -- for languages with GenNP, use "p's wife"
 --   relativePerson n x (\a,b,c -> mkNP (GenNP b) a c) p ;
+
+  phrasePlease : Utt -> Text = \u -> --- lin Text (mkPhr noPConj u please_Voc) | 
+                                     lin Text u ;
+
+------------------------------------------------------------------------------------------
+-- New things added 30/11/2011 by AR
+------------------------------------------------------------------------------------------
+
+  lincat
+    VerbPhrase  = VP ;
+    Modality = VV ;
+  lin
+    ADoVerbPhrase p vp = mkCl p.name vp ;
+    AModVerbPhrase m p vp = mkCl p.name (mkVP m vp) ;
+    ADoVerbPhrasePlace p vp x = mkCl p.name (mkVP vp x.at) ;
+    AModVerbPhrasePlace m p vp x = mkCl p.name (mkVP m (mkVP vp x.at)) ;
+
+    QWhereDoVerbPhrase p vp = mkQS (mkQCl where_IAdv (mkCl p.name vp)) ;
+    QWhereModVerbPhrase m p vp = mkQS (mkQCl where_IAdv (mkCl p.name (mkVP m vp))) ;
+
+    MWant = want_VV ;
+    MCan = can_VV ;
+    MKnow = can8know_VV ;
+    MMust = must_VV ;
+
+    VPlay = mkVP play_V ;
+    VRun = mkVP run_V ;
+    VSit = mkVP sit_V ;
+    VSleep = mkVP sleep_V ;
+    VSwim = mkVP swim_V ; 
+    VWalk = mkVP walk_V ;
+    VDrink = mkVP <lin V drink_V2 : V> ; 
+    VEat = mkVP <lin V eat_V2 : V> ; 
+    VRead = mkVP <lin V read_V2 : V> ; 
+    VWait = mkVP <lin V wait_V2 : V> ; 
+    VWrite = mkVP <lin V write_V2 : V> ; 
+
+    V2Buy o = mkVP buy_V2 o ;
+    V2Drink o = mkVP drink_V2 o ;
+    V2Eat o = mkVP eat_V2 o ;
+    V2Wait o = mkVP wait_V2 o.name ;
+
+    PImperativeFamPos  v = phrasePlease (mkUtt (mkImp v)) ;
+    PImperativeFamNeg  v = phrasePlease (mkUtt negativePol (mkImp v)) ;
+    PImperativePolPos  v = phrasePlease (mkUtt politeImpForm (mkImp v)) ;
+    PImperativePolNeg  v = phrasePlease (mkUtt politeImpForm negativePol (mkImp v)) ;
+    PImperativePlurPos v = phrasePlease (mkUtt pluralImpForm (mkImp v)) ;
+    PImperativePlurNeg v = phrasePlease (mkUtt pluralImpForm negativePol (mkImp v)) ;
+
+-- other new things allowed by the resource
+
+---    PBecause a b = SSubjS a because_Subj b ;
+
+    He = mkPerson he_Pron ;
+    She = mkPerson she_Pron ;
+    WeMale, WeFemale = mkPerson we_Pron ;
+    YouPlurFamMale, YouPlurFamFemale = mkPerson youPl_Pron ;
+    YouPlurPolMale, YouPlurPolFemale = mkPerson youPl_Pron ;
+    TheyMale, TheyFemale = mkPerson they_Pron ;
 
 }

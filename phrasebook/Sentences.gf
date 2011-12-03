@@ -25,6 +25,8 @@ abstract Sentences = Numeral ** {
     Item ;        -- a single entity                           e.g. "this pizza"
     Kind ;        -- a type of an item                         e.g. "pizza"
     MassKind ;    -- a type mass (uncountable)                 e.g. "water"
+    PlurKind ;    -- a type usually only in plural             e.g. "noodles"
+    DrinkKind ;   -- a drinkable, countable type               e.g. "beer"
     Quality ;     -- qualification of an item, can be complex  e.g. "very good"
     Property ;    -- basic property of an item, one word       e.g. "good"
     Place ;       -- location                                  e.g. "the bar" 
@@ -109,6 +111,7 @@ abstract Sentences = Numeral ** {
     ObjNumber : Number -> Kind -> PrimObject ;   -- five pizzas
     ObjIndef  : Kind -> PrimObject ;             -- a pizza
     ObjPlural : Kind -> PrimObject ;             -- pizzas
+    ObjPlur   : PlurKind -> PrimObject ;         -- noodles
     ObjMass   : MassKind -> PrimObject ;         -- water
     ObjAndObj : PrimObject -> Object -> Object ; -- this pizza and a beer
     OneObj    : PrimObject -> Object ;           -- this pizza
@@ -119,11 +122,15 @@ abstract Sentences = Numeral ** {
     Too  : Property -> Quality ;                 -- too Italian      
     PropQuality : Property -> Quality ;          -- Italian
 
+    MassDrink   : DrinkKind -> MassKind ;               -- beer
+    DrinkNumber : Number -> DrinkKind -> PrimObject ;   -- five beers
+
 -- Determiners.
 
-    This, That, These, Those : Kind -> Item ;         -- this pizza,...,those pizzas
-    The, Thes : Kind -> Item ;                        -- the pizza, the pizzas
-    ThisMass, ThatMass, TheMass : MassKind -> Item ;  -- this/that/the water
+    This, That, These, Those : Kind -> Item ;           -- this pizza,...,those pizzas
+    The, Thes : Kind -> Item ;                          -- the pizza, the pizzas
+    ThisMass, ThatMass, TheMass : MassKind -> Item ;    -- this/that/the water
+    ThesePlur, ThosePlur, ThesPlur : PlurKind -> Item ; -- these/those/the potatoes
 
     AmountCurrency : Number -> Currency -> Price ;    -- five euros
 
@@ -134,10 +141,10 @@ abstract Sentences = Numeral ** {
     YouFamMale, YouFamFemale,           -- familiar you, said to man/woman (affects agreement)
     YouPolMale, YouPolFemale : Person ; -- polite you, said to man/woman (affects agreement)
 
-    LangNat    : Nationality -> Language ;    -- Swedish, eesti keel
-    CitiNat    : Nationality -> Citizenship ; -- Swedish, eesti (mets)
-    CountryNat : Nationality -> Country ;     -- Sweden, Eesti
-    PropCit    : Citizenship -> Property ;    -- Swedish, eestlane (?)
+    LangNat    : Nationality -> Language ;    -- Swedish
+    CitiNat    : Nationality -> Citizenship ; -- Swedish
+    CountryNat : Nationality -> Country ;     -- Sweden
+    PropCit    : Citizenship -> Property ;    -- Swedish
 
     OnDay      : Day -> Date ;  -- on Friday
     Today      : Date ;         -- today
@@ -166,6 +173,49 @@ abstract Sentences = Numeral ** {
     AKnowSentence : Person -> Sentence -> Action ; -- you know that I am in the bar
     AKnowPerson   : Person -> Person   -> Action ; -- you know me
     AKnowQuestion : Person -> Question -> Action ; -- you know how far the bar is
+
+------------------------------------------------------------------------------------------
+-- New things added 30/11/2011 by AR
+------------------------------------------------------------------------------------------
+
+  cat
+    VerbPhrase ;  -- things one does, can do, must do, wants to do, e.g. swim
+    Modality ;    -- can, want, must
+  fun
+    ADoVerbPhrase       : Person -> VerbPhrase -> Action ;                       -- I swim
+    AModVerbPhrase      : Modality -> Person -> VerbPhrase -> Action ;           -- I can swim
+    ADoVerbPhrasePlace  : Person -> VerbPhrase -> Place -> Action ;              -- I swim in the hotel
+    AModVerbPhrasePlace : Modality -> Person -> VerbPhrase -> Place -> Action ;  -- I can swim in the hotel
+
+    QWhereDoVerbPhrase  : Person -> VerbPhrase -> Question ;                     -- where do you swim
+    QWhereModVerbPhrase : Modality -> Person -> VerbPhrase -> Question ;         -- where can I swim
+
+    MCan, MKnow, MMust, MWant : Modality ;
+  
+-- lexical items given in the resource Lexicon
+    
+    VPlay, VRun, VSit, VSleep, VSwim, VWalk : VerbPhrase ;
+    VDrink, VEat, VRead, VWait, VWrite : VerbPhrase ;
+    V2Buy, V2Drink, V2Eat : Object -> VerbPhrase ;
+    V2Wait : Person -> VerbPhrase ;
+
+    PImperativeFamPos,    -- eat
+    PImperativeFamNeg,    -- don't eat
+    PImperativePolPos,    -- essen Sie
+    PImperativePolNeg,    -- essen Sie nicht
+    PImperativePlurPos,   -- esst
+    PImperativePlurNeg :  -- esst nicht
+      VerbPhrase -> Phrase ;
+
+-- other new things allowed by the resource
+
+---    PBecause : Sentence -> Sentence -> Phrase ;  -- I want to swim because it is hot
+
+    He, She,                                  -- he, she
+    WeMale, WeFemale,                         -- we, said by men/women (affects agreement)
+    YouPlurFamMale, YouPlurFamFemale,         -- plural familiar you, said to men/women (affects agreement)
+    YouPlurPolMale, YouPlurPolFemale,         -- plural polite you, said to men/women (affects agreement)
+    TheyMale, TheyFemale : Person ;           -- they, said of men/women (affects agreement)
 
 }
 
