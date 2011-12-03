@@ -61,6 +61,8 @@ hispaania restoran
 
 rootsi restoran
 
+tai restoran
+
 
 kui kaugel haigla on jalgsi
 
@@ -114,6 +116,8 @@ mina olen vene
 mina olen hispaania
 
 mina olen rootsi
+
+mina olen tai
 
 
 mina olen lennujaamis
@@ -199,6 +203,10 @@ mina olen veses restoranis
 mina olen hispaaniais restoranis
 
 mina olen rootsiis restoranis
+
+mina olen taiis restoranis
+
+mina olen supelrandis
 
 
 kõige populaarsem kool on suletud reedeti .
@@ -364,5 +372,20 @@ sada kümme tuhat sada heai eriti maitsevi külmi õuna
 
 
 kümme zlotti .
+
+
+juogu liiga külmi pizzai ja õuna
+
+
+Ã¤lkÃ¤Ã¤ kirjoittako
+
+
+odottakaa neid
+
+
+Ã¤lÃ¤ odota teie naist
+
+
+kus sina juoksed ?
 
 

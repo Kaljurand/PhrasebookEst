@@ -308,4 +308,53 @@ concrete WordsEst of Words = SentencesEst **
     mkSuperl : A -> Det = \a -> mkDet the_Quant (mkOrd a) ;
 
     far_IAdv = E.IAdvAdv L.far_Adv ;
+
+--------------------------------------------------
+-- New 30/11/2011 AR
+--------------------------------------------------
+
+  lin
+    --Thai = mkNat (mkPN "thai") (mkPN "Thaimaa") (mkA "thaimaalainen") ;
+    Thai = mkNat ("tai") (mkPN "Tai") ;
+    Baht = mkCN (mkN "baht") ;
+
+    Rice = mkCN (mkN "riis") ;
+    Pork = mkCN (mkN "siga") ;
+    Beef = mkCN (mkN "veis") ;
+    Egg = mkCN L.egg_N ;
+    Noodles = mkCN (mkN "nuudel") ;
+    Shrimps = mkCN (mkN "krevet") ;
+    Chili = mkCN (mkN "tšilli") ;
+    Garlic = mkCN (mkN "küüs" (mkN "lauk")) ;
+    Durian = mkCN (mkN "duurian") ;
+    Mango = mkCN (mkN "mango") ;
+    Pineapple = mkCN (mkN "ananass") ;
+    Coke = mkCN (mkN "coca-cola") ;
+    IceCream = mkCN (mkN "jäätis") ;
+    Salad = mkCN (mkN "salat") ;
+    OrangeJuice = mkCN (mkN "apelsiini" (mkN "mahl")) ;
+    Lemonade = mkCN (mkN "limonaad") ;
+
+    Beach = mkPlace (mkN "supel" (mkN "rand")) ssa ;
+
+    ItsRaining = mkCl (mkVP L.rain_V0) ;
+    ItsCold = mkCl (mkVP L.cold_A) ;
+    ItsWarm = mkCl (mkVP L.warm_A) ;
+    -- ItsWindy = mkCl (mkVP (mkV "tuulla")) ;
+    ItsWindy = mkCl (mkNP the_Det L.wind_N) (mkVP (mkV "puhuda")) ;
+    SunShine = mkCl (mkNP the_Det L.sun_N) (mkVP (mkV "paista")) ;
+
+    Smoke = mkVP (mkV "suitsetada") ;
+
+    ADoctor = mkProfession (mkN "arst") ;
+    AProfessor = mkProfession (mkN "professor") ;
+    ALawyer = mkProfession (mkN "jurist") ;
+    AEngineer =  mkProfession (mkN "insener") ;
+    ATeacher = mkProfession (mkN "õpetaja") ;
+    ACook = mkProfession (mkN "kokk") ;
+    AStudent = mkProfession (mkN "õpilane") ;
+    ABusinessman = mkProfession (mkN "äri" L.man_N) ;
+
+  oper
+    mkProfession : N -> NPPerson -> Cl = \n,p -> mkCl p.name n ;
 }

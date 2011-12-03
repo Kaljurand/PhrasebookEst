@@ -247,3 +247,21 @@ l PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 (pot0as1 pot01))))) Zl
 
 -- kümme zlotti
 l PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 pot110)))) Zloty)
+
+-- jooge liiga külma pizzat ja õuna
+-- drink a too cold pizza and an apple
+l PImperativePolPos (V2Drink (ObjAndObj (ObjIndef (SuchKind (Too Cold) Pizza)) (OneObj (ObjIndef Apple))))
+
+-- ärge kirjutage
+-- don't write
+l PImperativePlurNeg VWrite
+
+-- oodake neid
+l PImperativePlurPos (V2Wait TheyMale)
+
+-- ära oota oma (teie?) naist
+-- don't wait for your wife
+l PImperativeFamNeg (V2Wait (Wife YouPlurPolMale))
+
+-- kus sina jooksed
+l PQuestion (QWhereDoVerbPhrase YouFamMale VRun)
