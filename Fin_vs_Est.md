@@ -17,6 +17,12 @@ Possessive endings
 
 Fin has them, Est does not.
 
+  * Fin: rakastan vaimoasi.
+  * Fin: älä odota vaimoasi
+  * Est: ma armastan sinu naist
+  * Est: ära oota oma naist
+  * Est: ära oota sinu naist (_wrong!_)
+
 
 Pro-drop
 --------
@@ -26,6 +32,20 @@ Fin uses more pro-drop.
 
 Vowel harmony
 -------------
+
+
+Smart paradigms
+---------------
+
+Which forms help most in determining the other forms?
+
+### Noun forms
+
+Fin: PlPart, SgGen, SgPart
+Est: ???
+
+### Verb forms
+
 
 
 Yes/no-questions

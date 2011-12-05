@@ -265,3 +265,12 @@ l PImperativeFamNeg (V2Wait (Wife YouPlurPolMale))
 
 -- kus sina jooksed
 l PQuestion (QWhereDoVerbPhrase YouFamMale VRun)
+
+-- kus teie poeg magab?
+l PQuestion (QWhereDoVerbPhrase (Son YouPlurPolFemale) VSleep)
+
+-- istuge
+l PImperativePlurPos VSit
+
+-- päike ei paista
+l PSentence (SPropNot SunShine)

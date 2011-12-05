@@ -308,7 +308,7 @@ kümme .
 mis on teie naise nimi ?
 
 
-mina ei tahdo minna .
+mina ei tah minna .
 
 
 kas nood pizzaid on eriti belgiaisid ?
@@ -374,18 +374,27 @@ sada kümme tuhat sada heai eriti maitsevi külmi õuna
 kümme zlotti .
 
 
-juogu liiga külmi pizzai ja õuna
+juukaa liiga külmi pizzai ja õuna
 
 
-Ã¤lkÃ¤Ã¤ kirjoittako
+ärge kirjutaö
 
 
-odottakaa neid
+oodatkaa neid
 
 
-Ã¤lÃ¤ odota teie naist
+ära oodaa teie naist
 
 
-kus sina juoksed ?
+kus sina jooksed ?
+
+
+kus teie poeg magab ?
+
+
+istugu
+
+
+päike ei paise .
 
 
