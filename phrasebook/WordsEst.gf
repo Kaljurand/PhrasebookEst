@@ -141,21 +141,21 @@ concrete WordsEst of Words = SentencesEst **
     AHasTable p = haveForPerson p.name (mkCN (mkN "laud")) ;
     AHungry p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "nälg")) ;
     AIll p = mkCl p.name (mkA "haige") ;
-    AKnow p = mkCl p.name (mkV "teada") ;
+    AKnow p = mkCl p.name (mkV "teadma") ;
     ALike p item = mkCl p.name L.like_V2 item ;
-    ALive p co = mkCl p.name (mkVP (mkVP (mkV "elada")) (SyntaxEst.mkAdv in_Prep co)) ;
-    ALove p q = mkCl p.name (mkV2 (mkV "armastada") partitive) q.name ;
+    ALive p co = mkCl p.name (mkVP (mkVP (mkV "elama")) (SyntaxEst.mkAdv in_Prep co)) ;
+    ALove p q = mkCl p.name (mkV2 (mkV "armastama") partitive) q.name ;
     AMarried p = mkCl p.name (ParadigmsEst.mkAdv "abielus") ;
     AReady p = mkCl p.name (ParadigmsEst.mkA "valmis") ;
     -- Eng: I am scared
     -- Fin: Minua pelottaa (partitive)
     -- Est: Mina kardan (nominative)
     -- Est: Mul on hirm (nominative)
-    -- AScared p = mkCl p.name (caseV nominative (mkV "karta")) ;
+    -- AScared p = mkCl p.name (caseV nominative (mkV "kartma")) ;
     AScared p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "hirm")) ;
     -- Fin: puhua: Puhun hollantia (partitive)
     -- Est: Mina räägin hollandi keelt (partitive)
-    ASpeak p lang = mkCl p.name (mkV2 (mkV "rääkida") partitive) lang ;
+    ASpeak p lang = mkCl p.name (mkV2 (mkV "rääkima") partitive) lang ;
     AThirsty p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "janu")) ;
     -- Eng: I am tired
     -- Fin: Minua väsyttää. (partitive)
@@ -164,16 +164,16 @@ concrete WordsEst of Words = SentencesEst **
     -- ATired p = mkCl p.name (caseV partitive (mkV "väsitada")) ;
     ATired p = mkCl p.name (ParadigmsEst.mkA "väsinud") ;
     -- TODO: better: aru saama / saan aru
-    AUnderstand p = mkCl p.name (mkV "mõista") ;
-    AWant p obj = mkCl p.name (mkV2 "tahta") obj ;
+    AUnderstand p = mkCl p.name (mkV "mõistma") ;
+    AWant p obj = mkCl p.name (mkV2 "tahtma") obj ;
     AWantGo p place = mkCl p.name want_VV (mkVP (mkVP L.go_V) place.to) ;
 
 -- miscellaneous
 
     QWhatName p = mkQS (mkQCl whatSg_IP (mkVP (nameOf p))) ;
     QWhatAge p = mkQS (mkQCl (E.ICompAP (mkAP L.old_A)) p.name) ;
-    HowMuchCost item = mkQS (mkQCl how8much_IAdv (mkCl item (mkV "maksta"))) ;
-    ItCost item price = mkCl item (mkV2 (mkV "maksta")) price ;
+    HowMuchCost item = mkQS (mkQCl how8much_IAdv (mkCl item (mkV "maksma"))) ;
+    ItCost item price = mkCl item (mkV2 (mkV "maksma")) price ;
 
     PropOpen p = mkCl p.name open_Adv ;
     PropClosed p = mkCl p.name closed_Adv ;
@@ -230,7 +230,7 @@ concrete WordsEst of Words = SentencesEst **
       mkQS (mkQCl (mkIP which_IDet trans.name) (mkVP (mkVP L.go_V) place.to)) ;
 
     IsTranspPlace trans place =
-      mkQS (mkQCl (mkCl (mkVP (mkVP (mkVP (mkV "saada")) trans.by) place.to))) ;
+      mkQS (mkQCl (mkCl (mkVP (mkVP (mkVP (mkV "saama")) trans.by) place.to))) ;
       -- pääseekö keskustaan bussilla
       -- mkQS (mkQCl (E.AdvPredNP place.to L.go_V (E.PartCN (trans.name)))) ;
       -- meneekö keskustaan bussia
@@ -341,10 +341,10 @@ concrete WordsEst of Words = SentencesEst **
     ItsCold = mkCl (mkVP L.cold_A) ;
     ItsWarm = mkCl (mkVP L.warm_A) ;
     -- ItsWindy = mkCl (mkVP (mkV "tuulla")) ;
-    ItsWindy = mkCl (mkNP the_Det L.wind_N) (mkVP (mkV "puhuda")) ;
-    SunShine = mkCl (mkNP the_Det L.sun_N) (mkVP (mkV "paista")) ;
+    ItsWindy = mkCl (mkNP the_Det L.wind_N) (mkVP (mkV "puhuma")) ;
+    SunShine = mkCl (mkNP the_Det L.sun_N) (mkVP (mkV "paistma")) ;
 
-    Smoke = mkVP (mkV "suitsetada") ;
+    Smoke = mkVP (mkV "suitsetama") ;
 
     ADoctor = mkProfession (mkN "arst") ;
     AProfessor = mkProfession (mkN "professor") ;

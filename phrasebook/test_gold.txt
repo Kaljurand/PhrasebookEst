@@ -221,7 +221,7 @@ kaheksa odavi õuna palun !
 minu naine rääkib taanii keeli .
 
 
-kui palju too soome kana maksee ?
+kui palju too soome kana maksb ?
 
 
 kõige odavam keskus on avatud .
@@ -242,7 +242,7 @@ minul on pizza .
 sinu meesel on õunu .
 
 
-kui palju nood õunad maksevat ?
+kui palju nood õunad maksvad ?
 
 
 haigla on avatud reedeil .
@@ -338,7 +338,7 @@ sina lugupidad tollest eriti kallisest kanaist .
 mina armastan teie poegi tütari .
 
 
-minu tütari mees teab .
+minu tütari mees teadb .
 
 
 sinu poeg elab Hollandis .
@@ -353,10 +353,10 @@ minul on hirm .
 NNi tütari naise meesel on janu .
 
 
-minu poeg mõisee .
+minu poeg mõistb .
 
 
-teie laped tahvad pizzai .
+teie laped tahtvad pizzai .
 
 
 minu nimi on NN
@@ -374,27 +374,27 @@ sada kümme tuhat sada heai eriti maitsevi külmi õuna
 kümme zlotti .
 
 
-juukaa liiga külmi pizzai ja õuna
+jooge liiga külmi pizzai ja õuna
 
 
-ärge kirjutaö
+ärge kirjudake
 
 
-oodatkaa neid
+oodake neid
 
 
-ära oodaa teie naist
+ära oota teie naist
 
 
-kus sina jooksed ?
+kus sina jooksd ?
 
 
 kus teie poeg magab ?
 
 
-istugu
+istuge
 
 
-päike ei paise .
+päike ei paist .
 
 

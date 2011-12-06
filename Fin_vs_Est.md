@@ -73,6 +73,8 @@ Genitive adjective
 In Fin, special premodifying adjectives like "balti" agree in case
 (in Est they do not change).
 
+  * genitiivatribuut (käändumatu omadussõna), nt balti
+
 
 Supiin
 ------
@@ -99,6 +101,8 @@ Estonian has 4 participles.
 no comparison forms, no plural form, no case endings.
 
   * teie tütre lapsed on väsinud+0
+  * väsinud lastele anti padi
+  * väsinutele anti padi (noun!)
 
 
 Copula
