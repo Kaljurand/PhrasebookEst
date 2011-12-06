@@ -218,10 +218,10 @@ kaheksa odavi õuna palun !
 üheksa &+ kümmend Taani krooni .
 
 
-minu naine rääkib taanii keeli .
+minu naine räägib taanii keeli .
 
 
-kui palju too soome kana maksb ?
+kui palju too soome kana maksab ?
 
 
 kõige odavam keskus on avatud .
@@ -242,7 +242,7 @@ minul on pizza .
 sinu meesel on õunu .
 
 
-kui palju nood õunad maksvad ?
+kui palju nood õunad maksavad ?
 
 
 haigla on avatud reedeil .
@@ -377,7 +377,7 @@ kümme zlotti .
 jooge liiga külmi pizzai ja õuna
 
 
-ärge kirjudake
+ärge kirjutage
 
 
 oodake neid
@@ -386,7 +386,7 @@ oodake neid
 ära oota teie naist
 
 
-kus sina jooksd ?
+kus sina jooksad ?
 
 
 kus teie poeg magab ?
