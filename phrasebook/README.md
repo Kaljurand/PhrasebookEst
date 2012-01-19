@@ -8,7 +8,8 @@ Estonian concrete syntax for the MOLTO Phrasebook
 (http://www.molto-project.eu/demo/phrasebook).
 
 Depends on the (emerging) Estonian resource grammar which
-is developed separately at http://gf-estonian.googlecode.com.
+is developed separately at
+https://github.com/GF-Estonian/GF-Estonian
 
 
 Status
@@ -27,6 +28,10 @@ For usage examples see the scripts:
   * `run.sh`
   * `test.sh`
   * `make-pgf.sh`
+
+If the script crashes with a stack overflow error then try deleting
+all the gfo-files (these will be regenerated next time when the script
+runs).
 
 Testing
 -------
@@ -56,7 +61,8 @@ and which are going to be ported to Estonian in this project:
   * WordsEst.gf
   * SentencesEst.gf
 
-The Estonian resource grammar must be downloaded from http://gf-estonian.googlecode.com
+The Estonian resource grammar must be downloaded from
+https://github.com/GF-Estonian/GF-Estonian
 and set up in a directory that is pointed to by the environment variable `GF_EST_SRC`.
 
 Some other required modules are not included in this repository.
