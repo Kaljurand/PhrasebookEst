@@ -1,8 +1,8 @@
-gt (PGreeting GHello) | l
-gt (PGreeting (PSeeYouDate (OnDay ?))) | l
-gt (PGreeting (PSeeYouPlace (SuperlPlace ? (CitRestaurant (CitiNat Dutch))))) | l
+gt (PGreetingMale GHello) | l
+gt (PGreetingMale (PSeeYouDate (OnDay ?))) | l
+gt (PGreetingMale (PSeeYouPlace (SuperlPlace ? (CitRestaurant (CitiNat Dutch))))) | l
 
-gt (PPlace (ThePlace (CitRestaurant  ?))) | l
+--gt (PPlace (ThePlace (CitRestaurant ?))) | l
 --gr (AHasAge  IMale ?) | l -treebank
 --gr (AHasChildren IMale ?) | l -treebank
 --gr (AHasRoom  IMale ?) | l -treebank
@@ -87,7 +87,7 @@ gt (ABePlace  IMale (ThePlace ?)) | l
 --gr (ByTransp  ?) | l -treebank
 
 gt PSentence (SProp (PropClosedDay (SuperlPlace TheMostPopular School) Friday)) | l
-gt PGreeting (GObjectPlease (OneObj (ObjNumber (NNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n8)))))) (SuchKind (PropQuality Cheap) Apple)))) | l
+gt PGreetingMale (GObjectPlease (OneObj (ObjNumber (NNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n8)))))) (SuchKind (PropQuality Cheap) Apple)))) | l
 gt PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 (pot1 n9))))) DanishCrown) | l
 gt PSentence (SProp (PropAction (ASpeak (Wife IMale) (LangNat Danish)))) | l
 gt PQuestion (HowMuchCost (ThatMass (SuchMassKind (PropQuality (PropCit (CitiNat Finnish))) Chicken))) | l
@@ -138,7 +138,7 @@ gt PQuestion (HowFarBy (APlace Disco) ByFoot) | l
 gt PQuestion (QDoHave (Wife YouFamMale) (OneObj (ObjIndef Pizza))) | l
 
 -- kohtumiseni täna koolis
-gt PGreeting (PSeeYouPlaceDate (ThePlace School) Today) | l
+gt PGreetingMale (PSeeYouPlaceDate (ThePlace School) Today) | l
 
 -- see õun
 gt (This Apple) | l
@@ -271,6 +271,3 @@ l PQuestion (QWhereDoVerbPhrase (Son YouPlurPolFemale) VSleep)
 
 -- istuge
 l PImperativePlurPos VSit
-
--- päike ei paista
-l PSentence (SPropNot SunShine)

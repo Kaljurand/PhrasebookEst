@@ -18,50 +18,15 @@ kohtumiseni kolmapäevil !
 
 kohtumiseni kõige paremas hollandiis restoranis !
 
-kohtumiseni kõige lähemas hollandiis restoranis !
-
 kohtumiseni kõige odavamas hollandiis restoranis !
+
+kohtumiseni kõige lähemas hollandiis restoranis !
 
 kohtumiseni kõige kallimas hollandiis restoranis !
 
 kohtumiseni kõige populaarsemas hollandiis restoranis !
 
 kohtumiseni kõige halvemas hollandiis restoranis !
-
-
-belgia restoran
-
-bulgaaria restoran
-
-katalaani restoran
-
-taani restoran
-
-hollandi restoran
-
-inglise restoran
-
-soome restoran
-
-prantsuse restoran
-
-saksa restoran
-
-itaalia restoran
-
-norra restoran
-
-poola restoran
-
-rumeenia restoran
-
-vene restoran
-
-hispaania restoran
-
-rootsi restoran
-
-tai restoran
 
 
 kui kaugel haigla on jalgsi
@@ -117,8 +82,6 @@ mina olen hispaania
 
 mina olen rootsi
 
-mina olen tai
-
 
 mina olen lennujaamis
 
@@ -132,9 +95,41 @@ mina olen kohvikis
 
 mina olen keskuses
 
+mina olen kirikis
+
 mina olen kinois
 
-mina olen kirikis
+mina olen belgiais restoranis
+
+mina olen bulgaariais restoranis
+
+mina olen katalaaniis restoranis
+
+mina olen taaniis restoranis
+
+mina olen hollandiis restoranis
+
+mina olen ingliseis restoranis
+
+mina olen soomeis restoranis
+
+mina olen prantsuseis restoranis
+
+mina olen saksais restoranis
+
+mina olen itaaliais restoranis
+
+mina olen norrais restoranis
+
+mina olen poolais restoranis
+
+mina olen rumeeniais restoranis
+
+mina olen veses restoranis
+
+mina olen hispaaniais restoranis
+
+mina olen rootsiis restoranis
 
 mina olen diskois
 
@@ -171,42 +166,6 @@ mina olen tualettis
 mina olen ülikoolis
 
 mina olen loomaaedis
-
-mina olen belgiais restoranis
-
-mina olen bulgaariais restoranis
-
-mina olen katalaaniis restoranis
-
-mina olen taaniis restoranis
-
-mina olen hollandiis restoranis
-
-mina olen ingliseis restoranis
-
-mina olen soomeis restoranis
-
-mina olen prantsuseis restoranis
-
-mina olen saksais restoranis
-
-mina olen itaaliais restoranis
-
-mina olen norrais restoranis
-
-mina olen poolais restoranis
-
-mina olen rumeeniais restoranis
-
-mina olen veses restoranis
-
-mina olen hispaaniais restoranis
-
-mina olen rootsiis restoranis
-
-mina olen taiis restoranis
-
-mina olen supelrandis
 
 
 kõige populaarsem kool on suletud reedeti .
@@ -393,8 +352,5 @@ kus teie poeg magab ?
 
 
 istuge
-
-
-päike ei paist .
 
 

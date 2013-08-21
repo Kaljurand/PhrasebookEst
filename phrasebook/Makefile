@@ -23,6 +23,11 @@ run:
 	gf +RTS -K512M -RTS --preproc=mkPresent --path $(path) $(grammar)Est.gf
 
 
+test_pgf:
+	cat ../tools/test_gt.gfs | gf --run $(grammar).pgf > test_out.txt
+	diff test_gold.txt test_out.txt
+
+
 # The test run on i3 takes:
 #   - 2 min with compiled data (which only needs linking)
 #   - 3 min if compiling is needed
