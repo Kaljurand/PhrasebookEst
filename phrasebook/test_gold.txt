@@ -1,53 +1,53 @@
 tere !
 
 
-kohtumiseni reedeil !
+kohtumiseni reedel !
 
-kohtumiseni esmaspäevil !
+kohtumiseni esmaspäeval !
 
-kohtumiseni laupäevil !
+kohtumiseni laupäeval !
 
-kohtumiseni pühapäevil !
+kohtumiseni pühapäeval !
 
-kohtumiseni neljapäevil !
+kohtumiseni neljapäeval !
 
-kohtumiseni teisipäevil !
+kohtumiseni teisipäeval !
 
-kohtumiseni kolmapäevil !
+kohtumiseni kolmapäeval !
 
 
-kohtumiseni kõige paremas hollandiis restoranis !
+kohtumiseni kõige paremas hollandis restoranis !
 
-kohtumiseni kõige odavamas hollandiis restoranis !
+kohtumiseni kõige odavamas hollandis restoranis !
 
-kohtumiseni kõige lähemas hollandiis restoranis !
+kohtumiseni kõige lähemas hollandis restoranis !
 
-kohtumiseni kõige kallimas hollandiis restoranis !
+kohtumiseni kõige kallimas hollandis restoranis !
 
-kohtumiseni kõige populaarsemas hollandiis restoranis !
+kohtumiseni kõige populaarsemas hollandis restoranis !
 
-kohtumiseni kõige halvemas hollandiis restoranis !
+kohtumiseni kõige halvemas hollandis restoranis !
 
 
 kui kaugel haigla on jalgsi
 
-kui kaugel haigla on rataega
+kui kaugel haigla on ratasega
 
-kui kaugel haigla on bussega
+kui kaugel haigla on busiga
 
-kui kaugel haigla on autega
+kui kaugel haigla on autoga
 
-kui kaugel haigla on praamiga
+kui kaugel haigla on praamaga
 
-kui kaugel haigla on lennuega
+kui kaugel haigla on lennukiga
 
-kui kaugel haigla on metrooiga
+kui kaugel haigla on metrooga
 
-kui kaugel haigla on taksoiga
+kui kaugel haigla on taksoga
 
 kui kaugel haigla on rongiga
 
-kui kaugel haigla on trammiga
+kui kaugel haigla on trammaga
 
 
 mina olen belgia
@@ -83,71 +83,71 @@ mina olen hispaania
 mina olen rootsi
 
 
-mina olen lennujaamis
+mina olen lennujaamas
 
-mina olen lõbustusparkis
+mina olen lõbustuspargis
 
-mina olen pankis
+mina olen pangis
 
 mina olen baaris
 
-mina olen kohvikis
+mina olen kohvikus
 
 mina olen keskuses
 
-mina olen kirikis
+mina olen kirikus
 
-mina olen kinois
+mina olen kinos
 
-mina olen belgiais restoranis
+mina olen belgias restoranis
 
-mina olen bulgaariais restoranis
+mina olen bulgaarias restoranis
 
-mina olen katalaaniis restoranis
+mina olen katalaanis restoranis
 
-mina olen taaniis restoranis
+mina olen taanis restoranis
 
-mina olen hollandiis restoranis
+mina olen hollandis restoranis
 
-mina olen ingliseis restoranis
+mina olen inglises restoranis
 
-mina olen soomeis restoranis
+mina olen soomes restoranis
 
-mina olen prantsuseis restoranis
+mina olen prantsuses restoranis
 
-mina olen saksais restoranis
+mina olen saksas restoranis
 
-mina olen itaaliais restoranis
+mina olen itaalias restoranis
 
-mina olen norrais restoranis
+mina olen norras restoranis
 
-mina olen poolais restoranis
+mina olen poolas restoranis
 
-mina olen rumeeniais restoranis
+mina olen rumeenias restoranis
 
-mina olen veses restoranis
+mina olen venes restoranis
 
-mina olen hispaaniais restoranis
+mina olen hispaanias restoranis
 
-mina olen rootsiis restoranis
+mina olen rootsis restoranis
 
-mina olen diskois
+mina olen diskos
 
-mina olen haiglais
+mina olen haiglas
 
 mina olen hotellis
 
-mina olen muuseumis
+mina olen muuseumas
 
-mina olen parkis
+mina olen pargis
 
-mina olen parklais
+mina olen parklas
 
-mina olen apteekis
+mina olen apteegis
 
 mina olen postkontoris
 
-mina olen kõrtses
+mina olen kõrtsis
 
 mina olen restoranis
 
@@ -155,7 +155,7 @@ mina olen koolis
 
 mina olen poodis
 
-mina olen jaamis
+mina olen jaamas
 
 mina olen supermarketis
 
@@ -171,13 +171,13 @@ mina olen loomaaedis
 kõige populaarsem kool on suletud reedeti .
 
 
-kaheksa odavi õuna palun !
+kaheksa odavat õuni palun !
 
 
-üheksa &+ kümmend Taani krooni .
+üheksa &+ kümmend Taani kroon .
 
 
-minu naine räägib taanii keeli .
+minu naine räägib taanit keeli .
 
 
 kui palju too soome kana maksab ?
@@ -198,25 +198,25 @@ mina ei ole soome .
 minul on pizza .
 
 
-sinu meesel on õunu .
+sinu meesel on õune .
 
 
-kui palju nood õunad maksavad ?
+kui palju nood õunid maksavad ?
 
 
-haigla on avatud reedeil .
+haigla on avatud reedel .
 
 
 kohvik ei ole avatud täna .
 
 
-kas saab trammiga kõrtsesse ?
+kas saab trammaga kõrtsi ?
 
 
 sool ei ole eriti hea .
 
 
-NNil on pizzaisid .
+NNl on pizzaid .
 
 
 kõige lähem lõbustuspark ei ole suletud .
@@ -270,13 +270,13 @@ mis on teie naise nimi ?
 mina ei tah minna .
 
 
-kas nood pizzaid on eriti belgiaisid ?
+kas nood pizzad on eriti belgiasid ?
 
 
 kui kaugel kõige odavam haigla on baarist jalgsi ?
 
 
-kui kaugel kõige halvem keskus on praamiga ?
+kui kaugel kõige halvem keskus on praamaga ?
 
 
 kui kaugel kõige kallim kohvik on ?
@@ -291,40 +291,40 @@ kas teiel on laud viisele inimesele ?
 mis auto läheb keskusesse ?
 
 
-sina lugupidad tollest eriti kallisest kanaist .
+sina lugupidad tollest eriti kallisest kanast .
 
 
-mina armastan teie poegi tütari .
+mina armastan teie poegi tütarit .
 
 
 minu tütari mees teadb .
 
 
-sinu poeg elab Hollandis .
+sinu poeg elab Hollannis .
 
 
-minu meese naise meese laped on abielus .
+minu meese naise meese lapsid on abielus .
 
 
 minul on hirm .
 
 
-NNi tütari naise meesel on janu .
+NN tütari naise meesel on janu .
 
 
 minu poeg mõistb .
 
 
-teie laped tahtvad pizzai .
+teie lapsid tahtvad pizza .
 
 
 minu nimi on NN
 
 
-teie tütari laped on väsinudisid
+teie tütari lapsid on väsinuid
 
 
-sada kümme tuhat sada heai eriti maitsevi külmi õuna
+sada kümme tuhat sada head eriti maitsevat külmat õuni
 
 
 üks zlott .
@@ -333,7 +333,7 @@ sada kümme tuhat sada heai eriti maitsevi külmi õuna
 kümme zlotti .
 
 
-jooge liiga külmi pizzai ja õuna
+jooge liiga külmat pizzat ja õuni
 
 
 ärge kirjutage
