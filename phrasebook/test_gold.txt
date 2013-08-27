@@ -26,18 +26,18 @@ kohtumiseni kõige kallimas hollandis restoranis !
 
 kohtumiseni kõige populaarsemas hollandis restoranis !
 
-kohtumiseni kõige halvemas hollandis restoranis !
+kohtumiseni kõige halvamas hollandis restoranis !
 
 
 kui kaugel haigla on jalgsi
 
 kui kaugel haigla on ratasega
 
-kui kaugel haigla on busiga
+kui kaugel haigla on bussiga
 
 kui kaugel haigla on autoga
 
-kui kaugel haigla on praamaga
+kui kaugel haigla on praamiga
 
 kui kaugel haigla on lennukiga
 
@@ -47,7 +47,7 @@ kui kaugel haigla on taksoga
 
 kui kaugel haigla on rongiga
 
-kui kaugel haigla on trammaga
+kui kaugel haigla on trammiga
 
 
 mina olen belgia
@@ -137,7 +137,7 @@ mina olen haiglas
 
 mina olen hotellis
 
-mina olen muuseumas
+mina olen muuseumis
 
 mina olen pargis
 
@@ -153,7 +153,7 @@ mina olen restoranis
 
 mina olen koolis
 
-mina olen poodis
+mina olen poes
 
 mina olen jaamas
 
@@ -165,7 +165,7 @@ mina olen tualettis
 
 mina olen ülikoolis
 
-mina olen loomaaedis
+mina olen loomaaias
 
 
 kõige populaarsem kool on suletud reedeti .
@@ -174,7 +174,7 @@ kõige populaarsem kool on suletud reedeti .
 kaheksa odavat õuni palun !
 
 
-üheksa &+ kümmend Taani kroon .
+üheksa &+ kümmend taanikrooni .
 
 
 minu naine räägib taanit keeli .
@@ -195,7 +195,7 @@ kus hotell on ?
 mina ei ole soome .
 
 
-minul on pizza .
+minul on pitsa .
 
 
 sinu meesel on õune .
@@ -210,13 +210,13 @@ haigla on avatud reedel .
 kohvik ei ole avatud täna .
 
 
-kas saab trammaga kõrtsi ?
+kas saab trammiga kõrtsi ?
 
 
 sool ei ole eriti hea .
 
 
-NNl on pizzaid .
+NNl on pitsasid .
 
 
 kõige lähem lõbustuspark ei ole suletud .
@@ -225,7 +225,7 @@ kõige lähem lõbustuspark ei ole suletud .
 kui kaugel disko on jalgsi ?
 
 
-kas sinu naisel on pizza ?
+kas sinu naisel on pitsa ?
 
 
 kohtumiseni koolis täna !
@@ -252,7 +252,7 @@ seitse &+ sada kaheksa &+ teist
 sada tuhat kaks &+ sada viis &+ teist
 
 
-mis on minu tütari nimi ?
+mis on minu tütre nimi ?
 
 
 kas vein on liiga kahtlane ?
@@ -270,13 +270,13 @@ mis on teie naise nimi ?
 mina ei tah minna .
 
 
-kas nood pizzad on eriti belgiasid ?
+kas nood pitsad on eriti belgiasid ?
 
 
 kui kaugel kõige odavam haigla on baarist jalgsi ?
 
 
-kui kaugel kõige halvem keskus on praamaga ?
+kui kaugel kõige halvam keskus on praamiga ?
 
 
 kui kaugel kõige kallim kohvik on ?
@@ -285,46 +285,46 @@ kui kaugel kõige kallim kohvik on ?
 sada üks &+ teist tuhat .
 
 
-kas teiel on laud viisele inimesele ?
+kas teiel on laud viiele inimesele ?
 
 
 mis auto läheb keskusesse ?
 
 
-sina lugupidad tollest eriti kallisest kanast .
+sina lugupidad tollest eriti kallist kanast .
 
 
-mina armastan teie poegi tütarit .
+mina armastan teie poja tütart .
 
 
-minu tütari mees teadb .
+minu tütre mees teadb .
 
 
 sinu poeg elab Hollannis .
 
 
-minu meese naise meese lapsid on abielus .
+minu meese naise meese lapsed on abielus .
 
 
 minul on hirm .
 
 
-NN tütari naise meesel on janu .
+NN tütre naise meesel on janu .
 
 
 minu poeg mõistb .
 
 
-teie lapsid tahtvad pizza .
+teie lapsed tahtvad pitsa .
 
 
 minu nimi on NN
 
 
-teie tütari lapsid on väsinuid
+teie tütre lapsed on väsinuid
 
 
-sada kümme tuhat sada head eriti maitsevat külmat õuni
+sada kümme tuhat sada head eriti maitsevat külmi õuni
 
 
 üks zlott .
@@ -333,7 +333,7 @@ sada kümme tuhat sada head eriti maitsevat külmat õuni
 kümme zlotti .
 
 
-jooge liiga külmat pizzat ja õuni
+jooge liiga külmi pitsat ja õuni
 
 
 ärge kirjutage

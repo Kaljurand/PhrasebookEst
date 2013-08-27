@@ -15,13 +15,13 @@ concrete WordsEst of Words = SentencesEst **
     Apple = mkCN L.apple_N ;
     Beer = mkCN L.beer_N ;
     Bread = mkCN L.bread_N ;
-    Cheese = mkCN (mkN "juust") ;
+    Cheese = mkCN (mkN "juust" "juustu" "juustu" "juustu" "juustude" "juuste") ;
     Chicken = mkCN (mkN "kana") ;
-    Coffee = mkCN (mkN "kohv") ;
+    Coffee = mkCN (mkN "kohv" "kohvi" "kohvi" "kohvi" "kohvide" "kohve") ;
     Fish = mkCN L.fish_N ;
     Meat = mkCN (mkN "liha") ;
     Milk = mkCN L.milk_N ;
-    Pizza = mkCN (mkN "pizza") ;
+    Pizza = mkCN (mkN "pitsa" "pitsa" "pitsat" "pitsasse" "pitsade" "pitsasid") ;
     Salt = mkCN L.salt_N ;
     Tea = mkCN (mkN "tee") ;
     Water = mkCN L.water_N ;
@@ -34,7 +34,7 @@ concrete WordsEst of Words = SentencesEst **
     Cheap = mkA "odav" ;
     Cold = L.cold_A ;
     Delicious = mkA "maitsev" ;
-    Expensive = mkA "kallis" ;
+    Expensive = mkA (mkN "kallis" "kalli" "kallist" "kallisse" "kallite" "kalleid");
     Fresh = mkA "toores" ;
     Good = L.good_A ;
     Suspect = mkA "kahtlane" ;
@@ -48,15 +48,15 @@ concrete WordsEst of Words = SentencesEst **
     Bar = mkPlace (mkN "baar") ssa ;
     Toilet = mkPlace (mkN "tualett") ssa ;
     Museum = mkPlace (mkN "muuseum") ssa ;
-    Airport = mkPlace (mkN "lennu" (mkN "jaam")) ssa ; -- different in Fin
-    Station = mkPlace (mkN "jaam") ssa ; -- different in Fin
+    Airport = mkPlace (mkN "lennu" (mkN "jaam" "jaama" "jaama" "jaama" "jaamade" "jaamu")) ssa ; -- different in Fin
+    Station = mkPlace (mkN "jaam" "jaama" "jaama" "jaama" "jaamade" "jaamu") ssa ; -- different in Fin
     Hospital = mkPlace (mkN "haigla") ssa ;
     Church = mkPlace (mkN "kirik") ssa ;
     Cinema = mkPlace (mkN "kino") ssa ;
     Theatre = mkPlace (mkN "teater") ssa ;
-    Shop = mkPlace (mkN "pood") ssa ;
+    Shop = mkPlace (mkN "pood" "poe" "poodi" "poodi" "poodide" "poode") ssa ;
     Park = mkPlace (mkN "park") ssa ;
-    Hotel = mkPlace (mkN "hotell") ssa ;
+    Hotel = mkPlace (mkN "hotell" "hotelli" "hotelli" "hotelli" "hotellide" "hotelle") ssa ;
     University = mkPlace (mkN "üli" (mkN "kool")) ssa ; -- different in Fin
     School = mkPlace (mkN "kool") ssa ; -- different in Fin
 
@@ -76,19 +76,19 @@ concrete WordsEst of Words = SentencesEst **
     Disco = mkPlace (mkN "disko") ssa ;
     Pub = mkPlace (mkN "kõrts") ssa ;
     AmusementPark = mkPlace (mkN "lõbustus" (mkN "park")) ssa ;
-    Zoo = mkPlace (mkN "looma" (mkN "aed")) ssa ;
+    Zoo = mkPlace (mkN "looma" (mkN "aed" "aia" "aeda" "aeda" "aedade" "aedu")) ssa ;
 
 -- currencies
 
-    DanishCrown = mkCN (mkN "Taani kroon") | mkCN (mkN "kroon") ;
+    DanishCrown = mkCN (kroon2 "taani") ;
     Dollar = mkCN (mkN "dollar") ;
     Euro = mkCN (mkN "euro") ;
     Lei = mkCN (mkN "leu") ;
     Leva = mkCN (mkN "leev") ;
-    NorwegianCrown = mkCN (mkN "Norra kroon") | mkCN (mkN "kroon") ;
+    NorwegianCrown = mkCN (kroon2 "norra") ;
     Pound = mkCN (mkN "nael") ;
     Rouble = mkCN (mkN "rubla") ;
-    SwedishCrown = mkCN (mkN "Rootsi kroon") | mkCN (mkN "kroon") ;
+    SwedishCrown = mkCN (kroon2 "rootsi") ;
     Zloty = mkCN (mkN "zlott") ;
 
 -- Citizenship
@@ -120,7 +120,7 @@ concrete WordsEst of Words = SentencesEst **
 -- means of transportation
 
     Bike = mkTransport L.bike_N ;
-    Bus = mkTransport (mkN "buss") ;
+    Bus = mkTransport (mkN "buss" "bussi" "bussi" "bussi" "busside" "busse") ;
     Car = mkTransport L.car_N ;
     Ferry = mkTransport (mkN "praam") ;
     Plane = mkTransport L.airplane_N ;
@@ -198,8 +198,8 @@ concrete WordsEst of Words = SentencesEst **
 
     Wife = xOf sing (mkN "naine") ;
     Husband = xOf sing L.man_N ;
-    Son = xOf sing (mkN "poeg") ;
-    Daughter = xOf sing (mkN "tütar") ;
+    Son = xOf sing (mkN "poeg" "poja" "poega" "poegadesse" "poegade" "poegi") ;
+    Daughter = xOf sing (mkN "tütar" "tütre" "tütart" "tütresse" "tütarde" "tütreid") ;
     Children = xOf plur L.child_N ;
 
 -- week days
@@ -239,14 +239,17 @@ concrete WordsEst of Words = SentencesEst **
 
     TheBest = mkSuperl L.good_A ;
     TheClosest = mkSuperl (mkA (mkN "lähedal asuv") "lähem" "lähim") ;
-    TheCheapest = mkSuperl (mkA (mkN "odav") "odavam" "odavaim") ;
-    TheMostExpensive = mkSuperl (mkA (mkN "kallis") "kallim" "kalleim") ;
+    TheCheapest = mkSuperl (mkA "odav") ;
+    TheMostExpensive = mkSuperl (mkA (mkN "kallis" "kalli" "kallist" "kallisse" "kallite" "kalleid")) ;
     TheMostPopular = mkSuperl (mkA (mkN "populaarne") "populaarsem" "populaarseim") ;
     TheWorst = mkSuperl (L.bad_A) ;
 
     SuperlPlace sup p = placeNP sup p ;
 
   oper
+    kroon : N = mkN "kroon" "krooni" "krooni" "krooni" "kroonide" "kroone" ;
+    kroon2 : Str -> N = \taani -> mkN (taani + " ") kroon ;
+
     mkNat : Str -> PN ->
       {lang : NP ; prop : A ; country : NP} = \pro,co ->
         {lang = mkNP (mkCN (mkA pro) (mkN "keel"));

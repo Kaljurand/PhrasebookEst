@@ -35,6 +35,9 @@ test:
 	cat ../tools/test_gt.gfs | gf +RTS -$(stack_size) -RTS --preproc=mkPresent --run --path $(path) $(grammar)Est.gf > test_out.txt
 	#diff test_gold.txt test_out.txt
 
+test1:
+	echo "rf -lines -tree -file=../tests/trees1.txt | l -lang=PhrasebookEst" | gf --run Phrasebook.pgf > ../tests/lins2.out
+
 
 clean:
 	find -name "*.gfo" | xargs rm -f
