@@ -131,7 +131,7 @@ mina olen hispaaniapärases restoranis
 
 mina olen rootsipärases restoranis
 
-mina olen diskos
+mina olen diskoteegis
 
 mina olen haiglas
 
@@ -177,7 +177,7 @@ kaheksa odavat õuni palun !
 üheksa &+ kümmend taanikrooni .
 
 
-minu naine rääkib taanikeelt .
+minu naine puhb taanikeelt .
 
 
 kui palju too soomepärane kana maksab ?
@@ -222,7 +222,7 @@ NNl on pitsasid .
 kõige lähem lõbustuspark ei ole suletud .
 
 
-kui kaugel disko on jalgsi ?
+kui kaugel diskoteek on jalgsi ?
 
 
 kas sinu naisel on pitsa ?
@@ -285,7 +285,7 @@ kui kaugel kõige kallim kohvik on ?
 sada üks &+ teist tuhat .
 
 
-kas teiel on laud viiele inimesele ?
+kas teil on laud viiele inimesele ?
 
 
 mis auto läheb keskusesse ?

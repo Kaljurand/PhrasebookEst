@@ -73,7 +73,7 @@ concrete WordsEst of Words = SentencesEst **
     Pharmacy = mkPlace (mkN "apteek") ssa ;
     Center = mkPlace (mkN "keskus") ssa ;
     Cafeteria = mkPlace (mkN "kohvik") ssa ;
-    Disco = mkPlace (mkN "disko") ssa ;
+    Disco = mkPlace (mkN "diskoteek") ssa ;
     Pub = mkPlace (mkN "kõrts") ssa ;
     AmusementPark = mkPlace (mkN "lõbustus" (mkN "park")) ssa ;
     Zoo = mkPlace (mkN "looma" (mkN "aed" "aia" "aeda" "aeda" "aedade" "aedu")) ssa ;
@@ -141,10 +141,11 @@ concrete WordsEst of Words = SentencesEst **
     AHasTable p = haveForPerson p.name (mkCN (mkN "laud")) ;
     AHungry p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "nälg")) ;
     AIll p = mkCl p.name (mkA "haige") ;
-    AKnow p = mkCl p.name (mkV "teadma") ;
+    --AKnow p = mkCl p.name (mkV "teadma") ;
+    AKnow p = mkCl p.name L.know_VS ;
     ALike p item = mkCl p.name L.like_V2 item ;
-    ALive p co = mkCl p.name (mkVP (mkVP (mkV "elama")) (SyntaxEst.mkAdv in_Prep co)) ;
-    ALove p q = mkCl p.name (mkV2 (mkV "armastama") partitive) q.name ;
+    ALive p co = mkCl p.name (mkVP (mkVP L.live_V) (SyntaxEst.mkAdv in_Prep co)) ;
+    ALove p q = mkCl p.name L.love_V2 q.name ;
     AMarried p = mkCl p.name (ParadigmsEst.mkAdv "abielus") ;
     AReady p = mkCl p.name (ParadigmsEst.mkA "valmis") ;
     -- Eng: I am scared
@@ -155,7 +156,7 @@ concrete WordsEst of Words = SentencesEst **
     AScared p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "hirm")) ;
     -- Fin: puhua: Puhun hollantia (partitive)
     -- Est: Mina räägin hollandi keelt (partitive)
-    ASpeak p lang = mkCl p.name (mkV2 (mkV "rääkima") partitive) lang ;
+    ASpeak p lang = mkCl p.name L.speak_V2 lang ;
     AThirsty p = E.AdvExistNP (SyntaxEst.mkAdv on_Prep p.name) (mkNP (mkN "janu")) ;
     -- Eng: I am tired
     -- Fin: Minua väsyttää. (partitive)
@@ -164,6 +165,7 @@ concrete WordsEst of Words = SentencesEst **
     -- ATired p = mkCl p.name (caseV partitive (mkV "väsitada")) ;
     ATired p = mkCl p.name (ParadigmsEst.mkA "väsinud") ;
     -- TODO: better: aru saama / saan aru
+    -- AUnderstand p = mkCl p.name L.understand_V2 ;
     AUnderstand p = mkCl p.name (mkV "mõistma") ;
     AWant p obj = mkCl p.name (mkV2 "tahtma") obj ;
     AWantGo p place = mkCl p.name want_VV (mkVP (mkVP L.go_V) place.to) ;
@@ -241,7 +243,7 @@ concrete WordsEst of Words = SentencesEst **
     TheClosest = mkSuperl (mkA (mkN "lähedal asuv") "lähem" "lähim") ;
     TheCheapest = mkSuperl (mkA "odav") ;
     TheMostExpensive = mkSuperl (mkA (mkN "kallis" "kalli" "kallist" "kallisse" "kallite" "kalleid")) ;
-    TheMostPopular = mkSuperl (mkA (mkN "populaarne") "populaarsem" "populaarseim") ;
+    TheMostPopular = mkSuperl (mkA "populaarne") ;
     TheWorst = mkSuperl (L.bad_A) ;
 
     SuperlPlace sup p = placeNP sup p ;
@@ -343,7 +345,6 @@ concrete WordsEst of Words = SentencesEst **
     ItsRaining = mkCl (mkVP L.rain_V0) ;
     ItsCold = mkCl (mkVP L.cold_A) ;
     ItsWarm = mkCl (mkVP L.warm_A) ;
-    -- ItsWindy = mkCl (mkVP (mkV "tuulla")) ;
     ItsWindy = mkCl (mkNP the_Det L.wind_N) (mkVP (mkV "puhuma")) ;
     SunShine = mkCl (mkNP the_Det L.sun_N) (mkVP (mkV "paistma")) ;
 
