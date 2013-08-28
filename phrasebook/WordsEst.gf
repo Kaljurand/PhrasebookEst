@@ -98,22 +98,22 @@ concrete WordsEst of Words = SentencesEst **
     Belgium = mkNP (mkPN "Belgia") ;
 
 -- Nationality
-    Bulgarian = mkNat ("bulgaaria") (mkPN "Bulgaaria") ;
-    Catalan = mkNat ("katalaani") (mkPN "Kataloonia") ;
-    Danish = mkNat ("taani") (mkPN "Taani") ;
-    Dutch = mkNat ("hollandi") (mkPN "Holland") ;
-    English = mkNat ("inglise") (mkPN "Inglismaa") ;
-    Finnish = mkNat ("soome") (mkPN "Soome") ;
+    Bulgarian = mkNat "bulgaaria" (mkPN "Bulgaaria") ;
+    Catalan = mkNat "katalaani" (mkPN "Kataloonia") ;
+    Danish = mkNat "taani" (mkPN "Taani") ;
+    Dutch = mkNat "hollandi" (mkPN "Holland") ;
+    English = mkNat "inglise" (mkPN "Inglismaa") ;
+    Finnish = mkNat "soome" (mkPN "Soome") ;
     Flemish = mkNP (mkPN "flaami keel") ; -- Language
-    French = mkNat ("prantsuse") (mkPN "Prantsusmaa") ;
-    German = mkNat ("saksa") (mkPN "Saksamaa") ;
-    Italian = mkNat ("itaalia") (mkPN "Itaalia") ;
-    Norwegian = mkNat ("norra") (mkPN "Norra") ;
-    Polish = mkNat ("poola") (mkPN "Poola") ;
-    Romanian = mkNat ("rumeenia") (mkPN "Rumeenia") ;
-    Russian = mkNat ("vene") (mkPN "Venemaa") ;
-    Spanish = mkNat ("hispaania") (mkPN "Hispaania") ;
-    Swedish = mkNat ("rootsi") (mkPN "Rootsi") ;
+    French = mkNat "prantsuse" (mkPN "Prantsusmaa") ;
+    German = mkNat "saksa" (mkPN "Saksamaa") ;
+    Italian = mkNat "itaalia" (mkPN "Itaalia") ;
+    Norwegian = mkNat "norra" (mkPN "Norra") ;
+    Polish = mkNat "poola" (mkPN "Poola") ;
+    Romanian = mkNat "rumeenia" (mkPN "Rumeenia") ;
+    Russian = mkNat "vene" (mkPN "Venemaa") ;
+    Spanish = mkNat "hispaania" (mkPN "Hispaania") ;
+    Swedish = mkNat "rootsi" (mkPN "Rootsi") ;
 
     ---- it would be nice to have a capitalization Predef function
 
@@ -252,8 +252,8 @@ concrete WordsEst of Words = SentencesEst **
 
     mkNat : Str -> PN ->
       {lang : NP ; prop : A ; country : NP} = \pro,co ->
-        {lang = mkNP (mkCN (mkA pro) (mkN "keel"));
-         prop = mkA pro ;
+        {lang = mkNP (mkCN (mkN pro (mkN "keel" "keele" "keelt" "keelde" "keelte" "keeli")));
+         prop = mkA (pro + "pärane");
          country = mkNP co
         } ;
 
