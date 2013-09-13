@@ -1,5 +1,5 @@
 
-path = "present:$(GF_EST_SRC)/estonian/:$(GF_EST_SRC)/api/"
+path = "$(GF_EST_SRC)/estonian/:$(GF_EST_SRC)/api/"
 
 grammar = Phrasebook
 
@@ -16,11 +16,13 @@ help:
 
 
 pgf:
-	gf +RTS -$(stack_size) -RTS --preproc=mkPresent --make --optimize-pgf --mk-index --path $(path) $(grammar)*.gf
+	gf +RTS -$(stack_size) -RTS --make --optimize-pgf --mk-index --path $(path) $(grammar)*.gf
+	echo "pg -missing" | gf -run $(grammar).pgf > missing.txt
+	echo "pg -words" | gf -run $(grammar).pgf > words.txt
 
 
 run:
-	gf +RTS -K512M -RTS --preproc=mkPresent --path $(path) $(grammar)Est.gf
+	gf +RTS -K512M -RTS --path $(path) $(grammar)Est.gf
 
 
 test_pgf:
@@ -32,7 +34,7 @@ test_pgf:
 #   - 2 min with compiled data (which only needs linking)
 #   - 3 min if compiling is needed
 test:
-	cat ../tools/test_gt.gfs | gf +RTS -$(stack_size) -RTS --preproc=mkPresent --run --path $(path) $(grammar)Est.gf > test_out.txt
+	cat ../tools/test_gt.gfs | gf +RTS -$(stack_size) -RTS --run --path $(path) $(grammar)Est.gf > test_out.txt
 	#diff test_gold.txt test_out.txt
 
 test1:

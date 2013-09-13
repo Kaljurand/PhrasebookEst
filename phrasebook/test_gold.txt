@@ -1,19 +1,19 @@
 tere !
 
 
-kohtumiseni reedel !
+kohtumiseni reetel !
 
-kohtumiseni esmaspäeval !
+kohtumiseni esmaspäevil !
 
-kohtumiseni laupäeval !
+kohtumiseni laupäevil !
 
-kohtumiseni pühapäeval !
+kohtumiseni pühapäevil !
 
-kohtumiseni neljapäeval !
+kohtumiseni neljapäevil !
 
-kohtumiseni teisipäeval !
+kohtumiseni teisipäevil !
 
-kohtumiseni kolmapäeval !
+kohtumiseni kolmapäevil !
 
 
 kohtumiseni kõige paremas hollandipärases restoranis !
@@ -26,7 +26,7 @@ kohtumiseni kõige kallimas hollandipärases restoranis !
 
 kohtumiseni kõige populaarsemas hollandipärases restoranis !
 
-kohtumiseni kõige halvamas hollandipärases restoranis !
+kohtumiseni kõige halvemas hollandipärases restoranis !
 
 
 kui kaugel haigla on jalgsi
@@ -159,9 +159,9 @@ mina olen jaamas
 
 mina olen supermarketis
 
-mina olen teateris
+mina olen teatris
 
-mina olen tualettis
+mina olen tualetis
 
 mina olen ülikoolis
 
@@ -180,7 +180,7 @@ kaheksa odavat õuni palun !
 minu naine puhb taanikeelt .
 
 
-kui palju too soomepärane kana maksab ?
+kui palju too soomepärane kana makseb ?
 
 
 kõige odavam keskus on avatud .
@@ -198,13 +198,13 @@ mina ei ole soomepärane .
 minul on pitsa .
 
 
-sinu meesel on õune .
+sinu mehel on õune .
 
 
-kui palju nood õunid maksavad ?
+kui palju nood õunid maksevad ?
 
 
-haigla on avatud reedel .
+haigla on avatud reetel .
 
 
 kohvik ei ole avatud täna .
@@ -267,16 +267,16 @@ kümme .
 mis on teie naise nimi ?
 
 
-mina ei tah minna .
+mina ei taha minna .
 
 
-kas nood pitsad on eriti belgiasid ?
+kas nood pitsad on eriti belgiad ?
 
 
 kui kaugel kõige odavam haigla on baarist jalgsi ?
 
 
-kui kaugel kõige halvam keskus on praamiga ?
+kui kaugel kõige halvem keskus on praamiga ?
 
 
 kui kaugel kõige kallim kohvik on ?
@@ -291,37 +291,37 @@ kas teil on laud viiele inimesele ?
 mis auto läheb keskusesse ?
 
 
-sina lugupidad tollest eriti kallist kanast .
+sina pidad tollest eriti kallist kanast lugu .
 
 
 mina armastan teie poja tütart .
 
 
-minu tütre mees teadab .
+minu tütre mees teaab .
 
 
-sinu poeg elab Hollannis .
+sinu poeg elab Hollandis .
 
 
-minu meese naise meese lapsed on abielus .
+minu mehe naise mehe lapsed on abielus .
 
 
 minul on hirm .
 
 
-NN tütre naise meesel on janu .
+NN tütre naise mehel on janu .
 
 
 minu poeg mõistab .
 
 
-teie lapsed tahtavad pitsa .
+teie lapsed tahavad pitsa .
 
 
 minu nimi on NN
 
 
-teie tütre lapsed on väsinuid
+teie tütre lapsed on väsinud
 
 
 sada kümme tuhat sada head eriti maitsevat külmi õuni
@@ -345,7 +345,7 @@ ootage neid
 ära oota teie naist
 
 
-kus sina jooksad ?
+kus sina jooksed ?
 
 
 kus teie poeg magab ?
