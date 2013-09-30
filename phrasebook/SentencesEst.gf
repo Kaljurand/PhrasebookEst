@@ -1,6 +1,7 @@
 concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
   [NameNN, ObjMass,
    NPPlace, CNPlace, placeNP, mkCNPlace, mkCNPlacePl,
+   CitiNat,
    GObjectPlease
   ] with 
   (Syntax = SyntaxEst),
@@ -48,5 +49,7 @@ concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
     ObjMass = PartCN ;
 
     GObjectPlease o = lin Text (mkPhr noPConj (mkUtt o) (lin Voc (ss "palun"))) ;
+
+    CitiNat n = n.prop ;
 
   }

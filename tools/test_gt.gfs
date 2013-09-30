@@ -3,12 +3,10 @@ gt (PGreetingMale (PSeeYouDate (OnDay ?))) | l
 gt (PGreetingMale (PSeeYouPlace (SuperlPlace ? (CitRestaurant (CitiNat Dutch))))) | l
 
 --gt (PPlace (ThePlace (CitRestaurant ?))) | l
---gr (AHasAge  IMale ?) | l -treebank
+l AHasAge IMale (NNumeral (num (pot3plus (pot2plus pot01 pot111) (pot2plus pot01 pot111))))
 --gr (AHasChildren IMale ?) | l -treebank
 --gr (AHasRoom  IMale ?) | l -treebank
---gr (AHungry  ?) | l -treebank
---gr (QWhatAge  ?) | l -treebank
---gr (HowMuchCost  ?) | l -treebank
+l QWhatAge (Children He)
 
 -- TODO: no trees found (also not in the official Phrasebook)
 --gr (ItCost ? ?) | l -treebank
@@ -18,7 +16,7 @@ gt (PGreetingMale (PSeeYouPlace (SuperlPlace ? (CitRestaurant (CitiNat Dutch))))
 -- Prelude.(!!): index too large
 --gr (PropClosedDate  ? ?) | l -treebank
 
---gr (PropOpenDay  ? ?) | l -treebank
+l PropOpenDay (APlace Airport) Thursday
 --gr (PSeeYouPlaceDate  ? ?) | l -treebank
 --gr (PSeeYouPlace  ?) | l -treebank
 --gr (PSeeYouDate  ?) | l -treebank
@@ -31,9 +29,7 @@ gt (PGreetingMale (PSeeYouPlace (SuperlPlace ? (CitRestaurant (CitiNat Dutch))))
 --gr (HowFarFrom  ? ?) | l -treebank
 --gr (HowFarFromBy  ? ? ?) | l -treebank
 gt (HowFarBy  (ThePlace Hospital) ?) | l
---gr (WhichTranspPlace  ? ?) | l -treebank
 --gr (IsTranspPlace  ? ?) | l -treebank
---gr (SuperlPlace  ? ?) | l -treebank
 --gr (PSentence  ?) | l -treebank
 --gr (PQuestion  ?) | l -treebank
 --gr (PObject  ?) | l -treebank
@@ -43,14 +39,14 @@ gt (HowFarBy  (ThePlace Hospital) ?) | l
 --gr (PPlace  ?) | l -treebank
 --gr (PPlaceKind ) | l -treebank
 --gr (PCurrency  ?) | l -treebank
---gr (PPrice  ?) | l -treebank
---gr (PLanguage  ?) | l -treebank
---gr (PCitizenship  ?) | l -treebank
---gr (PCountry  ?) | l -treebank
---gr (PDay  ?) | l -treebank
---gr (PByTransport  ?) | l -treebank
---gr (PTransport  ?) | l -treebank
---gr (Is  ? ?) | l -treebank
+
+l PLanguage Flemish
+l PLanguage (LangNat Swedish)
+l PCitizenship Belgian
+l PCitizenship (CitiNat Dutch)
+l PCountry Belgium
+l PCountry (CountryNat Polish)
+
 --gr (SProp  ?) | l -treebank
 --gr (SPropNot  ?) | l -treebank
 --gr (QProp  ?) | l -treebank
@@ -70,18 +66,15 @@ gt (HowFarBy  (ThePlace Hospital) ?) | l
 --gr (Those  ?) | l -treebank
 --gr (The ?) | l -treebank
 --gr (Thes  ?) | l -treebank
---gr (AmountCurrency  ? ?) | l -treebank
 --gr (ThePlace  ?) | l -treebank
 --gr (APlace  ?) | l -treebank
 --gr (LangNat  ?) | l -treebank
 --gr (CitiNat  ?) | l -treebank
 --gr (CountryNat  ?) | l -treebank
 --gr (PropCit  ?) | l -treebank
---gr (OnDay  ?) | l -treebank
---gr (PersonName  ?) | l -treebank
 --gr (NNumeral  ?) | l -treebank
 --gr (AHave  ? ?) | l -treebank
---gr (AHaveCurr  ? ?) | l -treebank
+l AHaveCurr (Son YouPlurPolFemale) NorwegianCrown
 gt (ACitizen  IMale ?) | l
 gt (ABePlace  IMale (ThePlace ?)) | l
 --gr (ByTransp  ?) | l -treebank

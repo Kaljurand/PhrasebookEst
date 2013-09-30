@@ -255,7 +255,7 @@ concrete WordsEst of Words = SentencesEst **
     mkNat : Str -> PN ->
       {lang : NP ; prop : A ; country : NP} = \pro,co ->
         {lang = mkNP (mkCN (mkN pro (mkN "keel" "keele" "keelt" "keelde" "keelte" "keeli")));
-         prop = mkA (pro + "pärane");
+         prop = mkA (mkN pro) False ;
          country = mkNP co
         } ;
 
@@ -319,7 +319,6 @@ concrete WordsEst of Words = SentencesEst **
 --------------------------------------------------
 
   lin
-    --Thai = mkNat (mkPN "thai") (mkPN "Thaimaa") (mkA "thaimaalainen") ;
     Thai = mkNat ("tai") (mkPN "Tai") ;
     Baht = mkCN (mkN "baht") ;
 

@@ -16,17 +16,26 @@ kohtumiseni teisipäevil !
 kohtumiseni kolmapäevil !
 
 
-kohtumiseni kõige paremas hollandipärases restoranis !
+kohtumiseni kõige paremas hollandi restoranis !
 
-kohtumiseni kõige odavamas hollandipärases restoranis !
+kohtumiseni kõige odavamas hollandi restoranis !
 
-kohtumiseni kõige lähemas hollandipärases restoranis !
+kohtumiseni kõige lähemas hollandi restoranis !
 
-kohtumiseni kõige kallimas hollandipärases restoranis !
+kohtumiseni kõige kallimas hollandi restoranis !
 
-kohtumiseni kõige populaarsemas hollandipärases restoranis !
+kohtumiseni kõige populaarsemas hollandi restoranis !
 
-kohtumiseni kõige halvemas hollandipärases restoranis !
+kohtumiseni kõige halvemas hollandi restoranis !
+
+
+mina olen sada üks &+ teist tuhat sada üks &+ teist aastat
+
+
+kui vanad tema lapsed on
+
+
+lennujaam on neljapäeviti avatud
 
 
 kui kaugel haigla on jalgsi
@@ -50,37 +59,58 @@ kui kaugel haigla on rongiga
 kui kaugel haigla on trammiga
 
 
+flaami keel
+
+
+rootsikeel
+
+
+belgia
+
+
+hollandi
+
+
+Belgia
+
+
+Poola
+
+
+teie pojal on norrakroonid
+
+
 mina olen belgia
 
-mina olen bulgaariapärane
+mina olen bulgaaria
 
-mina olen katalaanipärane
+mina olen katalaani
 
-mina olen taanipärane
+mina olen taani
 
-mina olen hollandipärane
+mina olen hollandi
 
-mina olen inglisepärane
+mina olen inglise
 
-mina olen soomepärane
+mina olen soome
 
-mina olen prantsusepärane
+mina olen prantsuse
 
-mina olen saksapärane
+mina olen saksa
 
-mina olen itaaliapärane
+mina olen itaalia
 
-mina olen norrapärane
+mina olen norra
 
-mina olen poolapärane
+mina olen poola
 
-mina olen rumeeniapärane
+mina olen rumeenia
 
-mina olen venepärane
+mina olen vene
 
-mina olen hispaaniapärane
+mina olen hispaania
 
-mina olen rootsipärane
+mina olen rootsi
 
 
 mina olen lennujaamas
@@ -101,35 +131,35 @@ mina olen kinos
 
 mina olen belgias restoranis
 
-mina olen bulgaariapärases restoranis
+mina olen bulgaaria restoranis
 
-mina olen katalaanipärases restoranis
+mina olen katalaani restoranis
 
-mina olen taanipärases restoranis
+mina olen taani restoranis
 
-mina olen hollandipärases restoranis
+mina olen hollandi restoranis
 
-mina olen inglisepärases restoranis
+mina olen inglise restoranis
 
-mina olen soomepärases restoranis
+mina olen soome restoranis
 
-mina olen prantsusepärases restoranis
+mina olen prantsuse restoranis
 
-mina olen saksapärases restoranis
+mina olen saksa restoranis
 
-mina olen itaaliapärases restoranis
+mina olen itaalia restoranis
 
-mina olen norrapärases restoranis
+mina olen norra restoranis
 
-mina olen poolapärases restoranis
+mina olen poola restoranis
 
-mina olen rumeeniapärases restoranis
+mina olen rumeenia restoranis
 
-mina olen venepärases restoranis
+mina olen vene restoranis
 
-mina olen hispaaniapärases restoranis
+mina olen hispaania restoranis
 
-mina olen rootsipärases restoranis
+mina olen rootsi restoranis
 
 mina olen diskoteegis
 
@@ -180,7 +210,7 @@ kaheksa odavat õuni palun !
 minu naine räägib taanikeelt .
 
 
-kui palju too soomepärane kana makseb ?
+kui palju too soome kana makseb ?
 
 
 kõige odavam keskus on avatud .
@@ -192,13 +222,13 @@ see õun on hea .
 kus hotell on ?
 
 
-mina ei ole soomepärane .
+mina ei ole soome .
 
 
 minul on pitsa .
 
 
-sinu mehel on õune .
+sinu mehel on õunid .
 
 
 kui palju nood õunid maksevad ?
@@ -216,7 +246,7 @@ kas saab trammiga kõrtsi ?
 sool ei ole väga hea .
 
 
-NNl on pitsasid .
+NNl on pitsad .
 
 
 kõige lähem lõbustuspark ei ole suletud .
