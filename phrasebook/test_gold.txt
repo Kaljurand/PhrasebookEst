@@ -168,7 +168,7 @@ mina olen ülikoolis
 mina olen loomaaias
 
 
-kõige populaarsem kool on suletud reedeti .
+kõige populaarsem kool on reedeti suletud .
 
 
 kaheksa odavat õuni palun !
@@ -177,7 +177,7 @@ kaheksa odavat õuni palun !
 üheksa &+ kümmend taanikrooni .
 
 
-minu naine puhb taanikeelt .
+minu naine räägib taanikeelt .
 
 
 kui palju too soomepärane kana makseb ?
@@ -204,16 +204,16 @@ sinu mehel on õune .
 kui palju nood õunid maksevad ?
 
 
-haigla on avatud reetel .
+haigla on reetel avatud .
 
 
-kohvik ei ole avatud täna .
+kohvik ei ole täna avatud .
 
 
 kas saab trammiga kõrtsi ?
 
 
-sool ei ole eriti hea .
+sool ei ole väga hea .
 
 
 NNl on pitsasid .
@@ -237,10 +237,10 @@ see õun
 too õun
 
 
-eriti toores soe liiga kallis õun
+väga toores soe liiga kallis õun
 
 
-see eriti kahtlane õun on maitsev
+see väga kahtlane õun on maitsev
 
 
 seitse &+ kümmend üks tuhat neli &+ kümmend üks
@@ -267,13 +267,13 @@ kümme .
 mis on teie naise nimi ?
 
 
-mina ei taha minna .
+mina ei taha kõige halvemasse hotelli minna .
 
 
-kas nood pitsad on eriti belgiad ?
+kas nood pitsad on väga belgiad ?
 
 
-kui kaugel kõige odavam haigla on baarist jalgsi ?
+kui kaugel kõige odavam haigla on jalgsi baarist ?
 
 
 kui kaugel kõige halvem keskus on praamiga ?
@@ -291,13 +291,13 @@ kas teil on laud viiele inimesele ?
 mis auto läheb keskusesse ?
 
 
-sina pidad tollest eriti kallist kanast lugu .
+sina pead tollest väga kallist kanast lugu .
 
 
 mina armastan teie poja tütart .
 
 
-minu tütre mees teaab .
+minu tütre mees teab .
 
 
 sinu poeg elab Hollandis .
@@ -324,7 +324,7 @@ minu nimi on NN
 teie tütre lapsed on väsinud
 
 
-sada kümme tuhat sada head eriti maitsevat külmi õuni
+sada kümme tuhat sada head väga maitsevat külmi õuni
 
 
 üks zlott .
