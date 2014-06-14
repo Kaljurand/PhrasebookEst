@@ -40,7 +40,7 @@ lennujaam on neljapäeviti avatud
 
 kui kaugel haigla on jalgsi
 
-kui kaugel haigla on ratasega
+kui kaugel haigla on rattaga
 
 kui kaugel haigla on bussiga
 
@@ -59,24 +59,12 @@ kui kaugel haigla on rongiga
 kui kaugel haigla on trammiga
 
 
-flaami keel
-
-
-rootsikeel
-
-
-belgia
-
-
-hollandi
-
-
-Belgia
-
-
-Poola
-
-
+Ix{Int}.index: Index (-1) out of range ((0,-1))
+Ix{Int}.index: Index (-1) out of range ((0,-1))
+Ix{Int}.index: Index (-1) out of range ((0,-1))
+Ix{Int}.index: Index (-1) out of range ((0,-1))
+Ix{Int}.index: Index (-1) out of range ((0,-1))
+Ix{Int}.index: Index (-1) out of range ((0,-1))
 teie pojal on norrakroonid
 
 
@@ -201,7 +189,7 @@ mina olen loomaaias
 kõige populaarsem kool on reedeti suletud .
 
 
-kaheksa odavat õuni palun !
+kaheksa odavat õuna palun !
 
 
 üheksa &+ kümmend taanikrooni .
@@ -228,10 +216,10 @@ mina ei ole soome .
 minul on pitsa .
 
 
-sinu mehel on õunid .
+sinu mehel on õunad .
 
 
-kui palju nood õunid maksevad ?
+kui palju nood õunad maksevad ?
 
 
 haigla on reetel avatud .
@@ -354,7 +342,7 @@ minu nimi on NN
 teie tütre lapsed on väsinud
 
 
-sada kümme tuhat sada head väga maitsevat külmi õuni
+sada kümme tuhat sada head väga maitsevat külma õuna
 
 
 üks zlott .
@@ -363,13 +351,13 @@ sada kümme tuhat sada head väga maitsevat külmi õuni
 kümme zlotti .
 
 
-jooge liiga külmi pitsat ja õuni
+jooge liiga külma pitsat ja õuna
 
 
 ärge kirjutage
 
 
-ootage neid
+oodake neid
 
 
 ära oota teie naist

@@ -3,10 +3,10 @@
 
 concrete WordsEst of Words = SentencesEst **
   open
-    SyntaxEst, ParadigmsEst, (L = LexiconEst),
+    SyntaxEst, ParadigmsEst, (L = LexiconEst), (R = ResEst),
     Prelude, (E = ExtraEst) in {
 
-  flags optimize = noexpand ; coding=utf8 ;
+  flags optimize = noexpand ;
 
   lin
 
@@ -255,7 +255,7 @@ concrete WordsEst of Words = SentencesEst **
     mkNat : Str -> PN ->
       {lang : NP ; prop : A ; country : NP} = \pro,co ->
         {lang = mkNP (mkCN (mkN pro (mkN "keel" "keele" "keelt" "keelde" "keelte" "keeli")));
-         prop = mkA (mkN pro) False ;
+         prop = mkA (mkN pro) R.Invariable ;
          country = mkNP co
         } ;
 

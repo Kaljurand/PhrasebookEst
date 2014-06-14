@@ -9,7 +9,7 @@ concrete SentencesEst of Sentences = NumeralEst ** SentencesI -
   (Lexicon = LexiconEst) **
     open SyntaxEst, ExtraEst, (P = ParadigmsEst), (V = VerbEst), Prelude in {
 
-  flags optimize = noexpand ; coding=utf8;
+  flags optimize = noexpand ;
 
   oper
     NPPlace = {name : NP ; at : Adv ; to : Adv ; from : Adv} ;

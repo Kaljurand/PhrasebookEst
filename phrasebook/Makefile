@@ -16,7 +16,7 @@ help:
 
 
 pgf:
-	gf +RTS -$(stack_size) -RTS --make --optimize-pgf --mk-index --path $(path) $(grammar)*.gf
+	gf +RTS -$(stack_size) -RTS --make --optimize-pgf --path $(path) $(grammar)*.gf
 	echo "pg -missing" | gf -run $(grammar).pgf > missing.txt
 	echo "pg -words" | gf -run $(grammar).pgf > words.txt
 
