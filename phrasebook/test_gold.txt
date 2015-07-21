@@ -59,12 +59,24 @@ kui kaugel haigla on rongiga
 kui kaugel haigla on trammiga
 
 
-Ix{Int}.index: Index (-1) out of range ((0,-1))
-Ix{Int}.index: Index (-1) out of range ((0,-1))
-Ix{Int}.index: Index (-1) out of range ((0,-1))
-Ix{Int}.index: Index (-1) out of range ((0,-1))
-Ix{Int}.index: Index (-1) out of range ((0,-1))
-Ix{Int}.index: Index (-1) out of range ((0,-1))
+flaami keel
+
+
+rootsikeel
+
+
+belgia
+
+
+hollandi
+
+
+Belgia
+
+
+Poola
+
+
 teie pojal on norrakroonid
 
 

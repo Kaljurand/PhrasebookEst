@@ -23,9 +23,6 @@ If the script crashes with a stack overflow error then try deleting
 all the gfo-files (these will be regenerated next time when the script
 runs).
 
-One testrun can take up to 8 minutes on an Intel i3. The runtime does not
-depend on the number of tests but rather on which files need to be recompiled.
-
 
 Files
 -----
@@ -54,5 +51,16 @@ and set up in a directory that is pointed to by the environment variable `GF_EST
 Some other required modules are not included in this repository.
 They are expected to be found in:
 
-  * ~/.cabal/share/gf-3.5/lib/present/
-  * ~/.cabal/share/gf-3.5/lib/prelude/
+    ~/.cabal/share/x86_64-linux-ghc-7.6.3/gf-3.7/lib/prelude/
+    ~/.cabal/share/x86_64-linux-ghc-7.6.3/gf-3.7/lib/present/
+
+or something similar.
+
+Testing
+-------
+
+One testrun can take up to 1 minute on an Intel i7 if gfo-files need to be compiled.
+
+    cd phrasebook
+    make clean
+    make test

@@ -30,12 +30,9 @@ test_pgf:
 	diff test_gold.txt test_out.txt
 
 
-# The test run on i3 takes:
-#   - 2 min with compiled data (which only needs linking)
-#   - 3 min if compiling is needed
 test:
 	cat ../tools/test_gt.gfs | gf +RTS -$(stack_size) -RTS --run --path $(path) $(grammar)Est.gf > test_out.txt
-	#diff test_gold.txt test_out.txt
+	diff --brief test_gold.txt test_out.txt
 
 test1:
 	echo "rf -lines -tree -file=../tests/trees1.txt | l -lang=PhrasebookEst" | gf --run Phrasebook.pgf > ../tests/lins2.out
