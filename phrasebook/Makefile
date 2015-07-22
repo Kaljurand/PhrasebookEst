@@ -33,7 +33,7 @@ test_pgf:
 
 test:
 	cat ../tools/test_gt.gfs | gf +RTS -$(stack_size) -RTS --run --path $(path) $(grammar)Est.gf > test_out.txt
-	diff --brief test_gold.txt test_out.txt
+	-diff --brief test_gold.txt test_out.txt
 
 test1:
 	echo "rf -lines -tree -file=../tests/trees1.txt | l -lang=PhrasebookEst" | gf --run Phrasebook.pgf > ../tests/lins2.out

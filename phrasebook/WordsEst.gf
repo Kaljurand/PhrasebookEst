@@ -86,25 +86,31 @@ concrete WordsEst of Words = SentencesEst **
     Lei = mkCN (mkN "leu") ;
     Leva = mkCN (mkN "leev") ;
     NorwegianCrown = mkCN (kroon2 "norra") ;
-    Pound = mkCN (mkN "nael") ;
+    Pound = mkCN (mkN "nael" "naela") ;
     Rouble = mkCN (mkN "rubla") ;
+    Rupee = mkCN (mkN "ruupia") ;
     SwedishCrown = mkCN (kroon2 "rootsi") ;
     Zloty = mkCN (mkN "zlott") ;
+    Yuan = mkCN (mkN "jüään") ;
 
 -- Citizenship
     Belgian = mkA "belgia" ;
+    Indian = mkA "india" ;
 
 -- Country
     Belgium = mkNP (mkPN "Belgia") ;
+    India = mkNP (mkPN "India") ;
 
 -- Nationality
     Bulgarian = mkNat "bulgaaria" (mkPN "Bulgaaria") ;
     Catalan = mkNat "katalaani" (mkPN "Kataloonia") ;
+    Chinese = mkNat "hiina" (mkPN "Hiina") ;
     Danish = mkNat "taani" (mkPN "Taani") ;
     Dutch = mkNat "hollandi" (mkPN "Holland") ;
     English = mkNat "inglise" (mkPN "Inglismaa") ;
     Finnish = mkNat "soome" (mkPN "Soome") ;
     Flemish = mkNP (mkPN "flaami keel") ; -- Language
+    Hindi = mkNP (mkPN "hindi keel") ; -- Language
     French = mkNat "prantsuse" (mkPN "Prantsusmaa") ;
     German = mkNat "saksa" (mkPN "Saksamaa") ;
     Italian = mkNat "itaalia" (mkPN "Itaalia") ;
@@ -206,13 +212,13 @@ concrete WordsEst of Words = SentencesEst **
 
 -- week days
 
-    Monday = let d = "esmaspäev" in mkDay (mkPN d) (d + "iti") ;
-    Tuesday = let d = "teisipäev" in mkDay (mkPN d) (d + "iti") ;
-    Wednesday = let d = "kolmapäev" in mkDay (mkPN d) (d + "iti") ;
-    Thursday = let d = "neljapäev" in mkDay (mkPN d) (d + "iti") ;
-    Friday = let d = "reede" in mkDay (mkPN d) (d + "ti") ;
-    Saturday = let d = "laupäev" in mkDay (mkPN d) (d + "iti") ;
-    Sunday = let d = "pühapäev" in mkDay (mkPN d) (d + "iti") ;
+    Monday = mkDayPaev "esmas" ;
+    Tuesday = mkDayPaev "teisi" ;
+    Wednesday = mkDayPaev "kolma" ;
+    Thursday = mkDayPaev "nelja" ;
+    Friday = mkDay (mkPN (mkN "reede" "reede")) ("reedeti") ;
+    Saturday = mkDayPaev "lau" ;
+    Sunday = mkDayPaev "püha" ;
 
     Tomorrow = ParadigmsEst.mkAdv "homme" ;
 
@@ -270,6 +276,9 @@ concrete WordsEst of Words = SentencesEst **
        point = SyntaxEst.mkAdv (casePrep adessive) day ;
        habitual = ParadigmsEst.mkAdv s
       } ;
+
+    mkDayPaev : Str -> {name : NP ; point : Adv ; habitual : Adv} = \s ->
+        mkDay (mkPN (mkN (s + "päev") (s + "päeva"))) (s + "päeviti") ;
 
     mkPlace : N -> Bool -> {name : CN ; at : Prep ; to : Prep; from : Prep ; isPl : Bool} = \p,e -> {
       name = mkCN p ;

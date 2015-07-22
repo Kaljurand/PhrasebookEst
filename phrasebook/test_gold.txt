@@ -1,19 +1,19 @@
 tere !
 
 
-kohtumiseni reetel !
+kohtumiseni reedel !
 
-kohtumiseni esmaspäevil !
+kohtumiseni esmaspäeval !
 
-kohtumiseni laupäevil !
+kohtumiseni laupäeval !
 
-kohtumiseni pühapäevil !
+kohtumiseni pühapäeval !
 
-kohtumiseni neljapäevil !
+kohtumiseni neljapäeval !
 
-kohtumiseni teisipäevil !
+kohtumiseni teisipäeval !
 
-kohtumiseni kolmapäevil !
+kohtumiseni kolmapäeval !
 
 
 kohtumiseni kõige paremas hollandi restoranis !
@@ -86,6 +86,8 @@ mina olen bulgaaria
 
 mina olen katalaani
 
+mina olen hiina
+
 mina olen taani
 
 mina olen hollandi
@@ -112,6 +114,8 @@ mina olen hispaania
 
 mina olen rootsi
 
+mina olen india
+
 
 mina olen lennujaamas
 
@@ -134,6 +138,8 @@ mina olen belgias restoranis
 mina olen bulgaaria restoranis
 
 mina olen katalaani restoranis
+
+mina olen hiina restoranis
 
 mina olen taani restoranis
 
@@ -160,6 +166,8 @@ mina olen vene restoranis
 mina olen hispaania restoranis
 
 mina olen rootsi restoranis
+
+mina olen indias restoranis
 
 mina olen diskoteegis
 
@@ -207,6 +215,9 @@ kaheksa odavat õuna palun !
 üheksa &+ kümmend taanikrooni .
 
 
+üheksa &+ kümmend naela .
+
+
 minu naine räägib taanikeelt .
 
 
@@ -234,7 +245,7 @@ sinu mehel on õunad .
 kui palju nood õunad maksevad ?
 
 
-haigla on reetel avatud .
+haigla on reedel avatud .
 
 
 kohvik ei ole täna avatud .

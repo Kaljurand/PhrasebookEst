@@ -82,6 +82,7 @@ gt (ABePlace  IMale (ThePlace ?)) | l
 gt PSentence (SProp (PropClosedDay (SuperlPlace TheMostPopular School) Friday)) | l
 gt PGreetingMale (GObjectPlease (OneObj (ObjNumber (NNumeral (num (pot2as3 (pot1as2 (pot0as1 (pot0 n8)))))) (SuchKind (PropQuality Cheap) Apple)))) | l
 gt PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 (pot1 n9))))) DanishCrown) | l
+gt PPrice (AmountCurrency (NNumeral (num (pot2as3 (pot1as2 (pot1 n9))))) Pound) | l
 gt PSentence (SProp (PropAction (ASpeak (Wife IMale) (LangNat Danish)))) | l
 gt PQuestion (HowMuchCost (ThatMass (SuchMassKind (PropQuality (PropCit (CitiNat Finnish))) Chicken))) | l
 
