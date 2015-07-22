@@ -12,6 +12,7 @@ help:
 	@echo Targets:
 	@echo
 	@echo "    pgf:  make PGF"
+	@echo "   test:  test"
 	@echo "  clean:  remove gfo-files"
 
 
