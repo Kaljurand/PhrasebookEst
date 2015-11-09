@@ -13,6 +13,10 @@ Depends on the (emerging) Estonian resource grammar which
 is developed separately at
 https://github.com/GF-Estonian/GF-Estonian
 
+The `*Est.gf` files in the phrasebook-directory are also part of the
+GF repository (starting with commit
+<https://github.com/GrammaticalFramework/GF/commit/7426d0af249dea8e5f74d6bfc9848f853157d54e>).
+
 
 Usage
 -----

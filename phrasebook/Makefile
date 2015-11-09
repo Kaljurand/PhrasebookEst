@@ -1,4 +1,6 @@
 
+PB=$(GF_SRC)/examples/phrasebook/
+
 path = "$(GF_EST_SRC)/estonian/:$(GF_EST_SRC)/api/"
 
 grammar = Phrasebook
@@ -11,9 +13,11 @@ all: help
 help:
 	@echo Targets:
 	@echo
-	@echo "    pgf:  make PGF"
-	@echo "   test:  test"
-	@echo "  clean:  remove gfo-files"
+	@echo "          pgf:  make PGF"
+	@echo "         test:  test"
+	@echo " diff_gf_repo:  compare the GF repository version of the Estonian Phrasebook with this one"
+	@echo "                (set GF_SRC to the root of the GF source distribution, it is currently '$(GF_SRC)')"
+	@echo "        clean:  remove gfo-files"
 
 
 pgf:
@@ -41,3 +45,15 @@ test1:
 
 clean:
 	find -name "*.gfo" | xargs rm -f
+
+
+diff_gf_repo:
+	diff $(PB)Greetings.gf Greetings.gf
+	diff $(PB)GreetingsEst.gf GreetingsEst.gf
+	diff $(PB)Phrasebook.gf Phrasebook.gf
+	diff $(PB)PhrasebookEst.gf PhrasebookEst.gf
+	diff $(PB)Sentences.gf Sentences.gf
+	diff $(PB)SentencesEst.gf SentencesEst.gf
+	diff $(PB)SentencesI.gf SentencesI.gf
+	diff $(PB)Words.gf Words.gf
+	diff $(PB)WordsEst.gf WordsEst.gf
